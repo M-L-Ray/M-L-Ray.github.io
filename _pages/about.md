@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "MLR's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,7 +9,8 @@ redirect_from:
 
 如何联系我？
 ======
-**Markdown generator**
+**Wechat:sftdvf_nztfmg**（请备注来意，下同）
+**QQ:1346484237**
 
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)

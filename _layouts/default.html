@@ -5,20 +5,43 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<!-- 添加 data-sidebar 属性用于响应式状态判断 -->
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js" 
+  {% if site.site_theme == "dark" %}data-theme="dark"{% endif %} 
+  data-sidebar="true">
+  
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    
+    <!-- 添加层叠上下文管理样式 -->
+    <style>
+      :root {
+        /* 定义全局层级变量 */
+        --z-masthead: 100;
+        --z-sidebar: 90;
+        --z-footer: 80;
+        /* 动态计算内容高度 */
+        --masthead-height: {{ site.data.ui-text[site.locale].masthead_height | default: '60px' }};
+        --footer-height: 9em;
+      }
+    </style>
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    {{ content }}
-   </body>
-    <div class="page__footer">
+    <!-- 新增主内容容器 -->
+    <main class="main-content" role="main">
+      <!-- 侧边栏需要在此容器内部 -->
+      <div class="sidebar__right-wrapper">
+        {{ content }}  <!-- 包含侧边栏的内容 -->
+      </div>
+    </main>
+
+    <!-- 修改页脚容器结构 -->
+    <div class="page__footer" data-footer="sticky">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
@@ -27,5 +50,32 @@ layout: compress
 
     {% include scripts.html %}
 
-  
+    <!-- 添加层叠关系调试脚本 -->
+    <script>
+      // 自动检测层叠关系
+      document.addEventListener('DOMContentLoaded', function() {
+        const sidebar = document.querySelector('.sidebar__right');
+        const footer = document.querySelector('.page__footer');
+        
+        if (sidebar && footer) {
+          // 自动设置层级
+          sidebar.style.zIndex = 'var(--z-sidebar)';
+          footer.style.zIndex = 'var(--z-footer)';
+          
+          // 动态间距调整
+          const setSpacing = () => {
+            const footerHeight = footer.offsetHeight;
+            document.documentElement.style.setProperty(
+              '--footer-height', 
+              `${footerHeight}px`
+            );
+            sidebar.style.paddingBottom = `${footerHeight + 20}px`;
+          }
+          
+          setSpacing();
+          window.addEventListener('resize', setSpacing);
+        }
+      });
+    </script>
+  </body>
 </html>

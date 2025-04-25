@@ -3,31 +3,23 @@
    ========================================================================== */
 
 .masthead {
-  position: fixed;
-  background: var(--global-bg-color);
-  height: fit-content;
-  top: 0;
-  width: 100%;
-
+  position: fixed; // 恢复固定定位
+  top: 0;         // 恢复顶部定位
+  width: 100%;    // 恢复全宽
+  background: var(--global-bg-color); // 恢复背景色
+  border-bottom: 1px solid var(--global-border-color); // 修正变量名（原错误：$--global-bg-color）
+  
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
 
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    background: var(--global-border-color);
-    width: 100%;
-  }
-
+  // 删除原伪元素的底部边框（已被 border-bottom 替代）
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
+    padding: 1em 1em 1em; // 你修改后的 padding 值
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -45,7 +37,6 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
@@ -55,7 +46,6 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
   display: block;
   list-style-type: none;
   white-space: nowrap;

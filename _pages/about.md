@@ -6,8 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+华东师范大学23级数学与应用数学本科在读
 
-如何联系我？
+#如何联系我？
 ======
 **Wechat:sftdvf_nztfmg**（请备注来意，下同）
 

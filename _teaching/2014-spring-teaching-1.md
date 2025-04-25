@@ -1,10 +1,10 @@
 ---
-title: "Teaching experience 1"
+title: "数学分析III(H)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University 1, Department"
-date: 2014-01-01
+date: 2025-01
 location: "City, Country"
 ---
 

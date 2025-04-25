@@ -29,7 +29,10 @@
     @include clearfix;
     padding: 0.5em 1em;
     font-family: $sans-serif-narrow;
-
+   margin-left: auto;
+     margin-right: auto;
+     display: flex;          /* 如果内容需要弹性布局 */
+     justify-content: center;
     @include breakpoint($x-large) {
       max-width: $x-large;
     }

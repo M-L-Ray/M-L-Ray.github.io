@@ -1,8 +1,8 @@
 ---
 title: "流形上的分析"
-collection: teaching
+collection: learning
 type: "Undergraduate course"
-permalink: /teaching/analysis-on-manifold
+permalink: /learning/analysis-on-manifold
 venue: "ECNU"
 date: 2025-06-27
 location: "Shanghai, China"

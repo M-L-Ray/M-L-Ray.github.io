@@ -11,3 +11,6 @@ main:
   
   - title: "Learning"
     url: /learning/    
+
+  - title: "Exams"
+    url: /exams/ 

@@ -9,8 +9,8 @@
 
 main:
   
-  - title: "Learning"
-    url: /learning/    
+  - title: "Courses"
+    url: /courses/    
     
   - title: "Portfolio"
     url: /portfolio/

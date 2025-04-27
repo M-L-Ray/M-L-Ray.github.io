@@ -20,7 +20,9 @@ redirect_from:
 
 这里有什么？
 ---
-暂时还什么都没有
+有我的部分笔记
+
+以及[Latex模板](https://github.com/M-L-Ray/template/tree/main)
 
 
 创建这个主页的原因？

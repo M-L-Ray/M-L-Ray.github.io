@@ -92,11 +92,11 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "discourses", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  discourses:
+    server               : # https://meta.discourses.org/t/embedding-discourses-comments-via-javascript/31963 , e.g.: meta.discourses.org
   facebook:
     appid                :
     num_posts            : # 5 (default)
@@ -213,7 +213,7 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  course:
+  courses:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -247,10 +247,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _course
+  # _courses
   - scope:
       path: ""
-      type: course
+      type: courses
     values:
       layout: single
       author_profile: true

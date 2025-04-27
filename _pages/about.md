@@ -20,8 +20,8 @@ redirect_from:
 
 这里有什么？
 ---
-有我的部分笔记
-
+我的部分[课程笔记](https://m-l-ray.github.io//learning/)
+我收集的部分[试卷](https://m-l-ray.github.io//exams/)
 以及[Latex模板](https://github.com/M-L-Ray/template/tree/main)
 
 

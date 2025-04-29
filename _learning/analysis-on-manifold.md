@@ -10,11 +10,4 @@ location: "Shanghai, China"
 
 本课程为22级强基拔尖班限制选修，25春季学期主讲为周林峰副教授。
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+待上传

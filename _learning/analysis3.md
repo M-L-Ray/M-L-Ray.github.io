@@ -14,7 +14,7 @@ location: "Shanghai, China"
     data="/files/analysis3.pdf" 
     type="application/pdf" 
     width="100%" 
-    height="600px"
+    height="200px"
     style="border: 1px solid #ddd;"
 >
     <p>浏览器不支持直接显示 PDF，请<a href="/files/analysis3.pdf">点击下载</a>。</p>

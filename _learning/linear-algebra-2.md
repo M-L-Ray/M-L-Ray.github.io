@@ -10,7 +10,7 @@ location: "Shanghai, China"
 
 本课程为23级强基拔尖班专业必修，24春季学期主讲为罗栗教授。
 
-目录如下，笔记在
+目录如下，课程笔记请点击：[（链接）](https://github.com/M-L-Ray/Notes/blob/main/advanced%20algebra%202.pdf)
 
 # Chapter 1 矩阵
 

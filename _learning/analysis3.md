@@ -14,28 +14,8 @@ location: "Shanghai, China"
     data="/files/analysis3.pdf" 
     type="application/pdf" 
     width="100%" 
-    height="200px"  <!-- 正常显示时的高度 -->
+    height="200px"
     style="border: 1px solid #ddd;"
 >
-    <!-- 当 PDF 无法显示时，显示以下内容 -->
-    <div style="
-      height: 100px;  
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #f8f9fa;
-      border: 1px solid #ddd;
-    ">
-        <p style="
-          font-size: 1.2em;  
-          text-align: center;
-          margin: 0;
-          color: #666;
-        ">
-          浏览器不支持直接显示 PDF<br>
-          <a href="/files/analysis3.pdf" style="color: #0066cc; text-decoration: underline;">
-            点击下载文件
-          </a>
-        </p>
-    </div>
+    <p>浏览器不支持直接显示 PDF，请<a href="/files/analysis3.pdf">点击下载</a>。</p>
 </object>

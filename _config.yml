@@ -95,7 +95,7 @@ comments:
   provider               : # false (default), "disqus", "dislearning", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
-  dislearning:
+  discourse:
     server               : # https://meta.dislearning.org/t/embedding-dislearning-comments-via-javascript/31963 , e.g.: meta.dislearning.org
   facebook:
     appid                :

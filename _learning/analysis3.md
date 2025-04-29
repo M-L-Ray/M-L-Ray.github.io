@@ -10,7 +10,7 @@ location: "Shanghai, China"
 
 本课程为23级强基拔尖班专业必修课，24秋季学期主讲为叶东教授。
 
-目录如下，课程笔记请点击：（链接）
+目录如下，课程笔记请点击：[（链接）](https://github.com/M-L-Ray/Notes/blob/main/analysis3.pdf)
 
 # Chapter 0 前言
 

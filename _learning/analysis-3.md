@@ -2,7 +2,7 @@
 title: "数学分析III(H)"
 collection: learning
 type: "Undergraduate course"
-permalink: /learning/analysis3
+permalink: /learning/analysis-3
 venue: "ECNU"
 date: 2025-01-14
 location: "Shanghai, China"

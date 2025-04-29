@@ -12,10 +12,6 @@ location: "Shanghai, China"
 
 目录如下，课程笔记请点击：[（链接）](https://github.com/M-L-Ray/Notes/blob/main/analysis3.pdf)
 
-# Chapter 0 前言
-
-## 0.1 符号说明
-
 # Chapter 1 欧式空间 \\(\mathbb{R}^n\\)
 
 ## 1.1 引言

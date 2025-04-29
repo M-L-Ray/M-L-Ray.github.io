@@ -16,7 +16,7 @@ location: "Shanghai, China"
 
 ## 0.1 符号说明
 
-# Chapter 1 欧式空间 \(\mathbb{R}^n\)
+# Chapter 1 欧式空间 $\mathbb{R}^n$
 
 ## 1.1 引言
 

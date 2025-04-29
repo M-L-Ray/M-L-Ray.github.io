@@ -2,7 +2,7 @@
 title: "高等代数II(H)"
 collection: learning
 type: "Undergraduate course"
-permalink: /learning/linear-algebra-2
+permalink: /learning/advanced-algebra-2
 venue: "ECNU"
 date: 2024-06-24
 location: "Shanghai, China"

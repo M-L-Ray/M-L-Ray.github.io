@@ -1,0 +1,8 @@
+{% assign pdf_url = include.pdf_path | absolute_url %}
+<div class="pdf-container aspect-ratio">
+    <iframe
+        src="{{ '/assets/pdfjs/web/viewer.html' | relative_url }}?file={{ pdf_url }}"
+        title="PDF Viewer"
+        allowfullscreen>
+    </iframe>
+</div>

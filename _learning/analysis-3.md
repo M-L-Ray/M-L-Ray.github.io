@@ -13,11 +13,19 @@ location: "Shanghai, China"
 {% include pdf-viewer.html %}
 
 <script>
-// 确保页面完全加载后再初始化PDF
 window.addEventListener('load', function() {
   console.log('Page loaded, initializing PDF...');
-  const pdfUrl = '{{ site.url }}/files/analysis3.pdf';
+  // 使用绝对路径
+  const pdfUrl = 'https://m-l-ray.github.io/files/analysis3.pdf';
   console.log('PDF URL:', pdfUrl);
+  
+  // 添加加载状态提示
+  const errorDiv = document.getElementById('pdf-error');
+  errorDiv.style.display = 'block';
+  errorDiv.textContent = '正在加载PDF...';
+  errorDiv.style.color = 'blue';
+  
   initPDF(pdfUrl);
 });
 </script>
+

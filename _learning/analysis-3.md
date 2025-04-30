@@ -13,7 +13,11 @@ location: "Shanghai, China"
 {% include pdf-viewer.html %}
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  initPDF('/files/analysis3.pdf');
+// 确保页面完全加载后再初始化PDF
+window.addEventListener('load', function() {
+  console.log('Page loaded, initializing PDF...');
+  const pdfUrl = '{{ site.url }}/files/analysis3.pdf';
+  console.log('PDF URL:', pdfUrl);
+  initPDF(pdfUrl);
 });
 </script>

@@ -7,6 +7,7 @@
     <span id="page-info">第 <span id="page-num"></span> 页，共 <span id="page-count"></span> 页</span>
     <button id="next-page">下一页</button>
   </div>
+  <div id="pdf-error" style="color: red; display: none;"></div>
 </div>
 
 <style>
@@ -22,6 +23,7 @@
   overflow: auto;
   margin-bottom: 20px;
   border: 1px solid #ddd;
+  min-height: 500px;
 }
 
 #pdf-canvas {
@@ -88,6 +90,10 @@ function renderPage(num) {
         renderPage(pageNumPending);
         pageNumPending = null;
       }
+    }).catch(function(error) {
+      console.error('Error rendering page:', error);
+      document.getElementById('pdf-error').style.display = 'block';
+      document.getElementById('pdf-error').textContent = '渲染PDF页面时出错: ' + error.message;
     });
   });
 
@@ -123,10 +129,18 @@ document.getElementById('next-page').addEventListener('click', onNextPage);
 
 // 初始化PDF
 function initPDF(url) {
+  console.log('Loading PDF from:', url);
+  document.getElementById('pdf-error').style.display = 'none';
+  
   pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+    console.log('PDF loaded successfully');
     pdfDoc = pdfDoc_;
     document.getElementById('page-count').textContent = pdfDoc.numPages;
     renderPage(pageNum);
+  }).catch(function(error) {
+    console.error('Error loading PDF:', error);
+    document.getElementById('pdf-error').style.display = 'block';
+    document.getElementById('pdf-error').textContent = '加载PDF时出错: ' + error.message;
   });
 }
-</script>
+</script> 

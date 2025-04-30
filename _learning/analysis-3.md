@@ -10,12 +10,10 @@ location: "Shanghai, China"
 
 本课程为23级强基拔尖班专业必修课，24秋季学期主讲为叶东教授。
 
-<object 
-    data="/files/analysis3.pdf" 
-    type="application/pdf" 
-    width="100%" 
-    height="200px"
-    style="border: 1px solid #ddd;"
->
-    <p>浏览器不支持直接显示 PDF，请点击下载。</p>
-</object>
+{% include pdf-viewer.html %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  initPDF('/files/analysis3.pdf');
+});
+</script>

@@ -282,8 +282,6 @@ defaults:
   #    layout: talk
   #    author_profile: true
   #    share: false
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -382,3 +380,45 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# PDF Viewer Configuration
+pdf_viewer:
+  enabled: true
+  default_height: "600px"
+  mobile_height: "400px"
+  cdn:
+    enabled: false  # 如果要使用 CDN，设置为 true
+    base_url: ""    # CDN 基础 URL
+  options:
+    download: true  # 是否显示下载按钮
+    fullscreen: true # 是否显示全屏按钮
+    language: "zh-CN" # PDF.js 界面语言
+  paths:
+    viewer: "/assets/pdfjs/web/viewer.html"
+    worker: "/assets/pdfjs/build/pdf.worker.js"
+
+# 确保 PDF 文件可以被 Jekyll 处理
+include:
+  - .htaccess
+  - _pages
+  - files
+  - assets/pdfjs/**  # 添加这一行以包含 PDF.js 文件
+
+# 在 collections 部分确保 learning 集合配置正确
+collections:
+  learning:
+    output: true
+    permalink: /:collection/:path/
+
+# 在 defaults 部分为 learning 集合添加 PDF 查看器支持
+defaults:
+  # _learning
+  - scope:
+      path: ""
+      type: learning
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+      pdf_viewer: true  # 启用 PDF 查看器

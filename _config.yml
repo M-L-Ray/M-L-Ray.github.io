@@ -216,7 +216,7 @@ collections:
   learning:
     output: true
     permalink: /:collection/:path/
-  publications:
+  exams:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -259,7 +259,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: exams
     values:
       layout: single
       author_profile: true

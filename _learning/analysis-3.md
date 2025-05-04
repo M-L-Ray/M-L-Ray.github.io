@@ -17,5 +17,5 @@ location: "Shanghai, China"
     height="200px"
     style="border: 1px solid #ddd;"
 >
-    <p>浏览器不支持直接显示 PDF（对不起我真的搞不定H5端的pdf预览），请<a href="files/analysis3.pdf">点击下载</a>。</p>
+    <p>浏览器不支持直接显示 PDF（对不起我真的搞不定H5端的pdf预览），请<a href="/files/analysis3.pdf">点击下载</a>。</p>
 </object>

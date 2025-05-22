@@ -7,6 +7,7 @@ venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
 ---
+主讲：袁海荣教授
 
 普通班2024春季学期第一次小测
 

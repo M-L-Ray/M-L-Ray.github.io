@@ -2,7 +2,7 @@
 title: "数学实验与建模"
 collection: exams
 type: "Undergraduate course"
-permalink: /exams/analysis-3
+permalink: /exams/mem
 venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"

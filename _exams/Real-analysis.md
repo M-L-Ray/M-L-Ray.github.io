@@ -1,5 +1,5 @@
 ---
-title: "实分析(H)"
+title: "实分析"
 collection: exams
 type: "Undergraduate course"
 permalink: /exams/real_analysis

@@ -26,7 +26,7 @@ redirect_from:
 
 以及[Latex模板](https://github.com/M-L-Ray/template/tree/main)
 
-（施工中）
+（施工中，不定时更新）
 
 创建这个主页的原因？
 ------

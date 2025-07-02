@@ -40,7 +40,7 @@
 
         {% if post.collection == 'learning' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% if post.collection == 'notes' %}
+        {% elsif post.collection == 'notes' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'exams' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>

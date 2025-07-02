@@ -58,7 +58,7 @@ location: "Shanghai, China"
 
 **第4题[10分]** 求方程\\(\displaystyle\sum_{n\ge 0}(2n+1)^2x^n=0\\)所有的根.
 
-**第5题[15分]** 令\\(\displaystyle J=\int_0^1\frac{1}{x^x}\mathrm{d}x\\)
+**第5题[15分]** 令\\(\displaystyle J=\int_0^1\frac{1}{x^x}\mathrm{d}x\\).
 1. 任给\\(k\ge 1\\)，证明积分\\(I_k=\int_0^1(x\ln x)^k\mathrm{d}x\\)收敛并求出\\(I_k\\).
 2. 证明\\(J\\)收敛，且\\(J=\sum_{n\ge 1}n^{-n}\\).
 

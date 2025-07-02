@@ -13,7 +13,7 @@ location: "Shanghai, China"
 
 一、(10分)请叙述并证明Borel-Cantelli定理
 
-二、(10分)设 \\(X=\mathbb{R}\\) ，定义 \\(2^X\\) 上的集函数 $$\mu(A)=\left\{\begin{matrix}1,&0\in A, \\\ 0,&0\notin A.\end{matrix}\right.$$
+二、(10分)设 \\(X=\mathbb{R}\\) ，定义 \\(2^X\\) 上的集函数 $$\mu(A)=\begin{cases}1,&0\in A, \\\ 0,&0\notin A.\end{cases}$$
 证明 \\(\mu\\) 是一个测度.
 
 三、(10分)设 \\(\mathcal{R}\\)是基本空间\\(X\\)上的\\(\sigma\\)-环，\\(\mu\\)是\\(\mathcal{R}\\)上非负的满足有限可加性和次可列可加性的集函数，且\\(\mu(\varnothing)=0\\). 证明\\\(\mu\\)是一个测度.

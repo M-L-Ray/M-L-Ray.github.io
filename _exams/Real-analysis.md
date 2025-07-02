@@ -31,10 +31,11 @@ location: "Shanghai, China"
 七、（30分）设\\(X\\)是基本空间
 1. \\(\mathcal{P}\subset 2^X,\mathcal{P}\neq\varnothing\\)，如果由\\(A,B\in\mathcal{P}\\)可知\\(A\cap B\in\mathcal{P}\\)，则称\\(\mathcal{P}\\)是一个\\(\pi\\)-系.
 2. \\(\mathcal{L}\subset 2^X,\mathcal{L}\neq\varnothing\\)称为一个\\(\lambda\\)-系，若其具有如下性质：
-   1. \\(X\in\mathcal{L}\\);
-   2. 若\\(A,B\in \mathcal{L}\\)且\\(A\subset B\\)，则\\(B-A\in \mathcal{L}\\)；
-   3. 若\\(A_k\in\mathcal{L},k=1,2,\dots\\)，且\\(A_{k}\subset A_{K+1}\\)，则\\(\bigcup_{k=1}^\infty A_k\in\mathcal{L}\\).
-3. 请按如下步骤证明如下\\(\underline{\pi-\lambda\text{定理}}\\)：设\\(\mathcal{P}\\)是\\(\pi\\)-系，
+   - \\(X\in\mathcal{L}\\);
+   - 若\\(A,B\in \mathcal{L}\\)且\\(A\subset B\\)，则\\(B-A\in \mathcal{L}\\)；
+   - 若\\(A_k\in\mathcal{L},k=1,2,\dots\\)，且\\(A_{k}\subset A_{K+1}\\)，则\\(\bigcup_{k=1}^\infty A_k\in\mathcal{L}\\).
+3. 请按如下步骤证明如下\\(\underline{\pi-\lambda\text{定理}}\\)：设\\(\mathcal{P}\\)是\\(\pi\\)-系，\\(\mathcal{L}\\)是\\(\lambda\\)-系，且\\(\mathcal{P}\subset\mathcal{L}\\)，则\\(S(\mathcal{P})\subset \mathcal{L}\\). 这里\\(S(\mathcal{P})\\)是\\(\mathcal{P}\\)生成的\\(\sigma\\)-代数.
+4. 定义\\(\mathcal{S}=\bigcap_{\mathcal{L}'\supset \mathcal{P}}\mathcal{L}'\\)，其中\\(\mathcal{L}'\\)是\\(\lambda\\)-系. 证明\\(\mathcal{S}\\)是包含\\(\mathcal{P}\\)的最小的\\(\lambda\\)-系
 
 ## 2025春季学期第二次小测
 

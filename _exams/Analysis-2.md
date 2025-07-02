@@ -23,10 +23,20 @@ location: "Shanghai, China"
 
 **第4题[10分]** 设\\(a\neq 0\\)是实数. 根据\\(a\\)的取值，确定级数\\(\displaystyle\sum_{n=2}^\infty\frac{(-1)^n\sqrt{n}}{n^a+(-1)^n}\\)的敛散性.
 
-**第5题[20分]** 设\\(\displaystyle f_n(x)\\)
+**第5题[20分]** 设\\(\displaystyle f_n(x)=\frac{n(x^2+x)e^{-x}}{nx+1}\\)，任给\\(n\ge 0,x\in\mathbb{R}_+=[0,+\infty)\\).
+1. 证明\\(f_n\\)在\\(\mathbb{R}_+\\)上逐点收敛，并求出\\(f_n\\)的逐点收敛极限函数\\(f\\).
+2. 证明\\(f_n\\)在\\((0,+\infty)\\)上内闭一致收敛.
+3. 证明\\(\displaystyle\lim_{n\to\infty}\int_0^\infty f_n(x)\mathrm{d}x\\)存在，并求出其极限值.
 
-**第6题[20分]**
+**第6题[20分]** （Rabbe判定）设\\((u_n),(v_n)\\)是两个严格正的实数序列，设
+\\[\frac{u_{n+1}}{u_n}\le\frac{v_{n+1}}{v_n},\forall n\ge n_0\\]
+1. 证明\\(\sum v_n\\)收敛时，\\(u_n\\)收敛.
+2. 设\\(u_n\\)满足
+\\[\lim_{n\to\infty}n\left(1-\frac{u_{n+1}}{u_n}\right)=\alpha\in\mathbb{R}\\]
+证明若\\(\alpha>1\\)，则\\(\sum u_n\\)收敛；若\\(\alpha<1\\)，则\\(\sum u_n\\)发散.
+3. 求级数\\(\displaystyle\sum_{n=1}^\infty\frac{n!}{(2x^2+1)(2x^2+2)\cdots(2x^2+n)}\\)的收敛域.
 
-**第7题[10分]**
+**第7题[10分]** 设\\((f_n)\\)是区间\\(I=[a,b]\\)上的一列连续函数，证明\\(f_n\\)在\\(I\\)上一致收敛到\\(f\\)当且仅当以下性质成立：
+\\[\text{任给}I\text{中序列}(x_n),\text{即}x_n\in I,\lim_{n\to\infty}x_n=x;\text{则}\lim_{n\to\infty}f_n(x_n)=f(x).\\]
 
 **第8题[10分]**

@@ -21,7 +21,7 @@ location: "Shanghai, China"
 四、(10分)设集\\(E\\)上的实函数列\\(f_n\\)有极限\\(f\\)，证明：对任意实数\\(c\\)，成立$$
 E(f\le c)=\bigcap_{k=1}^\infty\liminf_{n\to\infty}E(f_n\le c+\frac{1}{k}). $$
 
-五、(15分)设\\(X=\mathbb{R}\\)，定义\\(2^X\\)上的集函数\\(\mu_*\\)使得\\(\mu_*(\varnothing)=0\\)，而当\\(A\neq\varnothing\\)时，\\(\mu_*(A)=1\\).
+五、(15分)设\\(X=\mathbb{R}\\)，定义\\(2^X\\)上的集函数\\(\mu_* \\)使得\\(\mu_* (\varnothing)=0\\)，而当\\(A\neq\varnothing\\)时，\\(\mu_*(A)=1\\).
 - 证明：\\(\mu_*\\)是次可列可加的；
 - 写出：\\(\mu_*\\)可测集的Caratheodory条件；
 - 证明：\\(\mu_*\\)可测集构成的\\(\sigma\\)-代数是\\(\{\varnothing,X\}\\).

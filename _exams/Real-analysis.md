@@ -60,7 +60,19 @@ location: "Shanghai, China"
 六、（15分）设\\(f\\)是区间\\([0,1]\\)上的连续函数，证明：
 \\[\lim_{n\to\infty}\int_0^1\cdots\int_0^1f(\frac{x_1+\cdots+x_n}{n})\mathrm{d}x_1\cdots \mathrm{d}x_n=f(\frac{1}{2}).\\]
 
-七、（10分）设\\(E\\)是测度空间\\((X,\mathcal{R},\mu)\\)上测度有限的集. 证明：函数\\(f\\)在\\(E\\)上可积的充分必要条件是\\(\sum_{n=1}^\infty n\mu(E_n)<\infty\\)，其中\\(E_n=E(n\le |f | <n+1).\\)
+七、（10分）设\\(E\\)是测度空间\\((X,\mathcal{R},\mu)\\)上测度有限的集. 证明：函数\\(f\\)在\\(E\\)上可积的充分必要条件是\\(\sum_{n=1}^\infty n\mu(E_n)<\infty\\)，其中\\(E_n=E(n\le |f| <n+1).\\)
 
+## 2025春季学期期末考试
 
+一、叙述并证明Helly选取原理.
 
+二、叙述并证明Hahn分解定理.
+
+三、证明\\([a,b]\\)上的有界变差函数全体与实数集等势.
+
+四、设\\(f\\)是\\((-\infty,+\infty)\\)上满足\\(f(0)=0\\)的Lebesgue可积函数，证明\\(\displaystyle\sum_{n=-\infty}^{+\infty}f(n^2x)\\)必在\\((-\infty,+\infty)\\)上几乎处处（按Lebesgue测度）等于一个Lebesgue可积函数.
+
+五、设\\((X,\mathcal{S},\mu),(Y,\mathcal{T},\nu)\\)是两个全有限测度空间，如果\\(E\\)是\\((X\times Y,\mathcal{S}\times\mathcal{T})\\)的可测子集，（证明：\\(E_x\\)和\\(E^y\\)是可测集？）证明：\\(\nu(E_x),\mu(E^y)\\)分别是\\((X,\mathcal{S},\mu),(Y,\mathcal{T},\nu)\\)上的可测函数，且
+\\[\int_X\nu(E_x)\mathrm{d}\mu=\int_Y\mu(E^y)\mathrm{d}\nu.\\]
+
+六、证明Лузин（鲁津）定理.

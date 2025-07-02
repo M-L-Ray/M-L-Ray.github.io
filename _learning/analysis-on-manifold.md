@@ -10,12 +10,11 @@ location: "Shanghai, China"
 
 本课程为22级强基拔尖班限制选修，25春季学期主讲为周林峰副教授。
 
-<object 
-    data="/files/manifold.pdf" 
-    type="application/pdf" 
-    width="100%" 
-    height="200px"
-    style="border: 1px solid #ddd;"
+<iframe 
+  src="/files/manifold.pdf#view=fitH" 
+  width="100%" 
+  height="200px"
+  style="border:1px solid #ddd"
 >
-    <p>浏览器不支持直接显示 PDF（对不起我真的搞不定H5端的pdf预览），请<a href="/files/analysis3.pdf">点击下载</a>。</p>
-</object>
+  <p>您的浏览器不支持PDF预览，请<a href="/files/manifold.pdf">下载文件</a></p>
+</iframe>

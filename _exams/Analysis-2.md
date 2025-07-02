@@ -43,3 +43,24 @@ location: "Shanghai, China"
 1. 证明任给\\(n\ge 2\\)，存在\\([a,b]\\)的唯一分割\\(x_0=a<x_1<\dots<x_n=b\\)使得
 \\[\int_{x_k}^{x_{k+1}}f(t)\mathrm{d}t=\frac{1}{n}\int_a^bf(t)\mathrm{d}t,\quad \forall 0\le k\le n-1.\\]
 2. 记\\(\displaystyle w_n=frac{1}{n}\sum_{k=1}^n f(x_k)\\)，求极限\\(\displaystyle\lim_{n\to\infty}w_n.\\)
+
+## 2025春季学期期末考试
+
+**第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
+1. 设\\(\sum u_n\\)收敛，且\\(-|u_n|\le v_n \le |u_n|\\)，则\\(\sum v_n\\)收敛.
+2. 如果\\(u_n\\)是区间\\(I\\)上的\\(C^1\\)函数，且\\(S(x)=\sum u_n(x)\\)在\\(I\\)上依范数收敛，则和函数在\\(S\\)上是\\(C^1\\)的.
+3. \\(f\in C^\infty(\mathbb{R})\\)对应的Maclaurin级数\\(\displaystyle\sum_{k\ge 0}\frac{f^{(k)}(0)}{k!}x^n\\)的收敛半径\\(R>0\\)，则\\(f\\)在\\(x=0\\)处实解析.
+
+**第2题[15分]**
+
+**第3题[10分]**
+
+**第4题[10分]**
+
+**第5题[15分]**
+
+**第6题[15分]**
+
+**第7题[20分]**
+
+**第8题[10分]**

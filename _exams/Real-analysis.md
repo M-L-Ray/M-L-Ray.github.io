@@ -44,12 +44,20 @@ location: "Shanghai, China"
 
 ## 2025春季学期第二次小测
 
-<object 
-    data="/files/RA2025_ex-2.pdf" 
-    type="application/pdf" 
-    width="100%" 
-    height="200px"
-    style="border: 1px solid #ddd;"
->
-    <p>浏览器不支持直接显示 PDF（对不起我真的搞不定H5端的pdf预览），请<a href="/files/RA2025_ex-2.pdf">点击下载</a>。</p>
-</object>
+一、（15分）证明：对任何给定的非负可测函数，都存在一列非负的单调递增的简单函数列处处收敛于它.
+
+二、（15分）叙述并证明积分的全连续性.
+
+三、（15分）叙述并证明Lebesgue控制收敛定理.
+
+四、（15分）叙述并证明积分的可列可加性.
+
+五、（15分）设\\((X,\mathcal{R},\mu)\\)是一个\\(\sigma\\)-有限测度空间，\\(E\in\mathcal{R}\\)，\\(f_n\\)是\\(E\\)上一列可测函数，且
+\\[\lim_{m,n\to\infty}\int_E|f_m-f_n|^2\mathrm{d}\mu=0.\\]
+证明：存在\\(E\\)上的可测函数\\(f\\)，使得
+\\[\lim_{m,n\to\infty}\int_E|f_m-f|^2\mathrm{d}\mu=0.\\]
+
+六、（15分）设\\(f\\)是区间\\([0,1]\\)上的连续函数，证明：
+\\[\lim_{n\to\infty}\int_0^1\cdots\int_0^1f(\frac{x_1+\cdots+x_n}{n})\mathrm{d}x_1\cdots \mathrm{d}x_n=f(\frac{1}{2}).\\]
+
+七、（10分）设\\(E\\)是测度空间\\((X,\mathcal{R},\mu)\\)上测度有限的集. 证明：函数\\(f\\)在\\(E\\)上可积的充分必要条件是\\(\sum_{n=1}^\infty n\mu(E_n)<\infty\\)，其中\\(E_n=E(n\le|f|<n+1).\\)

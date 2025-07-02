@@ -4,7 +4,7 @@ collection: exams
 type: "Undergraduate course"
 permalink: /exams/analysis-3
 venue: "ECNU"
-date: 2025-06-23
+date: 2025-01-23
 location: "Shanghai, China"
 ---
 主讲：叶东教授

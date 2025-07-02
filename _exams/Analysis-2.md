@@ -47,19 +47,23 @@ location: "Shanghai, China"
 ## 2025春季学期期末考试
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
-1. 设\\(\sum u_n\\)收敛，且\\(-|u_n|\le v_n \le |u_n|\\)，则\\(\sum v_n\\)收敛.
+1. 设\\(\sum u_n\\)收敛，且\\(-\|u_n\|\le v_n \le \|u_n\|\\)，则\\(\sum v_n\\)收敛.
 2. 如果\\(u_n\\)是区间\\(I\\)上的\\(C^1\\)函数，且\\(S(x)=\sum u_n(x)\\)在\\(I\\)上依范数收敛，则和函数在\\(S\\)上是\\(C^1\\)的.
 3. \\(f\in C^\infty(\mathbb{R})\\)对应的Maclaurin级数\\(\displaystyle\sum_{k\ge 0}\frac{f^{(k)}(0)}{k!}x^n\\)的收敛半径\\(R>0\\)，则\\(f\\)在\\(x=0\\)处实解析.
 
-**第2题[15分]**
+**第2题[15分]** 考虑函数\\(\displaystyle\Phi(x)=\int_0^{\sin^2 x}\arcsin\sqrt{t}\mathrm{d}t+\int_0^{\cos^2 x}\arccos\sqrt{t}\mathrm{d}t,x\in\mathbb{R}\\)，指出并证明函数\\(\Phi\\)的奇偶性和周期性. 计算\\(\Phi'(x)\\). 推出\\(\Phi(x)\\)的解析表达式.
 
-**第3题[10分]**
+**第3题[10分]** 设\\(\beta\in\mathbb{R}\\)为常数，根据\\(\beta\\)的取值，讨论以下通项的数项级数的敛散性.
+\\[\forall n\ge 2 ,\quad u_n=\frac{n^\beta}{\sum_{2\le k\le n}(\ln k)^2}.\\]
 
-**第4题[10分]**
+**第4题[10分]** 求方程\\(\displaystyle\sum_{n\ge 0}(2n+1)^2x^n=0\\)所有的根.
 
-**第5题[15分]**
+**第5题[15分]** 令\\(\displaystyle J=\int_0^1\frac{1}{x^x}\mathrm{d}x\\)
+1. 任给\\(k\ge 1\\)，证明积分\\(I_k=\int_0^1(x\ln x)^k\mathrm{d}x\\)收敛并求出\\(I_k\\).
+2. 证明\\(J\\)收敛，且\\(J=\sum_{n\ge 1}n^{-n}\\).
 
-**第6题[15分]**
+**第6题[15分]** 设\\(f_0(x)=x\\)，任给\\(n\ge 1,x \in \mathbb{R}_+ [0,\infty}\\)，定义 \\(\displaystyle f_{n+1}(x)=\frac{x}{2+f_n(x)}\\)
+1. 证明\\(f_0\ge f_2\ge f_1\\). 证明\\((f_n)\\)在\\(\mathbb{R}_+ \\)上逐点收敛，确定极限函数\\(f(x)\\).
 
 **第7题[20分]**
 

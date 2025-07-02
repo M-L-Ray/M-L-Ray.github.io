@@ -60,7 +60,7 @@ location: "Shanghai, China"
 六、（15分）设\\(f\\)是区间\\([0,1]\\)上的连续函数，证明：
 \\[\lim_{n\to\infty}\int_0^1\cdots\int_0^1f(\frac{x_1+\cdots+x_n}{n})\mathrm{d}x_1\cdots \mathrm{d}x_n=f(\frac{1}{2}).\\]
 
-七、（10分）设\\(E\\)是测度空间\\((X,\mathcal{R},\mu)\\)上测度有限的集. 证明：函数\\(f\\)在\\(E\\)上可积的充分必要条件是\\(\sum_{n=1}^\infty n\mu(E_n)<\infty\\)，其中\\(E_n=E(n\le|f|<n+1).\\)
+七、（10分）设\\(E\\)是测度空间\\((X,\mathcal{R},\mu)\\)上测度有限的集. 证明：函数\\(f\\)在\\(E\\)上可积的充分必要条件是\\(\sum_{n=1}^\infty n\mu(E_n)<\infty\\)，其中\\(E_n=E(n\le |f | <n+1).\\)
 
 
 

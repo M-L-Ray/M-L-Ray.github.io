@@ -35,7 +35,12 @@ location: "Shanghai, China"
    - 若\\(A,B\in \mathcal{L}\\)且\\(A\subset B\\)，则\\(B-A\in \mathcal{L}\\)；
    - 若\\(A_k\in\mathcal{L},k=1,2,\dots\\)，且\\(A_{k}\subset A_{K+1}\\)，则\\(\bigcup_{k=1}^\infty A_k\in\mathcal{L}\\).
 3. 请按如下步骤证明如下\\(\underline{\pi-\lambda\text{定理}}\\)：设\\(\mathcal{P}\\)是\\(\pi\\)-系，\\(\mathcal{L}\\)是\\(\lambda\\)-系，且\\(\mathcal{P}\subset\mathcal{L}\\)，则\\(S(\mathcal{P})\subset \mathcal{L}\\). 这里\\(S(\mathcal{P})\\)是\\(\mathcal{P}\\)生成的\\(\sigma\\)-代数.
-4. 定义\\(\mathcal{S}=\bigcap_{\mathcal{L}'\supset \mathcal{P}}\mathcal{L}'\\)，其中\\(\mathcal{L}'\\)是\\(\lambda\\)-系. 证明\\(\mathcal{S}\\)是包含\\(\mathcal{P}\\)的最小的\\(\lambda\\)-系
+4. 定义\\(\mathcal{S}=\bigcap_{\mathcal{L}'\supset \mathcal{P}}\mathcal{L}'\\)，其中\\(\mathcal{L}'\\)是\\(\lambda\\)-系. 证明\\(\mathcal{S}\\)是包含\\(\mathcal{P}\\)的最小的\\(\lambda\\)-系.
+5. 下面证明\\(\mathcal{S}\\)是\\(\pi\\)-系. 为此，作\\(\mathcal{A}=\\{C\subset X:A\cap C\in\mathcal{S}\\}\\). 证明：当\\(A\in\mathcal{P}\\)时，成立\\(\mathcal{P}\subset\mathcal{A}\\).
+6. 请进一步证明：当\\(A\in \mathcal{S}\\)时，\\(\mathcal{A}\\)是\\(\lambda\\)-系.
+7. 由此证明：\\(\mathcal{S}\subset\mathcal{A}\\)，并证明\\(\mathcal{S}\\)是\\(\pi\\)-系.
+8. 证明：\\(\mathcal{S}\\)是\\(\sigma\\)-代数.
+9. 证明：\\(S(\mathcal{P})\subset \mathcal{L}\\).
 
 ## 2025春季学期第二次小测
 

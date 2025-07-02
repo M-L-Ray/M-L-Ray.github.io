@@ -76,6 +76,6 @@ location: "Shanghai, China"
 4. 证明对任意\\(\|t\|<1\\)，成立
 \\[\frac{\sin(\pi t)}{\pi t}=\prod_{k=1}^\infty\left(1-\frac{t^2}{n^2}\right).\\]
 
-**第8题[10分]** 设实数列\\((x_n)_ {n\ge 1}\\)满足\\(\displaystyle\lim_{n\to\infty}\frac{x_{n+1}}{x_n}=1\\)，且\\(a\le\frac{x_{2n}}{x_n}\le b\\)对足够大的\\(n\\)成立，其中\\(a,b>0\\)为常数，证明
+**第8题[10分]** 设实数列\\((x_n)_ {n\ge 1}\\)满足\\(\displaystyle\lim_{n\to\infty}\frac{x_{n+1}}{x_n}=1\\)，且\\(a\le\dfrac{x_{2n}}{x_n}\le b\\)对足够大的\\(n\\)成立，其中\\(a,b>0\\)为常数，证明
 1. 当\\(b<\dfrac{1}{2}\\)时，\\(\displaystyle\sum_{n=1}^\infty x_n\\)收敛；
 2. 当\\(a>\dfrac{1}{2}\\)时，\\(\displaystyle\sum_{n=1}^\infty x_n\\)发散.

@@ -30,7 +30,7 @@ location: "Shanghai, China"
 
 **第6题[20分]** （Rabbe判定）设\\((u_n),(v_n)\\)是两个严格正的实数序列，设
 \\[\frac{u_{n+1}}{u_n}\le\frac{v_{n+1}}{v_n},\forall n\ge n_0\\]
-1. 证明\\(\sum v_n\\)收敛时，\\(u_n\\)收敛.
+1. 证明\\(\sum v_n\\)收敛时，\\(\sum u_n\\)收敛.
 2. 设\\(u_n\\)满足
 \\[\lim_{n\to\infty}n\left(1-\frac{u_{n+1}}{u_n}\right)=\alpha\in\mathbb{R}\\]
 证明若\\(\alpha>1\\)，则\\(\sum u_n\\)收敛；若\\(\alpha<1\\)，则\\(\sum u_n\\)发散.

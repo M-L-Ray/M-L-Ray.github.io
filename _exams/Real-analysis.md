@@ -22,6 +22,12 @@ location: "Shanghai, China"
 E(f\le c)=\bigcap_{k=1}^\infty\liminf_{n\to\infty}E(f_n\le c+\frac{1}{k}). $$
 
 五、(15分)设\\(X=\mathbb{R}\\)，定义\\(2^X\\)上的集函数\\(\mu_*\\)使得\\(\mu_*(\varnothing)=0\\)，而当\\(A\neq\varnothing\\)时，\\(\mu_*(A)=1\\).
+- 证明：\\(\mu_*\\)是次可列可加的；
+- 写出：\\(\mu_*\\)可测集的Caratheodory条件；
+- 证明：\\(\mu_*\\)可测集构成的\\(\sigma\\)-代数是\\(\{\varnothing,X\}\\).
+
+六、(15分)证明：任意可列集的有限子集的全体仍然是可列集.
+
 
 拔尖班2025春季学期第二次小测
 

@@ -68,6 +68,14 @@ location: "Shanghai, China"
 3. 证明\\(f_n\\)在\\(\mathbb{R}_+\\)上不一致收敛.
 4. 证明\\(f_n\\)在\\(\mathbb{R}_+\\)上内闭一致收敛.
 
-**第7题[20分]** 设\\(\\)
+**第7题[20分]** 设\\(\alpha\in \mathbb{R}\backslash\mathbb{Z}\\)，考虑\\(2\pi\\)-周期函数\\(g\\)，定义为\\(g(t)=\cos(\alpha t)\\)，若\\(t\in [-\pi,\pi)\\).
+1. 计算\\(g\\)的**实**Fourier系数. 它的Fourier级数\\(S_{\mathcal{F}}(g)\\)在\\(\mathbb{R}\\)上是否逐点连续？是否一致收敛？
+2. 推出
+\\[\cot(\alpha\pi)=\frac{1}{\alpha\pi}+\sum_{n=1}^\infty\frac{2\alpha}{\pi(\alpha^2-n^2)}\\]
+3. 任给\\(\|t\|<1,G(t)=\sum_{n\ge 1}\ln(1-\frac{t^2}{n^2})\\). 证明\\(G\\)在\\(I=(-1,1)\\)上连续可微，并计算\\(G'(t)\\).
+4. 证明对任意\\(\|t\|<1\\)，成立
+\\[\frac{\sin(\pi t)}{\pi t}=\prod_{k=1}^\infty\left(1-\frac{t^2}{n^2}\right).\\]
 
-**第8题[10分]**
+**第8题[10分]** 设实数列\\((x_n)_{n\ge 1}\\)满足\\(\displaystyle\lim_{n\to\infty}\frac{x_{n+1}}{x_n}=1\\)，且\\(a\le\frac{x_{2n}}{x_n}\le b\\)对足够大的\\(n\\)成立，其中\\(a,b>0\\)为常数，证明
+1. 当\\(b<\dfrac{1}{2}\\)时，\\(\displaystyle\sum_{n=1}^\infty x_n\\)收敛；
+2. 当\\(a>\dfrac{1}{2}\\)时，\\(\displaystyle\sum_{n=1}^\infty x_n\\)发散.

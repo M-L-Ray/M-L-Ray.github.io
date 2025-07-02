@@ -62,9 +62,12 @@ location: "Shanghai, China"
 1. 任给\\(k\ge 1\\)，证明积分\\(I_k=\int_0^1(x\ln x)^k\mathrm{d}x\\)收敛并求出\\(I_k\\).
 2. 证明\\(J\\)收敛，且\\(J=\sum_{n\ge 1}n^{-n}\\).
 
-**第6题[15分]** 设\\(f_0(x)=x\\)，任给\\(n\ge 1,x \in \mathbb{R}_+ [0,\infty}\\)，定义 \\(\displaystyle f_{n+1}(x)=\frac{x}{2+f_n(x)}\\)
+**第6题[15分]** 设\\(f_0(x)=x\\)，任给\\(n\ge 1,x\in\mathbb{R}_+=[0,\infty)\\)，定义 \\(\displaystyle f_{n+1}(x)=\frac{x}{2+f_n(x)}\\)
 1. 证明\\(f_0\ge f_2\ge f_1\\). 证明\\((f_n)\\)在\\(\mathbb{R}_+ \\)上逐点收敛，确定极限函数\\(f(x)\\).
+2. 证明任给\\(n\in\mathbb{N},f_n(x)\\)是有理分式，即\\(f_n(x)=\frac{P_n}{Q_n}\\)，其中\\(P_n,Q_n\in\mathbb{R}[x]\\)，且\\(\deg(P_n)-\deg(Q_n)\\)取值为0或1.
+3. 证明\\(f_n\\)在\\(\mathbb{R}_+\\)上不一致收敛.
+4. 证明\\(f_n\\)在\\(\mathbb{R}_+\\)上内闭一致收敛.
 
-**第7题[20分]**
+**第7题[20分]** 设\\(\\)
 
 **第8题[10分]**

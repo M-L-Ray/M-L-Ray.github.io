@@ -37,6 +37,9 @@ location: "Shanghai, China"
 3. 求级数\\(\displaystyle\sum_{n=1}^\infty\frac{n!}{(2x^2+1)(2x^2+2)\cdots(2x^2+n)}\\)的收敛域.
 
 **第7题[10分]** 设\\((f_n)\\)是区间\\(I=[a,b]\\)上的一列连续函数，证明\\(f_n\\)在\\(I\\)上一致收敛到\\(f\\)当且仅当以下性质成立：
-\\[\text{任给}I\text{中序列}(x_n),\text{即}x_n\in I,\lim_{n\to\infty}x_n=x;\text{则}\lim_{n\to\infty}f_n(x_n)=f(x).\\]
+\\[\text{任给}I\text{中收敛序列}(x_n),\text{即}x_n\in I,\lim_{n\to\infty}x_n=x;\text{则}\lim_{n\to\infty}f_n(x_n)=f(x).\\]
 
-**第8题[10分]**
+**第8题[10分]** 设\\(f\\)是\\([a,b]\\)到\\((0,\infty)\\)的连续函数.
+1. 证明任给\\(n\ge 2\\)，存在\\([a,b]\\)的唯一分割\\(x_0=a<x_1<\dots<x_n=b\\)使得
+\\[\int_{x_k}^{x_{k+1}}f(t)\mathrm{d}t=\frac{1}{n}\int_a^bf(t)\mathrm{d}t,\quad \forall 0\le k\le n-1.\\]
+2. 记\\(\displaystyle w_n=frac{1}{n}\sum_{k=1}^n f(x_k)\\)，求极限\\(\displaystyle\lim_{n\to\infty}w_n.\\)

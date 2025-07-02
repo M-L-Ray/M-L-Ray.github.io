@@ -9,7 +9,7 @@ location: "Shanghai, China"
 ---
 主讲：袁海荣教授
 
-## 普通班2024春季学期第一次小测
+## 2024春季学期第一次小测
 
 一、（10分）请叙述并证明Borel-Cantelli定理
 
@@ -28,8 +28,13 @@ location: "Shanghai, China"
 
 六、（15分）证明：任意可列集的有限子集的全体仍然是可列集.
 
+七、（30分）设\\(X\\)是基本空间
+1. \\(\mathcal{P}\subset 2^X,\mathcal{P}\neq\varnothing\\)，如果由\\(A,B\in\mathcal{P}\\)可知\\(A\cap B\in\mathcal{P}\\)，则称\\(\mathcal{P}\\)是一个\\(\pi\\)-系.
+2. \\(\mathcal{L}\subset 2^X,\mathcal{L}\neq\varnothing\\)，若其具有如下性质
+   1. \\(X\in\mathcal{L}\\);
+   2. 若\\(A,B\in \mathcal{L}\\)且\\(A\subset B\\)，则\\(B-A\in \mathcal{L}\\)
 
-拔尖班2025春季学期第二次小测
+## 2025春季学期第二次小测
 
 <object 
     data="/files/RA2025_ex-2.pdf" 

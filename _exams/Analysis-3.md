@@ -27,7 +27,7 @@ location: "Shanghai, China"
 
 **第5题[20分]** 令\\(\displaystyle\omega(x, y) = \frac{e^{-y}}{x^2 + y^2} \left[ (x \sin x - y \cos x)  \mathrm{d}x + (x \cos x + y \sin x)  \mathrm{d}y \right]\\). 任给\\(R > \epsilon > 0\\)，记 \\(\Omega_{\epsilon,R} = (B_R \backslash \overline{B_\epsilon}) \cap (\mathbb{R} \times (0, \infty))\\), \\(B_r\\)为以原点为圆心半径\\(r\\)的开球.  
 1. 画图表示\\(\Omega_{\epsilon,R}\\), 标注\\(\partial \Omega_{\epsilon,R}\\)的方向. 证明对任意\\(R > \epsilon > 0\\), \\(\omega\\)沿\\(\partial \Omega_{\epsilon,R}\\)的积分为零.  
-2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  d\theta\\).  
+2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  \mathrm{d}\theta\\).  
 3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\displaystyle\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\displaystyle\int_0^\infty \frac{\sin x}{x}  \mathrm{d}x = \frac{\pi}{2}\\).  
 
 **第6题[15分]** 设\\(E = C^\infty(\mathbb{R}^n, \mathbb{R})\\)和它的对偶空间\\(E^* = L(E, \mathbb{R})\\)，考虑\\(E^* \\)的线性子空间
@@ -93,7 +93,7 @@ location: "Shanghai, China"
 
 **第4题[20分]** 令\\(\displaystyle\omega(x, y) = \frac{e^{-y}}{x^2 + y^2} \left[ (x \sin x - y \cos x)  \mathrm{d}x + (x \cos x + y \sin x)  \mathrm{d}y \right]\\). 任给\\(R > \epsilon > 0\\)，记 \\(\Omega_{\epsilon,R} = (B_R \backslash \overline{B_\epsilon}) \cap (\mathbb{R} \times (0, \infty))\\), \\(B_r\\)为以原点为圆心半径\\(r\\)的开球.  
 1. 画图表示\\(\Omega_{\epsilon,R}\\), 标注\\(\partial \Omega_{\epsilon,R}\\)的方向. 证明对任意\\(R > \epsilon > 0\\), \\(\omega\\)沿\\(\partial \Omega_{\epsilon,R}\\)的积分为零.  
-2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  d\theta\\).  
+2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  \mathrm{d}\theta\\).  
 3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\displaystyle\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\displaystyle\int_0^\infty \frac{\sin x}{x}  \mathrm{d}x = \frac{\pi}{2}\\).  
 
 **第5题[15分]**

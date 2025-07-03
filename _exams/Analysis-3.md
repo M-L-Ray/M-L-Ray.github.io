@@ -41,3 +41,19 @@ location: "Shanghai, China"
 2. 证明: 对任意\\(A > 0\\), \\(\displaystyle\int_0^A \xi(x)  \mathrm{d}x = \int_0^\infty \left( \int_0^A f(t,x)  \mathrm{d}x \right)  \mathrm{d}t\\).  
 3. 证明\\(\displaystyle\int_0^\infty \xi(x)  \mathrm{d}x = \int_0^\infty \eta(t)  \mathrm{d}t\\).  
 4. 考虑\\(\displaystyle f(t,x) = \frac{1}{(1+t)(1+tx^2)}\\), 计算\\(\displaystyle\int_0^\infty \frac{\ln x}{x^2-1}  \mathrm{d}x\\).
+
+## 2022秋季学期期末考试
+
+**第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）
+1. 设\\(f_t(\cdot) (t\in\Lambda)\\)是\\(\mathbb{R}_ +\\)上一族连续且广义可积的函数，若存在连续函数\\(g\\)使得\\(\|f_t(x)\|\le g(x)\\)对任意\\(t\in\Lambda,x\in\mathbb{R}_ +\\)成立，那么广义积分
+\\[\int_0^\infty f_t(x)\mathrm{d}x\text{对于}t\in\Lambda\text{一致收敛.}\\]
+2. 设\\((f_k)\\)是\\(\Sigma=[0,1]^n\\)上的\\(C^1\\)函数列，满足\\(f_k\rightrightarrows_\Sigma f\\)，则\\(f\in C(\Sigma)\\)，且\\(f\in C^1(\Sigma)\\)当且仅当\\(\mathrm{d}f_k\\)在\\(\Sigma\\)上也是一致收敛的.
+3. 设\\(f\\)是开集\\(\Omega\subset\mathbb{R}^n\\)上的\\(C^1\\)函数，满足\\(\\|\mathrm{d}f(x)\\|\le\ell,\forall x\in \Omega\\)，则\\(f\\)是\\(\Omega\\)上的\\(\ell\\)-Lipschitz函数.
+
+**第2题[20分]** 令\\(E=M_n(\mathbb{R})\\)为\\(n\\)阶实方阵空间，记\\(U=GL_n(\mathbb{R})\\)是实可逆矩阵集合，\\(I_n\\)为单位矩阵.
+1. 证明\\(U\\)是\\(E\\)中开集.
+2. 考虑\\(E^2\\)上映射\\(\Phi(A,B)=AB-I_n\\)，说明\\(\Phi\in C^\infty(E^2)\\). 给出\\(\Phi\\)的微分.
+3. 详述隐函数定理. 利用该定理和\\(\Phi\\)证明\\(\varphi(M)=M^{-1}\\)是\\(U\\)上的\\(C^\infty\\)映射，并由此计算\\(\mathrm{d}\varphi(M)\\).
+
+**第3题[15分]** 记\\(\mathrm{sh}\\)为双曲正弦函数. 利用新变量\\(u=x+y+z,uv=y+z,uvw=z\\)计算如下积分.
+\\[\iiint_{\\{x,y,z>0,x+y+z<1\\}}\mathrm{sh}\left[(x+y+z)^3\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z.\\]

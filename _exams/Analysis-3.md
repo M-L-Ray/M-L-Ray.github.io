@@ -114,28 +114,28 @@ location: "Shanghai, China"
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）  
 (1) 设 \\( f \\) 在 \\( a \\) 点的所有一阶和二阶偏导存在，那么 \\(\frac{\partial^2 f}{\partial x_i \partial x_j}(a) = \frac{\partial^2 f}{\partial x_j \partial x_i}(a)\\) 当且仅当 \\( f \\) 在 \\( a \\) 处二阶可微.  
-(2) 设 \\(\Omega \subset \mathbb{R}^3\\) 是分段光滑的有界区域.设 \\( F \\) 是 \\(\Omega\\) 上的 \( C^1 \) 向量场，\(\mathbf{n}\) 是 \\(\partial \Omega\\) 上的单位外法向量，则 \\(\mathrm{rot}(F)\\) 穿过 \\(\partial \Omega\\) 的通量为零.  
-(3) 设 \\( I \subset \mathbb{R}\\) 是闭区间，\\( U, V \\) 是 \\(\mathbb{R}^n\\) 中开集.设 \\(\gamma: I \to U\\) 是 \\( C^1 \\) 正则的参数曲线，\\(\varphi: U \to V\) 是 \\( C^1 \\) 微分同胚，则曲线 \\(\widetilde{\gamma} = \varphi \circ \gamma\\) 的弧长 \\(=\displaystyle \int_I \\| \widetilde{\gamma}'(t) \\| \cdot | \det(\mathrm{Jac}_{\gamma(t)} \varphi)|  \mathrm{d}t \\).  
+(2) 设 \\(\Omega \subset \mathbb{R}^3\\) 是分段光滑的有界区域.设 \\( F \\) 是 \\(\Omega\\) 上的 \\( C^1 \\) 向量场，\\(\vec{n}\\) 是 \\(\partial \Omega\\) 上的单位外法向量，则 \\(\mathrm{rot}(F)\\) 穿过 \\(\partial \Omega\\) 的通量为零.  
+(3) 设 \\( I \subset \mathbb{R}\\) 是闭区间，\\( U, V \\) 是 \\(\mathbb{R}^n\\) 中开集.设 \\(\gamma: I \to U\\) 是 \\( C^1 \\) 正则的参数曲线，\\(\varphi: U \to V\\) 是 \\( C^1 \\) 微分同胚，则曲线 \\(\widetilde{\gamma} = \varphi \circ \gamma\\) 的弧长 \\(=\displaystyle \int_I \\| \widetilde{\gamma}'(t) \\| \cdot | \det(\mathrm{Jac}_{\gamma(t)} \varphi)|  \mathrm{d}t \\).  
 
-**第2题[15分]** 令 \\( D = \\{(x,y) \in \mathbb{R}^2 \mid x,y > 0, \frac{1}{2} < x + y < 1\\} \\)，计算 \\[ \iint_D \exp \left( \frac{x - y}{x + y} \right)  \mathrm{d}x\mathrm{d}y \\]  
+**第2题[15分]** 令 \\( D = \\{(x,y) \in \mathbb{R}^2 \mid x,y > 0, \frac{1}{2} < x + y < 1\\} \\)，计算 \\[ \iint_D \exp \left( \frac{x - y}{x + y} \right)  \mathrm{d}x\mathrm{d}y.\\]  
 （提示：利用变量代换 \\( u = x + y, v = x - y \\)）  
 
 **第3题[20分]** 考虑函数 \\( f : \mathbb{R}^n \to \mathbb{R} \\)，证明 \\( f \\) 在 \\(\mathbb{R}^n\\) 上连续当且仅当 \\( f \\) 同时满足：  
 (a) 若 \\( E \subset \mathbb{R}^n \\) 是紧集，则 \\( f(E) \\) 是紧集；  
-(b) 若 \\(\\{E_k\\}_ {k \in \mathbb{N}}\\) 是\\(\mathbb{R}^n\\) 中紧集套（即 \\(\forall k \in \mathbb{N}\\), \\(E_{k+1} \subset E_k\\)），则 \( f(\cap_{k \in \mathbb{N}} E_k) = \cap_{k \in \mathbb{N}} f(E_k) \\).  
+(b) 若 \\(\\{E_k\\}_ {k \in \mathbb{N}}\\) 是\\(\mathbb{R}^n\\) 中紧集套（即 \\(\forall k \in \mathbb{N}\\), \\(E_{k+1} \subset E_k\\)），则 \\( f(\cap_{k \in \mathbb{N}} E_k) = \cap_ {k \in \mathbb{N}} f(E_k) \\).  
 
-**第4题[20分]** 令 \\( \omega = \left[ \frac{2xy}{(1-x^2)^2 + y^2} - \cos x \right] \mathrm{d}x + \left[ \frac{1-x^2}{(1-x^2)^2 + y^2} + e^{3y} \right] \mathrm{d}y \\).  
+**第4题[20分]** 令 \\(\displaystyle \omega = \left[ \frac{2xy}{(1-x^2)^2 + y^2} - \cos x \right] \mathrm{d}x + \left[ \frac{1-x^2}{(1-x^2)^2 + y^2} + e^{3y} \right] \mathrm{d}y \\).  
 (1) 给出 \\(\omega\\) 的定义域 \\(\Omega\\)，证明 \\(\omega\\) 在 \\(\Omega\\) 上是闭微分形式.  
 (2) 证明 \\(\omega\\) 在 \\(\Omega\\) 上是恰当的.  
-(3) 记 \\(\Gamma\\) 是沿曲线 \\( y = \sin x \\) 从 \\((-\pi, 0)\\) 到 \\((2\pi, 0)\\) 的路径，计算 \\(\int_\Gamma \omega\\).  
+(3) 记 \\(\Gamma\\) 是沿曲线 \\( y = \sin x \\) 从 \\((-\pi, 0)\\) 到 \\((2\pi, 0)\\) 的路径，计算 \\(\displaystyle\int_\Gamma \omega\\).  
 
-**第5题[20分]** 固定 \\( b \neq 0 \\)，考虑 \\( F(a) = \int_0^{+\infty} \frac{(1 - e^{-at}) \cos (bt)}{t}  \mathrm{d}t \\).  
+**第5题[20分]** 固定 \\( b \neq 0 \\)，考虑 \\(\displaystyle F(a) = \int_0^{+\infty} \frac{(1 - e^{-at}) \cos (bt)}{t}  \mathrm{d}t \\).  
 (1) 确定广义积分 \\( F \\) 的定义域.  
 (2) 证明 \\( F \\) 在 \\([0, +\infty)\\) 上连续，在 \\((0, +\infty)\\) 上可导.  
 (3) 求 \\( F(a) \\) 的解析表达式.  
 
 **第6题[10分]** 设 \\( P, Q, R \in C^1(\mathbb{R}^3) \\) 满足：任取 \\( a = (x_0, y_0, z_0) \in \mathbb{R}^3 \\) 和 \\( r > 0 \\)，记 \\(\Sigma_{a,r}\\) 是以 \\( a \\) 为球心、\\( r \\) 为半径的上半球面，则 
-\\[ \iint_{\Sigma_{a,r}} P  \mathrm{d}y \mathrm{d}z + Q  \mathrm{d}z \mathrm{d}x + R  \mathrm{d}x \mathrm{d}y = 0. \\]  
-证明在 \\(\mathbb{R}^3\\) 上 \\( R = 0 \\)，且 \\(\frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} = 0\\).  
+\\[ \iint_{\Sigma_{a,r}} P  \mathrm{d}y \mathrm{d}z + Q  \mathrm{d}z \mathrm{d}x + R  \mathrm{d}x \mathrm{d}y = 0. \\]
+证明：在 \\(\mathbb{R}^3\\) 上 \\( R \equiv 0 \\)，且 \\(\dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y}\equiv 0\\).  
 
 **第7题[10分]** 设 \\( f : \mathbb{R}^n \to \mathbb{R}^n \\) 是 \\( C^1 \\) 映射.证明：\\(\mathrm{Jac}_x f\\) 在 \\(\mathbb{R}^n\\) 上处处是对称矩阵当且仅当 \\( f \\) 是梯度场，即存在 \\(\varphi \in C^2(\mathbb{R}^n)\\) 使得 \\( f = \nabla \varphi \\).

@@ -30,7 +30,8 @@ location: "Shanghai, China"
 2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  d\theta\\).  
 3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\displaystyle\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\displaystyle\int_0^\infty \frac{\sin x}{x}  \mathrm{d}x = \frac{\pi}{2}\\).  
 
-**第6题[15分]** 设\\(E = C^\infty(\mathbb{R}^n, \mathbb{R})\\)和它的对偶空间\\(E^* = L(E, \mathbb{R})\\)考虑\\(E^*\\)的线性子空间\\[\Lambda = \\{ \ell \in E^* \mid \ell(fg) = f(0)\ell(g) + g(0)\ell(f), \forall f, g \in E \\}\\].  
+**第6题[15分]** 设\\(E = C^\infty(\mathbb{R}^n, \mathbb{R})\\)和它的对偶空间\\(E^* = L(E, \mathbb{R})\\)，考虑\\(E^*\\)的线性子空间
+\\[\Lambda = \\{ \ell \in E^* \mid \ell(fg) = f(0)\ell(g) + g(0)\ell(f), \forall f, g \in E \\}\\].  
 1. 设\\(\omega \equiv 1\\), 证明对任意\\(\ell \in \Lambda\\), \\(\ell(\omega) = 0\\).  
 2. 给定\\(f \in E\\), 证明存在\\(\varphi \in C^\infty(\mathbb{R}^n, \mathbb{R}^n)\\)使得\\(\displaystyle f(x) = f(0) + \sum_{i=1}^n x^i \varphi^i(x), \forall x \in \mathbb{R}^n\\).  
 3. 给定\\(\ell \in \Lambda\\), 推出存在\\(\alpha \in \mathbb{R}^n\\)使得\\(\displaystyle\ell(f) = \sum_{i=1}^n \alpha^i \frac{\partial f}{\partial x^i}(0)\\). \\(\dim(\Lambda)\\)是多少?  

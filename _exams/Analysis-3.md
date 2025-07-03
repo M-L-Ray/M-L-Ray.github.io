@@ -36,7 +36,7 @@ location: "Shanghai, China"
 2. 给定\\(f \in E\\), 证明存在\\(\varphi \in C^\infty(\mathbb{R}^n, \mathbb{R}^n)\\)使得\\(\displaystyle f(x) = f(0) + \sum_{i=1}^n x^i \varphi^i(x), \forall x \in \mathbb{R}^n\\).  
 3. 给定\\(\ell \in \Lambda\\), 推出存在\\(\alpha \in \mathbb{R}^n\\)使得\\(\displaystyle\ell(f) = \sum_{i=1}^n \alpha^i \frac{\partial f}{\partial x^i}(0)\\). \\(\dim(\Lambda)\\)是多少?  
 
-**第7题[20分]** 设\\(f\\)在\\(\mathbb{R}_ +^2 = (0,\infty) \times (0,\infty)\\)上连续且\\(f \geq 0\\), \\(\xi(x) = \int_0^\infty f(t,x)  \mathrm{d}t\\), \\(\displaystyle\eta(t) = \int_0^\infty f(t,x)  \mathrm{d}x\\)在\\((0, \infty)\\)上局部可积且在\\(\mathbb{R}_ +\\)上广义可积.  
+**第7题[20分]** 设\\(f\\)在\\(\mathbb{R}_ +^2 = (0,\infty) \times (0,\infty)\\)上连续且\\(f \geq 0\\), \\(\displaystyle\xi(x) = \int_0^\infty f(t,x)  \mathrm{d}t\\), \\(\displaystyle\eta(t) = \int_0^\infty f(t,x)  \mathrm{d}x\\)在\\((0, \infty)\\)上局部可积且在\\(\mathbb{R}_ +\\)上广义可积.  
 1. 设\\((g_n)\\)为\\(I = (0, \infty)\\)上的一列局部可积函数, 满足: \\(g_{n+1} \geq g_n\\), \\(g_n\\)在\\(I\\)上广义可积, \\(g_n \to g\\), \\(g\\)在\\(I\\)上局部可积且广义可积. 证明\\(\displaystyle\lim_{n \to \infty} \int_I g_n(s)  \mathrm{d}s = \int_I g(s)  \mathrm{d}s\\).  
 2. 证明: 对任意\\(A > 0\\), \\(\displaystyle\int_0^A \xi(x)  \mathrm{d}x = \int_0^\infty \left( \int_0^A f(t,x)  \mathrm{d}x \right)  \mathrm{d}t\\).  
 3. 证明\\(\displaystyle\int_0^\infty \xi(x)  \mathrm{d}x = \int_0^\infty \eta(t)  \mathrm{d}t\\).  

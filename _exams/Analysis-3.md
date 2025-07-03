@@ -67,6 +67,10 @@ location: "Shanghai, China"
 1. 证明\\(G\\)在\\(\Omega=(-1,\infty)\\)上是恰当定义的且连续.
 2. 证明\\(G\in C^1(\Omega)\\)，计算\\(G'(x)\\)，推出\\(G(x)\\)的显式表达.
 
-**第6题[20分]**
+**第6题[20分]** 设\\(f\\)是\\(\mathdd{R}^n\\)到自身的\\(C^1\\)映射，且\\(f\\)是\\(\lambda\\)-Lipschitz，\\(\lambda\in (0,1)\\)，定义\\(G(x)=x+f(x)\\)
+1. 证明\\(G\\)是单射.
+2. 证明\\(G(\mathbb{R}^n)\\)既开又闭.
+3. 证明\\(G\\)是从\\(\mathbb{R}^n\\)到自身的\\(C^1\\)微分同胚.
 
-**第7题[10分]**
+**第7题[10分]** 令\\(\Gamma\\)是Eular的Gamma函数，证明任给\\(x,y>0\\)，成立
+\\[x^xy^y\Gamma\left(\frac{x+y}{2}\right)^2\le\left(\frac{x+y}{2}\right)^{x+y}\Gamma(x)\Gamma(y).\\]

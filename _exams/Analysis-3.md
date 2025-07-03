@@ -57,3 +57,17 @@ location: "Shanghai, China"
 
 **第3题[15分]** 记\\(\mathrm{sh}\\)为双曲正弦函数. 利用新变量\\(u=x+y+z,uv=y+z,uvw=z\\)计算积分.
 \\[\iiint_{\\{x,y,z>0,x+y+z<1\\}}\mathrm{sh}\left[(x+y+z)^3\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z.\\]
+
+**第4题[15分]** 考虑由极坐标方程\\(r(\theta)=a\left(4\cos\theta-\dfrac{1}{\cos\theta}\right)\\)定义的平面曲线\\(\gamma_0\\)，其中\\(a>0\\)是常数，\\(\|\theta\|\le\dfrac{\theta}{3}.\\)
+1. 勾画一个\\(\gamma_0\\)的图形.
+2. 计算曲线\\(\gamma_0\\)在\\(\theta=\frac{\pi}{6}\\)的切线方程，并在图中标出.
+3. 计算\\(\gamma_0\\)所围成的有界区域的面积.
+
+**第5题[15分]** 考虑函数
+\\[G(x)=\int_0^1\frac{t-1}{\ln t}t^x\mathrm{d}t,\quad x>-1.\\]
+1. 证明\\(G\\)在\\(\Omega=(-1,\infty)\\)上是恰当定义的且连续.
+2. 证明\\(G\in C^1(\Omega)\\)，计算\\(G'(x)\\)，推出\\(G(x)\\)的显式表达.
+
+**第6题[20分]**
+
+**第7题[10分]**

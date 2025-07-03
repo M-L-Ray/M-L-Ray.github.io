@@ -21,7 +21,7 @@ location: "Shanghai, China"
 **第3题[15分]** 令\\(D = \\{(x, y) \in \mathbb{R}^2 \mid 1 \leq xy \leq 2, 1 \leq x^2 - y^2 \leq 4\\}\\). 考虑\\(\Phi : \Omega_1 = (0, \infty)^2 \to \Omega_2 = (0, \infty) \times \mathbb{R}\\), \\(\Phi(x, y) = (xy, x^2 - y^2)\\). 证明\\(\Phi\\)是\\(\Omega_1\\)到\\(\Omega_2\\)的\\(C^\infty\\)微分同胚. 计算\\(\displaystyle\int_D \frac{xy(x^2 + y^2)}{x^2 - y^2}  \mathrm{d}x\mathrm{d}y\\).  
 
 **第4题[15分]** 设\\(n \geq 2\\), \\(\alpha = (\alpha_i) \in (0, \infty)^n\\), \\(\Omega_\alpha = \\{(x_i) \in \mathbb{R}^n \mid x_i \geq 0, x_1^{\alpha_1} + \cdots + x_n^{\alpha_n} \leq 1\\}\\), \\(|\Omega_\alpha|\\)为\\(\Omega_\alpha\\)的体积.  
-1. 令\\(n = 2\\), \\(\beta_i = 1/\alpha_i \ (i = 1, 2)\\), 证明\\(\|\Omega_\alpha\| = \dfrac{\Gamma(\beta_1 + 1)\Gamma(\beta_2 + 1)}{\Gamma(\beta_1 + \beta_2 + 1)}\\), 由此证明\\(\Gamma(\frac{1}{2}) = \sqrt{\pi}\\).  
+1. 令\\(n = 2\\), \\(\beta_i = 1/\alpha_i \ (i = 1, 2)\\), 证明\\(\|\Omega_\alpha\| = \dfrac{\Gamma(\beta_1 + 1)\Gamma(\beta_2 + 1)}{\Gamma(\beta_1 + \beta_2 + 1)}\\), 由此证明\\(\Gamma(\dfrac{1}{2}) = \sqrt{\pi}\\).  
 2. 任给\\(n \geq 2\\), \\(\beta_i = 1/\alpha_i, \forall 1 \leq i \leq n\\), 证明\\(\|\Omega_\alpha\| = \dfrac{\prod_{1 \leq i \leq n}\Gamma(\beta_i + 1)}{\Gamma(\beta_1 + \cdots + \beta_n + 1)}\\).  
 3. 由此推出\\(\mathbb{R}^n\\)中单位球的体积是\\(\dfrac{\pi^{n/2}}{\Gamma(\frac{n}{2} + 1)}\\), \\(\forall n \geq 1\\).  
 

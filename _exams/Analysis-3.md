@@ -110,12 +110,12 @@ location: "Shanghai, China"
 
 **第7题[10分]** 已知一个平面凸四边形的相邻四边长度依次为\\(5,6,7,8\\)，试用Lagrange乘数法求该四边形可能的最大面积. （提示：不妨记长度\\(5,6\\)两边的内夹角为\\(\theta\\)，长度\\(7,8\\)两边的内夹角为\\(\varphi\\)，以此表达四边形的面积）.
 
-## 2023秋季学期期末考试
+## 2024秋季学期期末考试
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）  
 1. 设 \\( f \\) 在 \\( a \\) 点的所有一阶和二阶偏导存在，那么 \\(\frac{\partial^2 f}{\partial x_i \partial x_j}(a) = \frac{\partial^2 f}{\partial x_j \partial x_i}(a)\\) 当且仅当 \\( f \\) 在 \\( a \\) 处二阶可微.  
 2. 设 \\(\Omega \subset \mathbb{R}^3\\) 是分段光滑的有界区域.设 \\( F \\) 是 \\(\Omega\\) 上的 \\( C^1 \\) 向量场，\\(\vec{n}\\) 是 \\(\partial \Omega\\) 上的单位外法向量，则 \\(\mathrm{rot}(F)\\) 穿过 \\(\partial \Omega\\) 的通量为零.  
-3. 设 \\( I \subset \mathbb{R}\\) 是闭区间，\\( U, V \\) 是 \\(\mathbb{R}^n\\) 中开集.设 \\(\gamma: I \to U\\) 是 \\( C^1 \\) 正则的参数曲线，\\(\varphi: U \to V\\) 是 \\( C^1 \\) 微分同胚，则曲线 \\(\widetilde{\gamma} = \varphi \circ \gamma\\) 的弧长 \\(=\displaystyle \int_I \\| \widetilde{\gamma}'(t) \\| \cdot | \det(\mathrm{Jac}_{\gamma(t)} \varphi)|  \mathrm{d}t \\).  
+3. 设 \\( I \subset \mathbb{R}\\) 是闭区间，\\( U, V \\) 是 \\(\mathbb{R}^n\\) 中开集.设 \\(\gamma: I \to U\\) 是 \\( C^1 \\) 正则的参数曲线，\\(\varphi: U \to V\\) 是 \\( C^1 \\) 微分同胚，则曲线 \\(\widetilde{\gamma} = \varphi \circ \gamma\\) 的弧长 \\(=\displaystyle \int_I \\| \widetilde{\gamma}'(t) \\| \cdot \| \det(\mathrm{Jac}_{\gamma(t)} \varphi)\|  \mathrm{d}t \\).  
 
 **第2题[15分]** 令 \\( D = \\{(x,y) \in \mathbb{R}^2 \mid x,y > 0, \frac{1}{2} < x + y < 1\\} \\)，计算 \\[ \iint_D \exp \left( \frac{x - y}{x + y} \right)  \mathrm{d}x\mathrm{d}y.\\]  
 （提示：利用变量代换 \\( u = x + y, v = x - y \\)）  

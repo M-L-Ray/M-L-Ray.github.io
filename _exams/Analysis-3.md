@@ -25,7 +25,7 @@ location: "Shanghai, China"
 2. 任给\\(n \geq 2\\), \\(\beta_i = 1/\alpha_i, \forall 1 \leq i \leq n\\), 证明\\(\|\Omega_\alpha\| = \dfrac{\prod_{1 \leq i \leq n}\Gamma(\beta_i + 1)}{\Gamma(\beta_1 + \cdots + \beta_n + 1)}\\).  
 3. 由此推出\\(\mathbb{R}^n\\)中单位球的体积是\\(\dfrac{\pi^{n/2}}{\Gamma(\frac{n}{2} + 1)}\\), \\(\forall n \geq 1\\).  
 
-**第5题[20分]** 令\\(\displaystyle\omega(x, y) = \frac{e^{-y}}{x^2 + y^2} \left[ (x \sin x - y \cos x)  \mathrm{d}x + (x \cos x + y \sin x)  \mathrm{d}y \right]\\). 任给\\(R > \epsilon > 0\\), \\(\Omega_{\epsilon,R} = (B_R \backslash B_\epsilon) \cap (\mathbb{R} \times (0, \infty))\\), \\(B_r\\)为以原点为圆心半径\\(r\\)的开球.  
+**第5题[20分]** 令\\(\displaystyle\omega(x, y) = \frac{e^{-y}}{x^2 + y^2} \left[ (x \sin x - y \cos x)  \mathrm{d}x + (x \cos x + y \sin x)  \mathrm{d}y \right]\\). 任给\\(R > \epsilon > 0\\)，记 \\(\Omega_{\epsilon,R} = (B_R \backslash \overline{B_\epsilon}) \cap (\mathbb{R} \times (0, \infty))\\), \\(B_r\\)为以原点为圆心半径\\(r\\)的开球.  
 1. 画图表示\\(\Omega_{\epsilon,R}\\), 标注\\(\partial \Omega_{\epsilon,R}\\)的方向. 证明对任意\\(R > \epsilon > 0\\), \\(\omega\\)沿\\(\partial \Omega_{\epsilon,R}\\)的积分为零.  
 2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  d\theta\\).  
 3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\displaystyle\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\displaystyle\int_0^\infty \frac{\sin x}{x}  \mathrm{d}x = \frac{\pi}{2}\\).  
@@ -68,10 +68,36 @@ location: "Shanghai, China"
 1. 证明\\(G\\)在\\(\Omega=(-1,\infty)\\)上是恰当定义的且连续.
 2. 证明\\(G\in C^1(\Omega)\\)，计算\\(G'(x)\\)，推出\\(G(x)\\)的显式表达.
 
-**第6题[20分]** 设\\(f\\)是\\(\mathdd{R}^n\\)到自身的\\(C^1\\)映射，且\\(f\\)是\\(\lambda\\)-Lipschitz，\\(\lambda\in (0,1)\\)，定义\\(G(x)=x+f(x)\\)
+**第6题[20分]** 设\\(f\\)是\\(\mathbb{R}^n\\)到自身的\\(C^1\\)映射，且\\(f\\)是\\(\lambda\\)-Lipschitz，\\(\lambda\in (0,1)\\)，定义\\(G(x)=x+f(x)\\)
 1. 证明\\(G\\)是单射.
 2. 证明\\(G(\mathbb{R}^n)\\)既开又闭.
 3. 证明\\(G\\)是从\\(\mathbb{R}^n\\)到自身的\\(C^1\\)微分同胚.
 
 **第7题[10分]** 令\\(\Gamma\\)是Eular的Gamma函数，证明任给\\(x,y>0\\)，成立
 \\[x^xy^y\Gamma\left(\frac{x+y}{2}\right)^2\le\left(\frac{x+y}{2}\right)^{x+y}\Gamma(x)\Gamma(y).\\]
+
+## 2023秋季学期期末考试
+
+**第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）
+1. \\(f(x,y)\\)在原点的邻域\\(U\\)存在一阶偏导数，且\\(\partial_x f,\partial_y f\\)在\\((0,0)\\)处可微，则\\(\frac{\partial^2}{\partial x\partial y}(0,0)=\frac{\partial^2}{\partial y\partial x}(0,0).\\)
+2. \\(\Omega\\)是\\(\mathbb{R}^2\\)中的连通区域，\\(F=(P,Q)\in C^1(\Omega,\mathbb{R}^2)\\)，则\\(\Omega\\)上\\(\partial_xQ-\partial_yP\equiv 0\\)当且仅当\\(F\\)是\\(\Omega\\)上的梯度场.
+3. 设\\(\mathbb{R}^3\\)中的向量场\\(F\\)满足\\(\mathrm{rot}(F)\\)在Möbius带\\(\mathcal{M}\\)上恒为零，则\\(F\\)在\\(\partial\mathcal{M}\\)上的第二型曲线积分为零. 
+
+**第2题[12分]** 考虑函数\\(K:\Lambda=[0,1]^2\to\mathbb{R}\\)，定义为\\(\displaystyle K(x,y)=\frac{(1-x)(1-y)}{1-xy}\\)若\\((x,y)\neq (1,1)\\)，\\(K(1,1)=0\\).
+1. 证明\\(K\\)在\\(\Lambda\\)上连续.
+2. \\(K\\)在\\(\Lambda^o\\)中是否有临界点？
+3. 确定\\(\min_\Lambda K\\)和\\(\max_\lambda K\\).
+
+**第3题[12分]** 令\\(D=\\{(x,y)\in\mathbb{R}^2,x^2-y\le 0,y^2-x\le 0\\}\\). 利用变量替换\\(u=x^2/y\\)和\\(v=y^2/x\\)，计算
+\\[\iint_D\exp\left(\frac{x^3+y^3}{xy}\right)\mathrm{d}x\mathrm{d}y.\\]
+
+**第4题[20分]** 令\\(\displaystyle\omega(x, y) = \frac{e^{-y}}{x^2 + y^2} \left[ (x \sin x - y \cos x)  \mathrm{d}x + (x \cos x + y \sin x)  \mathrm{d}y \right]\\). 任给\\(R > \epsilon > 0\\)，记 \\(\Omega_{\epsilon,R} = (B_R \backslash \overline{B_\epsilon}) \cap (\mathbb{R} \times (0, \infty))\\), \\(B_r\\)为以原点为圆心半径\\(r\\)的开球.  
+1. 画图表示\\(\Omega_{\epsilon,R}\\), 标注\\(\partial \Omega_{\epsilon,R}\\)的方向. 证明对任意\\(R > \epsilon > 0\\), \\(\omega\\)沿\\(\partial \Omega_{\epsilon,R}\\)的积分为零.  
+2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  d\theta\\).  
+3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\displaystyle\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\displaystyle\int_0^\infty \frac{\sin x}{x}  \mathrm{d}x = \frac{\pi}{2}\\).  
+
+**第5题[15分]**
+
+**第6题[16分]**
+
+**第7题[10分]**

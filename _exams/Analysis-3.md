@@ -28,12 +28,12 @@ location: "Shanghai, China"
 **第5题[20分]** 令\\(\omega(x, y) = \frac{e^{-y}}{x^2 + y^2} \left[ (x \sin x - y \cos x)  dx + (x \cos x + y \sin x)  dy \right]\\). 任给\\(R > \epsilon > 0\\), \\(\Omega_{\epsilon,R} = (B_R \backslash B_\epsilon) \cap (\mathbb{R} \times (0, \infty))\\), \\(B_r\\)为以原点为圆心半径\\(r\\)的开球.  
 1. 画图表示\\(\Omega_{\epsilon,R}\\), 标注\\(\partial \Omega_{\epsilon,R}\\)的方向. 证明对任意\\(R > \epsilon > 0\\), \\(\omega\\)沿\\(\partial \Omega_{\epsilon,R}\\)的积分为零.  
 2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  d\theta\\).  
-3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\int_0^\infty \frac{\sin x}{x}  dx = \frac{\pi}{2}\\).  
+3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\displaystyle\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\int_0^\infty \frac{\sin x}{x}  dx = \frac{\pi}{2}\\).  
 
 **第6题[15分]** 设\\(E = C^\infty(\mathbb{R}^n, \mathbb{R})\\), \\(E^* = L(E, \mathbb{R})\\), \\(\Lambda = \\{ \ell \in E^* \mid \ell(fg) = f(0)\ell(g) + g(0)\ell(f), \forall f, g \in E \\}\\).  
 1. 设\\(\omega \equiv 1\\), 证明对任意\\(\ell \in \Lambda\\), \\(\ell(\omega) = 0\\).  
-2. 给定\\(f \in E\\), 证明存在\\(\varphi \in C^\infty(\mathbb{R}^n, \mathbb{R}^n)\\)使得\\(f(x) = f(0) + \sum_{i=1}^n x^i \varphi^i(x), \forall x \in \mathbb{R}^n\\).  
-3. 给定\\(\ell \in \Lambda\\), 推出存在\\(\alpha \in \mathbb{R}^n\\)使得\\(\ell(f) = \sum_{i=1}^n \alpha^i \frac{\partial f}{\partial x^i}(0)\\). \\(\dim(\Lambda)\\)是多少?  
+2. 给定\\(f \in E\\), 证明存在\\(\varphi \in C^\infty(\mathbb{R}^n, \mathbb{R}^n)\\)使得\\(\displaystyle f(x) = f(0) + \sum_{i=1}^n x^i \varphi^i(x), \forall x \in \mathbb{R}^n\\).  
+3. 给定\\(\ell \in \Lambda\\), 推出存在\\(\alpha \in \mathbb{R}^n\\)使得\\(\displaystyle\ell(f) = \sum_{i=1}^n \alpha^i \frac{\partial f}{\partial x^i}(0)\\). \\(\dim(\Lambda)\\)是多少?  
 
 **第7题[20分]** 设\\(f\\)在\\(\mathbb{R}_ +^2 = (0,\infty) \times (0,\infty)\\)上连续且\\(f \geq 0\\), \\(\xi(x) = \int_0^\infty f(t,x)  dt\\), \\(\displaystyle\eta(t) = \int_0^\infty f(t,x)  dx\\)在\\((0, \infty)\\)上局部可积且在\\(\mathbb{R}_ +\\)上广义可积.  
 1. 设\\((g_n)\\)为\\(I = (0, \infty)\\)上的一列局部可积函数, 满足: \\(g_{n+1} \geq g_n\\), \\(g_n\\)在\\(I\\)上广义可积, \\(g_n \to g\\), \\(g\\)在\\(I\\)上局部可积且广义可积. 证明\\(\displaystyle\lim_{n \to \infty} \int_I g_n(s)  ds = \int_I g(s)  ds\\).  

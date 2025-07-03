@@ -50,10 +50,10 @@ location: "Shanghai, China"
 2. 设\\((f_k)\\)是\\(\Sigma=[0,1]^n\\)上的\\(C^1\\)函数列，满足\\(f_k\rightrightarrows_\Sigma f\\)，则\\(f\in C(\Sigma)\\)，且\\(f\in C^1(\Sigma)\\)当且仅当\\(\mathrm{d}f_k\\)在\\(\Sigma\\)上也是一致收敛的.
 3. 设\\(f\\)是开集\\(\Omega\subset\mathbb{R}^n\\)上的\\(C^1\\)函数，满足\\(\\|\mathrm{d}f(x)\\|\le\ell,\forall x\in \Omega\\)，则\\(f\\)是\\(\Omega\\)上的\\(\ell\\)-Lipschitz函数.
 
-**第2题[20分]** 令\\(E=M_n(\mathbb{R})\\)为\\(n\\)阶实方阵空间，记\\(U=GL_n(\mathbb{R})\\)是实可逆矩阵集合，\\(I_n\\)为单位矩阵.
+**第2题[20分]** 令\\(E=M_n(\mathbb{R})\\)为\\(n\\)阶实方阵空间，记\\(U=GL_n(\mathbb{R})\\)是实可逆阵集合，\\(I_n\\)为单位阵.
 1. 证明\\(U\\)是\\(E\\)中开集.
 2. 考虑\\(E^2\\)上映射\\(\Phi(A,B)=AB-I_n\\)，说明\\(\Phi\in C^\infty(E^2)\\). 给出\\(\Phi\\)的微分.
 3. 详述隐函数定理. 利用该定理和\\(\Phi\\)证明\\(\varphi(M)=M^{-1}\\)是\\(U\\)上的\\(C^\infty\\)映射，并由此计算\\(\mathrm{d}\varphi(M)\\).
 
-**第3题[15分]** 记\\(\mathrm{sh}\\)为双曲正弦函数. 利用新变量\\(u=x+y+z,uv=y+z,uvw=z\\)计算如下积分.
+**第3题[15分]** 记\\(\mathrm{sh}\\)为双曲正弦函数. 利用新变量\\(u=x+y+z,uv=y+z,uvw=z\\)计算积分.
 \\[\iiint_{\\{x,y,z>0,x+y+z<1\\}}\mathrm{sh}\left[(x+y+z)^3\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z.\\]

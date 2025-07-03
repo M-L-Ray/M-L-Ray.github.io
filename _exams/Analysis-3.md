@@ -96,8 +96,16 @@ location: "Shanghai, China"
 2. 设\\(r > 0\\), 证明在参数化\\((r \cos \theta, r \sin \theta)\\)下, \\(\omega \|_{\Gamma_r} = e^{-r \sin \theta} \cos(r \cos \theta)  \mathrm{d}\theta\\).  
 3. 记\\(\Gamma_r = \partial B_r \cap (\mathbb{R} \times (0, \infty))\\), 证明\\(\left\|\displaystyle\lim_{r \to 0^+} \int_{\Gamma_r} \omega \right\|= \pi\\) 和 \\(\displaystyle\lim_{r \to \infty} \int_{\Gamma_r} \omega = 0\\). 由此推出\\(\displaystyle\int_0^\infty \frac{\sin x}{x}  \mathrm{d}x = \frac{\pi}{2}\\).  
 
-**第5题[15分]**
+**第5题[15分]** 考虑\\(yz\\)平面中由\\(y=f(x),z\in I=[a,b]\\)定义的曲线\\(\Gamma\\)，设\\( f\in C^1(I)\\)且\\(f>0\\)，令\\(\Sigma\\)是由\\(\Gamma\\)绕\\(z\\)轴旋转一周得到的曲面.
+1. 证明\\(\Sigma\\)的面积公式为
+\\[\mathcal{A}(\Sigma)=2\pi\int_a^b f(z)\sqrt{f'(z)^2+1}\mathrm{d}z.\\]
+2. 设向量场\\(\vec{v}(x,y,z)=(xz,yz,0)\\)，取\\(\Sigma\\)的定向朝外，证明\\(\vec{v}\\)穿过\\(\Sigma\\)的通量等于\\(\displaystyle 2\pi\int_a^b f(z)^2z\mathrm{d}z.\\)
 
-**第6题[16分]**
+**第6题[16分]** 设\\(f\\)和\\(g\\)是\\(\mathbb{R}_ +\\)上的连续函数. 考虑\\(f\\)和\\(g\\)的卷积\\(h=f * g\\)，定义为
+\\[h(x)=\int_0^x f(x-t)g(t)\mathrm t,\quad\forall x\ge 0\\]
+1. 证明\\(h\\)在\\(\mathbb{R}_ +\\)上连续.
+2. 证明若\\(f\\)或\\(g\\)是\\(\mathbb{R}_ +\\)上的\\(C^1\\)函数，则\\(h\\)也是\\(\mathbb{R}_ +\\)上的\\(C^1\\)函数.
+3. 设\\(f(x)\\)满足\\(\displaystyle\int_0^\infty\|f(x)\|\mathrm{d}x<\infty\\)，且\\(g\\)在\\(\mathbb{R}_ +\\)上有界，证明\\(h \\)在\\(\mathbb{R}_ +\\)上有界.
+4. 令\\(\displaystyle f_0(x)=\frac{\sin x}{x},g_0(x)=\cos x,h_0=f_0 * g_0\\)是否在\\(\mathbb{R}_ +\\)有界？
 
-**第7题[10分]**
+**第7题[10分]** 已知一个平面凸四边形的相邻四边长度依次为\\(5,6,7,8\\)，试用Lagrange乘数法求该四边形可能的最大面积. （提示：不妨记长度\\(5,6\\)两边的内夹角为\\(\theta\\)，长度\\(7,8\\)两边的内夹角为\\(\varphi\\)，以此表达四边形的面积）.

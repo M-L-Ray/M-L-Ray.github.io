@@ -30,7 +30,7 @@ location: "Shanghai, China"
 叙述基本群\\(\pi_1(X,x_0)\\)的定义，并证明其良定性.
 
 **第7题[10分]**
-设拓扑空间\\(X,Y\\)的基本群分别为\\(F(\alpha_1,\cdots,\alpha_n)/[\alpha_1^2\cdots\alpha_n^2]\\)与\\(F(\alpha_1,\beta_1,\cdots,\alpha_n,\beta_n)/[\alpha_1\beta_1\alpha_1^{-1}\beta_1^{-1}\cdots\alpha_{n+1}\beta_{n+1}\alpha_{n+1}^{-1}\beta_{n+1}^{-1}]\\)，试问是否存在\\(\pi_1(X)\\)到\\(\pi_1(Y)\\)的单射？
+设拓扑空间\\(X,Y\\)的基本群分别为\\(F(\alpha_1,\cdots,\alpha_{n+1})/[\alpha_1^2\cdots\alpha_{n+1}^2]\\)与\\(F(\alpha_1,\beta_1,\cdots,\alpha_n,\beta_n)/[\alpha_1\beta_1\alpha_1^{-1}\beta_1^{-1}\cdots\alpha_{n}\beta_{n}\alpha_{n}^{-1}\beta_{n}^{-1}]\\)，试问是否存在\\(\pi_1(X)\\)到\\(\pi_1(Y)\\)的单射？
 
 **第8题[10分]**
 记\\(gT_2\\)挖掉\\(n\\)个圆盘为\\(S_n^g\\)，给出\\(S_{g_1}^{n_1}\\)与\\(S_{g_2}^{n_2}\\)同胚的充要条件.

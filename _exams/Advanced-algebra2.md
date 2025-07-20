@@ -84,8 +84,8 @@ location: "Shanghai, China"
 **【题五：(20')】** 严格证明：
 1. \\(\beta(S_\lambda)\subset S_\lambda,\beta(I_\lambda)\subseteq(I\lambda)\\)。
 2. \\(\min\\{v_2(\dim S_\lambda),v_2(\dim I_\lambda)\\}\le v_2(\dim S)\\)。
-3. 如果\\(v_2(\dim S_\lambda)\le v_2(\dim S)\\)，那么\\(a|_ {S_\lambda},\beta_ {I_\lambda}\\)有公共特征向量。
-4. 如果\\(v_2(\dim S_\lambda)> v_2(\dim S)\\)，那么\\(a|_ {I_\lambda},\beta_ {I_\lambda}\\)有公共特征向量。（注意，这里特征值可能会变）
+3. 如果\\(v_2(\dim S_\lambda)\le v_2(\dim S)\\)，那么\\(a\|_ {S_\lambda},\beta\|_ {I_\lambda}\\)有公共特征向量。
+4. 如果\\(v_2(\dim S_\lambda)> v_2(\dim S)\\)，那么\\(a\|_ {I_\lambda},\beta\|_ {I_\lambda}\\)有公共特征向量。（注意，这里特征值可能会变）
 
 如题五，我们完成了引理3的证明。
 

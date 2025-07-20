@@ -43,7 +43,7 @@ location: "Shanghai, China"
 
 **定理1.** 令\\( f(x)\in\mathbb{C}[x] \\)且\\(\deg f>0\\)，则存在\\(\alpha\in\mathbb{C}\\)使得\\(f(\alpha)=0\\)
 
-**-准备-**
+### -准备-
 我们不妨设\\(f(x)=\displaystyle\sum_{i=0}^na_ix^i\\)，其中\\(a_n=1,n\ge 1\\)。令\\(\overline{f}(x)=\displaystyle\sum_{i=0}^n\overline{a_i}x^i\\)，其中\\(\overline{a_i}\\)是\\(a_i\\)的共轭复数。
 
 **[题一：(20')]** 令\\g(x)=f(x)\cdot\overline{f}(x)\\)，证明：
@@ -62,3 +62,7 @@ location: "Shanghai, China"
 令\\(n\\)是一个正整数，由唯一分解，我们可以写\\(n=2^{r_2}\cdot 3^{r_3}\cdots\\)。定义\\(v_2(n):=r_2\\)。
 
 **[题三：(10')]** 用数分证明“初始”情形：当\\(v_2(n)=0\\)时，定理1（所以定理2）成立。
+
+### -进阶-
+
+令\\(M\\)是所有\\(n\\)级复方阵构成的线性空间。则\\(A\\)诱导了两个线性映射\\(L:M\to M\\)通过\\(X\mapsto A^TX\\)以及\\(R:M\to M\\)通过\\(X\mapsto XA\\)。

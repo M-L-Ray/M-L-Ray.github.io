@@ -79,4 +79,24 @@ location: "Shanghai, China"
 
 **引理3.** 存在\\(0\neq X\in S,\lambda,\mu\in\mathbb{C}\\)使得\\(\alpha(X)=\lambda X,\beta(X)=\mu X\\)。
 
-令\\(S_\lambda\\)是\\(\alpha\\)的\\(\lambda\\)-特征子空间，令\\(I_\lambda=\mathrm{Im}(\lambda\mathrm{id}-\alpha)\\)。显然\\(\alpha(S_\lambda)\subseteq S_{\lambda}\\)以及\\(\alpha(I_\lambda)\subseteq I_\lambda\\)。
+令\\(S_\lambda\\)是\\(\alpha\\)的\\(\lambda\\)-特征子空间，令\\(I_\lambda=\mathrm{Im}(\lambda\cdot\mathrm{id}-\alpha)\\)。显然\\(\alpha(S_\lambda)\subseteq S_{\lambda}\\)以及\\(\alpha(I_\lambda)\subseteq I_\lambda\\)。
+
+**【题五：(20')】** 严格证明：
+1. \\(\beta(S_\lambda)\subset S_\lambda,\beta(I_\lambda)\subseteq(I\lambda)\\)。
+2. \\(\min\\{v_2(\dim S_\lambda),v_2(\dim I_\lambda)\\}\le v_2(\dim S)\\)。
+3. 如果\\(v_2(\dim S_\lambda)\le v_2(\dim S)\\)，那么\\(a|_ {S_\lambda},\beta_ {I_\lambda}\\)有公共特征向量。
+4. 如果\\(v_2(\dim S_\lambda)> v_2(\dim S)\\)，那么\\(a|_ {I_\lambda},\beta_ {I_\lambda}\\)有公共特征向量。（注意，这里特征值可能会变）
+
+如题五，我们完成了引理3的证明。
+
+### -终章-
+
+令\\(t\\)是二次方程\\(x^2-\lambda x+\mu =0\\)的一个复根。考虑如下映射
+\\[\varphi:=(t\cdot\mathrm{id}-L)\circ (t\cdot \mathrm{id}-R):M\to M\\]
+
+**【题六：(15')】** 证明：
+1. \\(\varphi(X)=0\\)，其中\\(X\\)由引理3所得。
+2. \\(t\\)是\\(L\\)或者\\(R\\)的特征值。
+3. \\(t\\)是\\(A\\)的特征值。（我们完成了代数基本定理的证明！）
+
+**【附加：(10')】** 详细阐述作者是如何证明\\(f(x)=x^2-1\\)有根的？（需要写出\\(L\\)和\\(R\\)的特征多项式）

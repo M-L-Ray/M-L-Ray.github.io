@@ -9,7 +9,8 @@ location: "Shanghai, China"
 ---
 主讲：袁海荣教授
 
-## 2024春季学期第一次小测
+<details markdown="1">
+  <summary> 2024春季学期第一次小测</summary>
 
 一、（10分）请叙述并证明Borel-Cantelli定理.
 
@@ -41,8 +42,10 @@ location: "Shanghai, China"
 7. 由此证明：\\(\mathcal{S}\subset\mathcal{A}\\)，并证明\\(\mathcal{S}\\)是\\(\pi\\)-系.
 8. 证明：\\(\mathcal{S}\\)是\\(\sigma\\)-代数.
 9. 证明：\\(S(\mathcal{P})\subset \mathcal{L}\\).
+</details>
 
-## 2025春季学期第二次小测
+<details markdown="1">
+  <summary> 2025春季学期第二次小测</summary>
 
 一、（15分）证明：对任何给定的非负可测函数，都存在一列非负的单调递增的简单函数列处处收敛于它.
 
@@ -61,8 +64,10 @@ location: "Shanghai, China"
 \\[\lim_{n\to\infty}\int_0^1\cdots\int_0^1f(\frac{x_1+\cdots+x_n}{n})\mathrm{d}x_1\cdots \mathrm{d}x_n=f(\frac{1}{2}).\\]
 
 七、（10分）设\\(E\\)是测度空间\\((X,\mathcal{R},\mu)\\)上测度有限的集. 证明：函数\\(f\\)在\\(E\\)上可积的充分必要条件是\\(\sum_{n=1}^\infty n\mu(E_n)<\infty\\)，其中\\(E_n=E(n\le\|f\|<n+1).\\)
+</details>
 
-## 2025春季学期期末考试
+<details markdown="1">
+  <summary> 2025春季学期期末考试</summary>
 
 一、叙述并证明Helly选取原理.
 
@@ -76,3 +81,4 @@ location: "Shanghai, China"
 \\[\int_X\nu(E_x)\mathrm{d}\mu=\int_Y\mu(E^y)\mathrm{d}\nu.\\]
 
 六、证明Лузин（鲁津）定理.
+</details>

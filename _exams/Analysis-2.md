@@ -8,6 +8,7 @@ date: 2025-06-23
 location: "Shanghai, China"
 ---
 主讲：某教授
+
 <details markdown="1">
   <summary> 2025春季学期期中考试</summary>
 

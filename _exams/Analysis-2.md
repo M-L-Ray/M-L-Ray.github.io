@@ -9,7 +9,7 @@ location: "Shanghai, China"
 ---
 主讲：某教授
 <details markdown="1">
-  <summary markdown="1">2025春季学期期中考试</summary>
+  <summary markdown="1">##2025春季学期期中考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
 1. \\([a,b]\\)上的任意单调函数一定在\\([a,b]\\)上Riemann可积；
@@ -46,7 +46,7 @@ location: "Shanghai, China"
 </details>
 
 <details markdown="1">
-  <summary markdown="1">2025春季学期期末考试</summary>
+  <summary markdown="1">##2025春季学期期末考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
 1. 设\\(\sum u_n\\)收敛，且\\(-\|u_n\|\le v_n \le \|u_n\|\\)，则\\(\sum v_n\\)收敛.

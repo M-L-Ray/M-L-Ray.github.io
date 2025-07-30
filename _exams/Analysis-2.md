@@ -8,8 +8,9 @@ date: 2025-06-23
 location: "Shanghai, China"
 ---
 主讲：某教授
+<details>
+  <summary>## 2025春季学期期中考试</summary>
 
-## 2025春季学期期中考试
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
 1. \\([a,b]\\)上的任意单调函数一定在\\([a,b]\\)上Riemann可积；
@@ -43,6 +44,7 @@ location: "Shanghai, China"
 1. 证明任给\\(n\ge 2\\)，存在\\([a,b]\\)的唯一分割\\(x_0=a<x_1<\dots<x_n=b\\)使得
 \\[\int_{x_k}^{x_{k+1}}f(t)\mathrm{d}t=\frac{1}{n}\int_a^bf(t)\mathrm{d}t,\quad \forall 0\le k\le n-1.\\]
 2. 记\\(\displaystyle w_n=\frac{1}{n}\sum_{k=1}^n f(x_k)\\)，求极限\\(\displaystyle\lim_{n\to\infty}w_n.\\)
+</details>
 
 ## 2025春季学期期末考试
 

@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<span id="busuanzi_container_site_pv">欢迎您的到来，截至目前，本站总访问人数：<span id="busuanzi_value_site_uv"></span> .</span>
+欢迎您的到来，如果网页卡顿可以借助VPN，另外推荐使用电脑浏览器以90%尺寸浏览！
 
 我是谁？
 ------

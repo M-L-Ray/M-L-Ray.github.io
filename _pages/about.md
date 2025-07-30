@@ -6,6 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<span id="busuanzi_container_site_pv">Total visits to this site: <span id="busuanzi_value_site_uv"></span></span>
+
 我是谁？
 ------
 [华东师范大学](https://math.ecnu.edu.cn/)23级数学与应用数学在读本科生，爱好是数学，吉他，睡觉。

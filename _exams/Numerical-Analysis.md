@@ -9,7 +9,8 @@ location: "Shanghai, China"
 ---
 主讲：王元明教授
 
-## 2025春季学期第一次小测
+<details markdown="1">
+  <summary> 2025春季学期第一次小测</summary>
 
 **第1题[8分]**
 求\\(x=0.0123456\\)至少有\\(3\\)位有效数字的近似数.
@@ -28,8 +29,10 @@ location: "Shanghai, China"
 
 **第5题[10分]**
 设\\(p_2(x)=ax^2+bx+c\\)是关于\\(\cos (x)\\)关于节点\\(x_0=0,x_1=1,x_2=2\\)的二次插值多项式，写出并证明余项\\(R_2(x)=\cos(x)-p_2(x),(x\in(0,2))\\)的表达式.
+</details>
 
-## 2025春季学期第二次小测
+<details markdown="1">
+  <summary> 2025春季学期第二次小测</summary>
 
 **第1题[10分]**
 写出首项系数为1的切比雪夫多项式\\(\tilde{T}_n(x)\\)的递推公式.
@@ -47,8 +50,10 @@ location: "Shanghai, China"
 确定\\(A,B,C,\alpha\\)，使得积分公式
 \\[\int_{-1}^1 f(x)\mathrm{d}x\approx Af(\alpha)+Bf(0)+Cf(-\alpha)\\]
 具有尽可能高的代数精度，并求此代数精度.
+</details>
 
-## 2025春季学期第三次小测
+<details markdown="1">
+  <summary> 2025春季学期第三次小测</summary>
 
 **第1题[10分]**
 设\\(f(x)\in C^4[0,1]\\)，证明如下数值积分公式：
@@ -66,3 +71,4 @@ location: "Shanghai, China"
 **第4题[10分]**
 用追赶法求解如下三对角线性方程组：
 \\[\begin{pmatrix}2&1& & \\\1&3&1&\\\&1&1&1\\\&&2&1 \end{pmatrix}\begin{pmatrix}x_1\\\x_2\\\x_3\\\x_4\end{pmatrix}=\begin{pmatrix}1\\\2\\\2\\\0 \end{pmatrix}.\\]
+</details>

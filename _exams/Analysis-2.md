@@ -8,7 +8,7 @@ date: 2025-06-23
 location: "Shanghai, China"
 ---
 主讲：某教授
-<details>
+<details markdown="1">
   <summary>2025春季学期期中考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
@@ -45,7 +45,7 @@ location: "Shanghai, China"
 2. 记\\(\displaystyle w_n=\frac{1}{n}\sum_{k=1}^n f(x_k)\\)，求极限\\(\displaystyle\lim_{n\to\infty}w_n.\\)
 </details>
 
-<details>
+<details markdown="1">
   <summary>2025春季学期期末考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）

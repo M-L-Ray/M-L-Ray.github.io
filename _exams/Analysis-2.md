@@ -9,8 +9,7 @@ location: "Shanghai, China"
 ---
 主讲：某教授
 <details>
-  <summary>## 2025春季学期期中考试</summary>
-
+  <summary>2025春季学期期中考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
 1. \\([a,b]\\)上的任意单调函数一定在\\([a,b]\\)上Riemann可积；
@@ -46,7 +45,8 @@ location: "Shanghai, China"
 2. 记\\(\displaystyle w_n=\frac{1}{n}\sum_{k=1}^n f(x_k)\\)，求极限\\(\displaystyle\lim_{n\to\infty}w_n.\\)
 </details>
 
-## 2025春季学期期末考试
+<details>
+  <summary>2025春季学期期末考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
 1. 设\\(\sum u_n\\)收敛，且\\(-\|u_n\|\le v_n \le \|u_n\|\\)，则\\(\sum v_n\\)收敛.
@@ -81,3 +81,4 @@ location: "Shanghai, China"
 **第8题[10分]** 设实数列\\((x_n)_ {n\ge 1}\\)满足\\(\displaystyle\lim_{n\to\infty}\frac{x_{n+1}}{x_n}=1\\)，且\\(a\le\dfrac{x_{2n}}{x_n}\le b\\)对足够大的\\(n\\)成立，其中\\(a,b>0\\)为常数，证明
 1. 当\\(b<\dfrac{1}{2}\\)时，\\(\displaystyle\sum_{n=1}^\infty x_n\\)收敛；
 2. 当\\(a>\dfrac{1}{2}\\)时，\\(\displaystyle\sum_{n=1}^\infty x_n\\)发散.
+</details>

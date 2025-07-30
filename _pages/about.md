@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<span id="busuanzi_container_site_pv">欢迎，您是第 <span id="busuanzi_value_site_uv"></span>位到访的用户</span>
+<span id="busuanzi_container_site_pv">欢迎，您是第 <span id="busuanzi_value_site_uv"></span> 位到访的用户</span>
 
 我是谁？
 ------

@@ -9,7 +9,8 @@ location: "Shanghai, China"
 ---
 主讲：叶东教授
 
-## 2020秋季学期期末考试
+<details markdown="1">
+  <summary>2020秋季学期期末考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）  
 1. \\(\Omega\\)是\\(\mathbb{R}^2\\)中开集. 若\\(F=(P,Q)\in C^1(\Omega,\mathbb{R}^2)\\)满足在\\(\Omega\\)上\\(\partial_x Q - \partial_y P \equiv 0\\)，则\\(F\\)是\\(\Omega\\)上的梯度场.  
@@ -41,8 +42,10 @@ location: "Shanghai, China"
 2. 证明: 对任意\\(A > 0\\), \\(\displaystyle\int_0^A \xi(x)  \mathrm{d}x = \int_0^\infty \left( \int_0^A f(t,x)  \mathrm{d}x \right)  \mathrm{d}t\\).  
 3. 证明\\(\displaystyle\int_0^\infty \xi(x)  \mathrm{d}x = \int_0^\infty \eta(t)  \mathrm{d}t\\).  
 4. 考虑\\(\displaystyle f(t,x) = \frac{1}{(1+t)(1+tx^2)}\\), 计算\\(\displaystyle\int_0^\infty \frac{\ln x}{x^2-1}  \mathrm{d}x\\).
+</details>
 
-## 2022秋季学期期末考试
+<details markdown="1">
+  <summary>2022秋季学期期末考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）
 1. 设\\(f_t(\cdot) (t\in\Lambda)\\)是\\(\mathbb{R}_ +\\)上一族连续且广义可积的函数，若存在连续函数\\(g\\)使得\\(\|f_t(x)\|\le g(x)\\)对任意\\(t\in\Lambda,x\in\mathbb{R}_ +\\)成立，那么广义积分
@@ -75,8 +78,10 @@ location: "Shanghai, China"
 
 **第7题[10分]** 令\\(\Gamma\\)是Eular的Gamma函数，证明任给\\(x,y>0\\)，成立
 \\[x^xy^y\Gamma\left(\frac{x+y}{2}\right)^2\le\left(\frac{x+y}{2}\right)^{x+y}\Gamma(x)\Gamma(y).\\]
+</details>
 
-## 2023秋季学期期末考试
+<details markdown="1">
+  <summary>2023秋季学期期末考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）
 1. \\(f(x,y)\\)在原点的邻域\\(U\\)存在一阶偏导数，且\\(\partial_x f,\partial_y f\\)在\\((0,0)\\)处可微，则\\(\frac{\partial^2}{\partial x\partial y}(0,0)=\frac{\partial^2}{\partial y\partial x}(0,0).\\)
@@ -109,8 +114,10 @@ location: "Shanghai, China"
 4. 令\\(\displaystyle f_0(x)=\frac{\sin x}{x},g_0(x)=\cos x,h_0=f_0 * g_0\\)是否在\\(\mathbb{R}_ +\\)有界？
 
 **第7题[10分]** 已知一个平面凸四边形的相邻四边长度依次为\\(5,6,7,8\\)，试用Lagrange乘数法求该四边形可能的最大面积. （提示：不妨记长度\\(5,6\\)两边的内夹角为\\(\theta\\)，长度\\(7,8\\)两边的内夹角为\\(\varphi\\)，以此表达四边形的面积）.
+</details>
 
-## 2024秋季学期期末考试
+<details markdown="1">
+  <summary>2024秋季学期期末考试</summary>
 
 **第1题[15分]** 判断下列陈述是否正确，并简述理由（每题判断3分，理由2分）  
 1. 设 \\( f \\) 在 \\( a \\) 点的所有一阶和二阶偏导存在，那么 \\(\frac{\partial^2 f}{\partial x_i \partial x_j}(a) = \frac{\partial^2 f}{\partial x_j \partial x_i}(a)\\) 当且仅当 \\( f \\) 在 \\( a \\) 处二阶可微.  
@@ -139,3 +146,4 @@ location: "Shanghai, China"
 证明：在 \\(\mathbb{R}^3\\) 上 \\( R \equiv 0 \\)，且 \\(\dfrac{\partial P}{\partial x} + \dfrac{\partial Q}{\partial y}\equiv 0\\).  
 
 **第7题[10分]** 设 \\( f : \mathbb{R}^n \to \mathbb{R}^n \\) 是 \\( C^1 \\) 映射.证明：\\(\mathrm{Jac}_x f\\) 在 \\(\mathbb{R}^n\\) 上处处是对称矩阵当且仅当 \\( f \\) 是梯度场，即存在 \\(\varphi \in C^2(\mathbb{R}^n)\\) 使得 \\( f = \nabla \varphi \\).
+</details>

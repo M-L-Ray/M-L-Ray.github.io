@@ -10,7 +10,7 @@ location: "Shanghai, China"
 主讲：苗俊杰副教授，戴浩辉副教授
 
 <details markdown="1">
-  <summary> 2023春季学期小测一</summary>
+  <summary> 2023秋季学期小测一</summary>
   
 **第1题[20分]** 判断下列陈述是否正确，并简述理由（判断2分，理由3分）
 1. 给定数列\\(\\{a_n\\}\\)和实数\\(a\\)，若对任意\\(\varepsilon>0\\)，在\\(U(a,\varepsilon)\\)中总包含\\(\\{a_n\\}\\)中的无穷多项，则数列\\(\\{a_n\\}\\)以\\(a\\)为极限；

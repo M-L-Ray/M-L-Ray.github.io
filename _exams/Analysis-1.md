@@ -1,5 +1,5 @@
 ---
-title: "数学分析II"
+title: "数学分析I"
 collection: exams
 type: "Undergraduate course"
 permalink: /exams/analysis-1

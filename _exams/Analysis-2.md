@@ -14,7 +14,7 @@ location: "Shanghai, China"
   
 **第1题[28分]** 判断下列陈述是否正确，并简述理由（判断4分，理由3分）
 1. 设数列\\(\\{a_n\\},\\{b_n\\}\\)均有界，则
-\\(\varliminf\limits_{n\to\infty} (a_n+b_n)=\varliminf\limits_{n\to\infty} a_n+\liminf\limits_{n\to\infty} b_n.\\)
+\\(\varliminf\limits_{n\to\infty} (a_n+b_n)=\varliminf\limits_{n\to\infty} a_n+\varliminf\limits_{n\to\infty} b_n.\\)
 2. 若数列\\(\\{a_n\\}\\)有界，\\(\varlimsup\limits_{n\to\infty}a_n>0\\)，则\\(\ \exists\ N\\)，当\\(n>N\\)时，\\(a_n>0.\\)
 3. 若定义在\\(\mathbb{R}\\)上的连续函数\\(f(x)\\)是周期函数，则\\(f(x)\\)的原函数\\(F(x)\\)一定是周期函数.
 4. 若定义在\\(\mathbb{R}\\)上的连续函数\\(f(x)\\)是偶函数，则\\(f(x)\\)的原函数\\(F(x)\\)一定是奇函数.

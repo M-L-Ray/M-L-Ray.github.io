@@ -23,6 +23,10 @@ location: "Shanghai, China"
 1. 利用辗转相除法求\\(f(x),g(x)\\)的最大公因式\\((f,g)\\)（需写出辗转相除法过程）；
 2. 求次数最小的\\(u,v\in \mathbb{Q}[x]\\)，满足\\(uf+vg=(f,g)\\).
 
-**第4题[20分]** 求次数最小的多项式\\(f\(x\)\in K[x]\\)，满足如下方程组\\[\begin{cases} f(x)\equiv 2x+4&(\mod x+1),\\\f(x)\equiv 2x^2+2x&(\mod x^2+1),\\\f(x)\equiv 3x^2+1&(\mod x).\\]
+**第4题[20分]** 求次数最小的多项式\\(f\(x\)\in K[x]\\)，满足如下方程组\\[\begin{cases} f(x)\equiv 2x+4&(\mod x+1),\\\f(x)\equiv 2x^2+2x&(\mod x^2+1),\\\f(x)\equiv 3x^2+1&(\mod x).\end{cases}\\]
+
+**第5题[20分]** 设\\[f(x)=8x^6+4x^5-14x^4-9x^3+5x^2+5x+1.\\]
+1. 求\\(f(x)\\)的所有有理根，并指出它们的重数；
+2. 求\\(f(x)\\)在\\(x=1\\)处的Taylor展开式.
 
 <details markdown="1">

@@ -75,13 +75,13 @@ location: "Shanghai, China"
   
 **第1题[20分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
 1. 若\\(f(x)\le g(x),\forall x\in[a,+\infty)\\)，无穷积分\\(\displaystyle\int_a^{+\infty}g(x)\ \mathrm{d}x\\)收敛，则无穷积分\\(\displaystyle\int_a^{+\infty}f(x)\ \mathrm{d}x\\)收敛.
-2. 若非负无穷积分\\(\displaystyle\int_a^{+\infty}f(x)\ \mathrm{d}x\\)收敛，则\\(\ \exist\ p>1\\)，使得极限\\(\lim\limits_{x\to+\infty}x^p f(x)\\)存在.
+2. 若非负无穷积分\\(\displaystyle\int_a^{+\infty}f(x)\ \mathrm{d}x\\)收敛，则\\(\ \exists\ p>1\\)，使得极限\\(\lim\limits_{x\to+\infty}x^p f(x)\\)存在.
 3. 若\\(u_n>0,\forall n\\)，数项级数\\(\sum u_n\\)收敛，则\\(\ \exists\ N,\ n>N\\)时\\(\dfrac{u_{n+1}}{u_n}\le q\\)，其中\\(q\in [0,1)\\).
 4. 若\\(u_n\ge 0,\forall n\\)，且\\(\ \exists\ N\in\mathbb{N}_+\\)，当\\(n>N\\)时，\\(\sqrt[n]{u_n}<1\\)，则\\(\sum u_n\\)收敛.
 
 **第2题[10分]** 计算下列反常积分的值：
 1. \\(\displaystyle\int_1^{+\infty}e^{-x}\cos x\ \mathrm{d}x\\);
-2. \\(\displaystyle\int_0^2\frac{1}{x^{frac{2}{3}}}\ \mathrm{d}x\\).
+2. \\(\displaystyle\int_0^2\frac{1}{x^{\frac{2}{3}}}\ \mathrm{d}x\\).
 
 **第3题[10分]** 计算下列数项级数的和：
 1. \\(\displaystyle\sum_{n=1}^\infty\frac{2+(-1)^n}{4^n}\\);

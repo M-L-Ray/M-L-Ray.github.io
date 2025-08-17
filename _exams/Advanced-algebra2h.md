@@ -2,7 +2,7 @@
 title: "高等代数II"
 collection: exams
 type: "Undergraduate course"
-permalink: /exams/Advanced-algebra2
+permalink: /exams/Advanced-algebra2h
 venue: "ECNU"
 date: 2024-06-24
 location: "Shanghai, China"

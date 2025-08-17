@@ -85,15 +85,15 @@ location: "Shanghai, China"
 
 **第3题[10分]** 计算下列数项级数的和：
 1. \\(\displaystyle\sum_{n=1}^\infty\frac{2+(-1)^n}{4^n}\\);
-2. \\(\displaystyle\sum_{n=1}^\infty\frac{n}{(n+1)(n+2)(n+3)}\\)
+2. \\(\displaystyle\sum_{n=1}^\infty\frac{n}{(n+1)(n+2)(n+3)}\\).
 
 **第4题[10分]** 讨论下列反常积分的敛散性：
-1. \\(\displaystyle\int_1^{+\infty}\frac{x^2}{2^x}\ \mathrm{d}x\\)
-2. \\(\displaystyle\int_0^1\frac{\arctan x}{\sqrt{x}\ln(1+x)}\ \mathrm{d}x\\)
+1. \\(\displaystyle\int_1^{+\infty}\frac{x^2}{2^x}\ \mathrm{d}x\\);
+2. \\(\displaystyle\int_0^1\frac{\arctan x}{\sqrt{x}\ln(1+x)}\ \mathrm{d}x\\).
 
 **第5题[10分]** 讨论下列数项级数的敛散性：
-1. \\(\displaystyle\sum_{n=1}^\infty\frac{1}{2^{\ln n}\\)
-2. \\(\displaystyle\sum_{n=2}^\infty\frac{1}{\sqrt{n}+(-1)^n}\\)
+1. \\(\displaystyle\sum_{n=1}^\infty\frac{1}{2^{\ln n}\\);
+2. \\(\displaystyle\sum_{n=2}^\infty\frac{1}{\sqrt{n}+(-1)^n}\\).
 
 **第6题[10分]** 证明瑕积分\\(\displaystyle\int_0^1\frac{\ln x}{x^p}\ \mathrm{d}x\\)当\\(0<p<1\\)时收敛.
 

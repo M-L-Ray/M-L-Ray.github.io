@@ -33,7 +33,7 @@ location: "Shanghai, China"
 
 **第4题[12分]** 证明，若数列\\(\\{ a_n\\}\\)有界，\\(\varliminf\limits_{n\to\infty} a_n>0\\)，则\\(\exists~N\\)，当\\(n>N\\)时，\\(a_n>0.\\)
 
-**第5题[12分]** 证明，若数列\\(\\{ a_n\\}\\)有界，则\\(A=\varlimsup_{n\to\infty}a_n\\)的充要条件是\\(A=\inf\limits_{n}\sup\limits_{k\ge n}\\{a_k\\}\\).
+**第5题[12分]** 证明，若数列\\(\\{ a_n\\}\\)有界，则\\(A=\varlimsup\limits_{n\to\infty}a_n\\)的充要条件是\\(A=\inf\limits_{n}\sup\limits_{k\ge n}\\{a_k\\}\\).
 
 </details>
 
@@ -92,7 +92,7 @@ location: "Shanghai, China"
 2. \\(\displaystyle\int_0^1\frac{\arctan x}{\sqrt{x}\ln(1+x)}\ \mathrm{d}x\\)
 
 **第5题[10分]** 讨论下列数项级数的敛散性：
-1. \\(\displaystyle\sum_{n=1}^\infty\frac{1}{2^{ln n}\\)
+1. \\(\displaystyle\sum_{n=1}^\infty\frac{1}{2^{\ln n}\\)
 2. \\(\displaystyle\sum_{n=2}^\infty\frac{1}{\sqrt{n}+(-1)^n}\\)
 
 **第6题[10分]** 证明瑕积分\\(\displaystyle\int_0^1\frac{\ln x}{x^p}\ \mathrm{d}x\\)当\\(0<p<1\\)时收敛.

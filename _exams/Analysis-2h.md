@@ -1,8 +1,8 @@
 ---
-title: "数学分析II"
+title: "数学分析II(H)"
 collection: exams
 type: "Undergraduate course"
-permalink: /exams/analysis-2
+permalink: /exams/analysis-2h
 venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"

@@ -20,13 +20,13 @@ location: "Shanghai, China"
 
 **第2题[10分]** 写出下确界的定义，并对给定的非空有界集合\\(A\\)与\\(B\\)，证明\\(\inf(A\cup B)=\min\\{\inf A,\inf B\\}.\\)
 
-**第3题[10分]** 给定数列\\(\\{a_n\\}\\）和实数\\(a\\)，若对任意\\(k\in\mathbb{N}_+\\)，存在\\(N>0\\)，使得对任意\\(n>N\\)，都有\\(|a_n-a|<\frac{1}{10^k}\\). 证明\\(\lim\limits_{n\to+\infty}a_n=a.\\) 
+**第3题[10分]** 给定数列\\(\\{a_n\\}\\）和实数\\(a\\)，若对任意\\(k\in\mathbb{N}_ +\\)，存在\\(N>0\\)，使得对任意\\(n>N\\)，都有\\(\|a_n-a\|<\frac{1}{10^k}\\). 证明\\(\lim\limits_{n\to+\infty}a_n=a.\\) 
 
-**第4题[10分]** 写出数列极限的\\(\varepsilon-N\\)定义，并用其证明\\(\lim_{n\to+\infty}\frac{6n^2+7}{4n^2+4n+1}=\frac{3}{2}.\\)
+**第4题[10分]** 写出数列极限的\\(\varepsilon-N\\)定义，并用其证明\\(\lim\limits_{n\to+\infty}\frac{6n^2+7}{4n^2+4n+1}=\frac{3}{2}.\\)
 
 **第5题[10分]** 证明数集\\(\\{x\in\mathbb{Q}:x^2\le 2\\}\\)没有最大元.
 
-**第6题[10分]** 写出非正常极限\\(\lim\limits_{n\to\infty}a_n=\infty\\)的定义，并用其证明\\(\lim\limits_{n\to\infty} (-n)^n=\infty\\).
+**第6题[10分]** 写出非正常极限\\(\lim\limits_{n\to+\infty}a_n=\infty\\)的定义，并用其证明\\(\lim\limits_{n\to\infty} (-n)^n=\infty\\).
 
 **第7题[10分]** 设\\[a_n=\sqrt{1+\sqrt{2+\cdots+\sqrt{n}}}\\]证明\\(\\{a_n\\}\\)收敛.
 

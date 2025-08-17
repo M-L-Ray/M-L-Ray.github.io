@@ -1,5 +1,5 @@
 ---
-title: "高等代数II"
+title: "高等代数II(H)"
 collection: exams
 type: "Undergraduate course"
 permalink: /exams/Advanced-algebra2h

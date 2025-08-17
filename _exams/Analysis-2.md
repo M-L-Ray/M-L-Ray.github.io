@@ -42,7 +42,7 @@ location: "Shanghai, China"
   
 **第1题[20分]** 计算下列定积分
 1. \\(\displaystyle \int_{-1}^4 \cos x e^{\sin x}\ \mathrm{d}x\\);
-2. \\(\displaystyle \int_-2^2 x\cos^4x\ \mathrm{d}x\\);
+2. \\(\displaystyle \int_{-2}^2 x\cos^4x\ \mathrm{d}x\\);
 3. \\(\displaystyle \int_0^1 \frac{\mathrm{d}x}{(1+x^2)^2}\\);
 4. \\(\displaystyle \int_2^3  x\ln x\ \mathrm{d}x\\).
 

@@ -80,7 +80,7 @@ location: "Shanghai, China"
 4. 若\\(u_n\ge 0,\forall n\\)，且\\(\ \exists\ N\in\mathbb{N}_+\\)，当\\(n>N\\)时，\\(\sqrt[n]{u_n}<1\\)，则\\(\sum u_n\\)收敛.
 
 **第2题[10分]** 计算下列反常积分的值：
-1. \\( \displaystyle \int_1^{+\infty}e^{-x}\cos x\ \mathrm{d}x\\);
+1. \\(\displaystyle \int_1^{+\infty}e^{-x}\cos x\ \mathrm{d}x\\);
 2. \\(\displaystyle\int_0^2\frac{1}{x^{\frac{2}{3}}}\ \mathrm{d}x\\).
 
 **第3题[10分]** 计算下列数项级数的和：

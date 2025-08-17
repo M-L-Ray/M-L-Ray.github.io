@@ -26,7 +26,7 @@ location: "Shanghai, China"
 
 **第5题[10分]** 证明数集\\(\\{x\in\mathbb{Q}:x^2\le 2\\}\\)没有最大元.
 
-**第6题[10分]** 写出非正常极限\\(\lim\limits_{n\to+\infty}a_n=\infty\\)的定义，并用其证明\\(\lim\limits_{n\to\infty} (-n)^n=\infty\\).
+**第6题[10分]** 写出非正常极限\\(\lim\limits_{n\to+\infty}a_n=\infty\\)的定义，并用其证明\\(\lim\limits_{n\to+\infty} (-n)^n=\infty\\).
 
 **第7题[10分]** 设\\[a_n=\sqrt{1+\sqrt{2+\cdots+\sqrt{n}}}\\]证明\\(\\{a_n\\}\\)收敛.
 

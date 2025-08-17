@@ -24,7 +24,7 @@ location: "Shanghai, China"
 2. 求次数最小的\\(u,v\in \mathbb{Q}[x]\\)，满足\\(uf+vg=(f,g)\\).
 
 **第4题[20分]** 求次数最小的多项式\\(f\(x\)\in K[x]\\)，满足如下方程组
-\\[\begin{cases} f(x)\equiv 2x+4&(\pmod x+1),\\\f(x)\equiv 2x^2+2x&(\pmod x^2+1),\\\f(x)\equiv 3x^2+1&(\pmod x^3).\end{cases}\\]
+\\[\begin{cases} f(x)\equiv 2x+4&\pmod{x+1},\\\f(x)\equiv 2x^2+2x&\pmod{x^2+1},\\\f(x)\equiv 3x^2+1&\pmod{x^3}.\end{cases}\\]
 
 **第5题[20分]** 设\\[f(x)=8x^6+4x^5-14x^4-9x^3+5x^2+5x+1.\\]
 1. 求\\(f(x)\\)的所有有理根，并指出它们的重数；

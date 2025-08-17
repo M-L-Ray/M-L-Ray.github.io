@@ -37,4 +37,4 @@ location: "Shanghai, China"
 **可选附加题[10分](Mason定理)** 设\\(f(x)\in\mathbb{C}[x]\\)，用\\(n_0(f)\\)表示多项式\\(f(x)\\)的不同根的个数. 
 假设\\(g,h\in \mathbb{C}[x]\\)满足\\(f+g+h=0\\)以及\\((g,h)=1\\)，证明\\[\max\\{\deg f,\deg g,\deg h\\}\le n_0(fgh)-1.\\]
 
-<details markdown="1">
+</details>

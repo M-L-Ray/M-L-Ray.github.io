@@ -10,7 +10,7 @@ location: "Shanghai, China"
 主讲：苗俊杰副教授，戴浩辉副教授
 
 <details markdown="1">
-  <summary> 2025春季学期小测一</summary>
+  <summary> 2025春季学期第一次小测</summary>
   
 **第1题[28分]** 判断下列陈述是否正确，并简述理由（判断4分，理由3分）
 1. 设数列\\(\\{a_n\\},\\{b_n\\}\\)均有界，则
@@ -38,7 +38,7 @@ location: "Shanghai, China"
 </details>
 
 <details markdown="1">
-  <summary> 2025春季学期小测二</summary>
+  <summary> 2025春季学期第二次小测</summary>
   
 **第1题[20分]** 计算下列定积分
 1. \\(\displaystyle \int_{-1}^4 \cos x e^{\sin x}\ \mathrm{d}x\\);
@@ -71,7 +71,7 @@ location: "Shanghai, China"
 </details>
 
 <details markdown="1">
-  <summary> 2025春季学期小测三</summary>
+  <summary> 2025春季学期第三次小测</summary>
   
 **第1题[20分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
 1. 若\\(f(x)\le g(x),\forall x\in[a,+\infty)\\)，无穷积分\\(\displaystyle\int_a^{+\infty}g(x)\ \mathrm{d}x\\)收敛，则无穷积分\\(\displaystyle\int_a^{+\infty}f(x)\ \mathrm{d}x\\)收敛.

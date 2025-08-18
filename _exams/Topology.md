@@ -1,8 +1,8 @@
 ---
-title: "拓扑学"
+title: "拓扑学(H)"
 collection: exams
 type: "Undergraduate course"
-permalink: /exams/topology
+permalink: /exams/topologyh
 venue: "ECNU"
 date: 2025-06-25
 location: "Shanghai, China"

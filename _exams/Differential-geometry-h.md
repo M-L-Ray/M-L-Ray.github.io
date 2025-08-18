@@ -55,4 +55,3 @@ location: "Shanghai, China"
 
 **第5题[10分]** 若两条空间曲线之间存在一一对应，且第一条曲线的主法线与另一条曲线的副法线重合，我们称第一条曲线为Mannheim曲线. 请证明如果一条曲线是Mannheim曲线，则存在常数\\(\lambda \in\mathbb{R}\\)，使得对曲线的曲率\\(\kappa\\)与挠率\\(\tau\\)，有\\[\kappa=\lambda(\kappa^2+\tau^2).\\]
 </details>
-</details>

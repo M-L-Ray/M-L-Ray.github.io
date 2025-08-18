@@ -20,9 +20,9 @@ location: "Shanghai, China"
 
 **第2题[10分]** 写出下确界的定义，并对给定的非空有界集合\\(A\\)与\\(B\\)，证明\\(\inf(A\cup B)=\min\\{\inf A,\inf B\\}.\\)
 
-**第3题[10分]** 给定数列\\(\\{a_n\\}\\)和实数\\(a\\)，若对任意\\(k\in\mathbb{N}_ +\\)，存在\\(N>0\\)，使得对任意\\(n>N\\)，都有\\(\|a_n-a\|<\frac{1}{10^k}\\). 证明\\(\lim\limits_{n\to+\infty}a_n=a.\\) 
+**第3题[10分]** 给定数列\\(\\{a_n\\}\\)和实数\\(a\\)，若对任意\\(k\in\mathbb{N}_ +\\)，存在\\(N>0\\)，使得对任意\\(n>N\\)，都有\\(\|a_n-a\|<\dfrac{1}{10^k}\\). 证明\\(\lim\limits_{n\to+\infty}a_n=a.\\) 
 
-**第4题[10分]** 写出数列极限的\\(\varepsilon-N\\)定义，并用其证明\\(\lim\limits_{n\to+\infty}\frac{6n^2+7}{4n^2+4n+1}=\frac{3}{2}.\\)
+**第4题[10分]** 写出数列极限的\\(\varepsilon-N\\)定义，并用其证明\\(\lim\limits_{n\to+\infty}\dfrac{6n^2+7}{4n^2+4n+1}=\dfrac{3}{2}.\\)
 
 **第5题[10分]** 证明数集\\(\\{x\in\mathbb{Q}:x^2\le 2\\}\\)没有最大元.
 
@@ -67,7 +67,7 @@ location: "Shanghai, China"
 
 **第5题[10分]** 设函数 \\( f(x) \\) 定义在 \\( \mathbb{R} \\) 上，且在 \\( x = 0 \\) 处连续. 若存在 \\( a \in (0,1) \\) 满足 \\( \forall x \in \mathbb{R} \\) 有 \\( f(ax) = f(x) \\), 证明：\\( f(x) = f(0) \\), \\( \forall x \in \mathbb{R} \\).  
 
-**第6题[10分]** 设 \\( f(x) \\) 在 \\( U^o(0,1) \\) 上有定义，满足 \\( \lim\limits_{x \to 0} f(x) = 0 \\) 且 \\( f(x) - f\left(\frac{x}{2}\right) = o(x) \\) (\\( x \to 0 \\)). 证明：\\( f(x) = o(x) \\) (\\( x \to 0 \\)).  
+**第6题[10分]** 设 \\( f(x) \\) 在 \\( U^o(0,1) \\) 上有定义，满足 \\( \lim\limits_{x \to 0} f(x) = 0 \\) 且 \\( f(x) - f\left(\dfrac{x}{2}\right) = o(x) \\) (\\( x \to 0 \\)). 证明：\\( f(x) = o(x) \\) (\\( x \to 0 \\)).  
 
 </details>
 
@@ -86,7 +86,7 @@ location: "Shanghai, China"
 3. 求 \\(\lim\limits_{x \to 0} \left( \dfrac{1}{\sin^2 x} - \dfrac{1}{x^2} \right)\\).  
 4. 计算 \\(f'(x)\\)，其中 \\(\displaystyle f(x) = \begin{cases} x^2 \cos \frac{1}{x} & x \neq 0 \\\ 0 & x = 0 \end{cases}\\).  
 
-**第3题[6分]**  证明： \\(\tan x + \sin x > 2x\\)， \\(\forall x \in (0, \dfrac{\pi}{2})\\).  
+**第3题[6分]**  证明： \\(\tan x + \sin x > 2x\\)， \\(\forall x \in \left(0, \dfrac{\pi}{2}\right)\\).  
 
 **第4题[8分]**  研究 \\(\displaystyle f(x) = \frac{(\ln x)^2}{x}\\) 有哪些极值？若是最值也请指出.  
 

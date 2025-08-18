@@ -10,6 +10,40 @@ location: "Shanghai, China"
 主讲：苗俊杰副教授，戴浩辉副教授
 
 <details markdown="1">
+  <summary> 2024春季学期第三次小测</summary>
+  
+**第1题[20分]** 判断下列陈述是否正确，并简述理由（判断3分，理由2分）
+1. 若非负无穷积分\\(\displaystyle\int_a^{+\infty} f(x)\ \mathrm{d}x\\)收敛且\\(f(x)\\)在\\([a,+\infty)\\)上连续，则\\(\lim\limits_{x\to+\infty}f(x)=0.\\)
+2. 若无穷积分\\(\displaystyle\int_a^{+\infty} f(x)\ \mathrm{d}x\\)绝对收敛，则无穷积分\\(\displaystyle\int_a^{+\infty} f^2(x)\ \mathrm{d}x\\)也收敛.
+3. 若正项级数\\(\sum u_n\\)收敛，则\\(\ \exists\ N,\ n>N\\)时\\(\sqrt[n]{u_n}<q\\)，其中\\(q\in [0,1).\\)
+4. 若对任意\\(p\in\mathbb{N}_+,\forall\varepsilon>0,\ \exists\ N\in\mathbb{N}_+\\)，当\\(n_N\\)时，\\(\|u _{n+1}+u _{n+2}+\cdots +u _{n+p}\|<\varepsilon\\)，则\\(\sum u_n\\)收敛.
+
+**第2题[20分]** 讨论下列反常积分的敛散性（绝对收敛、条件收敛或发散）
+1. \\(\displaystyle\int_1^{+\infty} e^{-x}\arccos x \ \mathrm{d}x\\);
+2. \\(\displaystyle\int_0^1 \frac{\sqrt{x}}{e^{x^2}-1} \ \mathrm{d}x\\);
+3. \\(\displaystyle\int_0^1 \frac{\ln(1+\sin x)}{x^p}\ \mathrm{d}x,(p>0)\\);
+4. \\(\displaystyle\int_0^{+\infty} \frac{\cos(x^2)}{(1+x)^p} \mathrm{d}x\\).
+
+**第3题[20分]** 讨论下列数项级数的敛散性（绝对收敛、条件收敛或发散）
+1. \\(\displaystyle\sum \frac{(-1)^nn^3}{3^n}\\);
+2. \\(\displaystyle\sum \frac{(2n+1)!!}{(2n)^n} \\);
+3. \\(\displaystyle\sum \frac{\sin 2n}{\sqrt{n}}\\);
+4. \\(\displaystyle\sum \frac{1}{\ln((n+1)!)} \\).
+
+**第4题[10分]** 设函数\\(f(x)\\)在\\([1,+\infty\\)上非负递减，若\\(\displaystyle\int_1^{+\infty}x^2f(x)\ \mathrm{d}x\\)收敛，证明\\(\lim\limits_{x\to+\infty}x^3f(x)=0.\\)
+
+**第5题[10分]** 设数列\\(\\{a_n\\}\\)单调递减收敛于0，证明\\[\sum (-1)^n\sqrt[n]{a_1a_2\cdots a_n}\\]
+收敛.
+
+**第6题[10分]** 设正项级数\\(\displaystyle\sum_{n=1}^\infty a_n\\)收敛，余项\\(\displaystyle R_n=\sum_{k=n+1}^\infty a_k\\). 证明\\(\displaystyle\sum_{n=1}^\infty\frac{a_{n+1}}{\sqrt{R_n}}\\)收敛.
+
+**第7题[10分]**证明Bertrand判别法：若正项级数\\(\sum u_n\\)满足
+\\[\lim_{n\to\infty}\ln(n+1)\left[(n+1)\left(1-\frac{u_{n+1}}{u_n}\right)-1\right]=b,\\]
+则当\\(b>1\\)时\\(\sum u_n\\)收敛，当\\(b<1\\)时\\(\sum u_n\\)发散.
+
+</details>
+
+<details markdown="1">
   <summary> 2025春季学期第一次小测</summary>
   
 **第1题[28分]** 判断下列陈述是否正确，并简述理由（判断4分，理由3分）

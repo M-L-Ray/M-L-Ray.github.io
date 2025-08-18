@@ -48,7 +48,7 @@ location: "Shanghai, China"
   <summary>2024秋季学期第二次小测</summary>
 
 **第1题[30分]** 判断下列陈述是否正确，并简述理由
-1. 设 \\( A \in \mathbb{R} \\), 且 \\( \forall n \in \mathbb{N} \\), 存在 \\( \delta > 0 \\), 当 \\( 0 < \|x - x_0\| < \delta \\) 时成立 \\( \|f(x) - A\| < \frac{1}{n} \\), 则 \\( \lim\limits_{x \to x_0} f(x) = A \\).  
+1. 设 \\( A \in \mathbb{R} \\), 且 \\( \forall n \in \mathbb{N} \\), 存在 \\( \delta > 0 \\), 当 \\( 0 < \|x - x_0\| < \delta \\) 时成立 \\( \|f(x) - A\| < \dfrac{1}{n} \\), 则 \\( \lim\limits_{x \to x_0} f(x) = A \\).  
 2. 若 \\( f(x) \\) 在 \\( x_0 \\) 的某空心邻域内有定义且 \\( \lim\limits_{x \to x_0} \|f(x)\| \\) 存在，则 \\( \lim\limits_{x \to x_0} f(x) \\) 也存在.  
 3. 若存在正数 \\( \varepsilon_0 \\) 和两个数列 \\( \\{x_n\\} \\), \\( \\{y_n\\} \\) 满足 \\( x_n \to x_0 \\), \\( y_n \to x_0 \\), 且 \\( \forall n \in \mathbb{N}_ + \\), \\( \|f(x_n) - f(y_n)\| \geq \varepsilon_0 \\), 则 \\( \lim\limits_{x \to x_0} f(x) \\) 不存在.  
 4. 若 \\( f(x) \\) 在点 \\( x_0 \\) 的某空心邻域内单调有界，则 \\( f(x) \\) 在点 \\( x_0 \\) 处的极限存在.  
@@ -56,18 +56,18 @@ location: "Shanghai, China"
 
 **第2题[30分]** 计算题 
 1. 求极限 \\( \lim\limits_{x \to +\infty} (\sqrt{x+1} - \sqrt{x}) \cos x \\).  
-2. 求极限 \\( \lim\limits_{x \to 0} \frac{\tan x - \sin 2x}{x^2 \sin 2x} \\).  
+2. 求极限 \\( \lim\limits_{x \to 0} \dfrac{\tan x - \sin x}{x^2 \sin 2x} \\).  
 3. 求极限 \\( \lim\limits_{x \to 0} \left( \dfrac{1+2x}{1-x} \right)^{\cot x} \\).  
 4. 求极限 \\( \lim\limits_{x \to +\infty} \left( \dfrac{[x]}{x} + \left[ \dfrac{1}{x} \right] \right) \\), 其中 \\( [ \cdot ] \\) 表示向下取整.  
-5. 求函数 \\( f(x) = \frac{x^3 + 2}{x^2(x-1)} \\) 的渐近线.  
+5. 求函数 \\( f(x) = \dfrac{x^3 + 2}{x^2(x-1)} \\) 的渐近线.  
 
-**第3题[10分]** 判断函数 \\( f(x) = \frac{\sin x}{x^2} + \frac{x+2}{(x^2-4)(x+1)} \\) 的间断点，并指明其类型.  
+**第3题[10分]** 判断函数 \\( f(x) = \dfrac{\sin x}{x^2} + \dfrac{x+2}{(x^2-4)(x+1)} \\) 的间断点，并指明其类型.  
 
 **第4题[10分]** 设函数 \\( f(x) \\) 在 \\( [a,b] \\) 上有定义，\\( \forall x \in (a,b) \\), 且 \\( \forall x,y \in [a,b] \\), \\( x \neq y \\) 时有 \\( \|f(x) - f(y)\| < \|x - y\| \\). 证明：存在唯一的点 \\( \xi \in [a,b] \\), 使得 \\( f(\xi) = \xi \\).  
 
 **第5题[10分]** 设函数 \\( f(x) \\) 定义在 \\( \mathbb{R} \\) 上，且在 \\( x = 0 \\) 处连续. 若存在 \\( a \in (0,1) \\) 满足 \\( \forall x \in \mathbb{R} \\) 有 \\( f(ax) = f(x) \\), 证明：\\( f(x) = f(0) \\), \\( \forall x \in \mathbb{R} \\).  
 
-**第6题[10分]** 设 \\( f(x) \\) 在 \\( U^0(0;1) \\) 上有定义，满足 \\( \lim\limits_{x \to 0} f(x) = 0 \\) 且 \\( f(x) - f\left(\frac{x}{2}\right) = o(x) \\) (\\( x \to 0 \\)). 证明：\\( f(x) = o(x) \\) (\\( x \to 0 \\)).  
+**第6题[10分]** 设 \\( f(x) \\) 在 \\( U^o(0,1) \\) 上有定义，满足 \\( \lim\limits_{x \to 0} f(x) = 0 \\) 且 \\( f(x) - f\left(\frac{x}{2}\right) = o(x) \\) (\\( x \to 0 \\)). 证明：\\( f(x) = o(x) \\) (\\( x \to 0 \\)).  
 
 </details>
 
@@ -75,38 +75,30 @@ location: "Shanghai, China"
   <summary>2024春季学期期末考试</summary>
 
 **第1题[16分]** 判断下列命题是否正确并给出理由（每题4分）  
-1. 若 \\(\forall n \in \mathbb{N}^+\\)，\\(\exists \delta > 0\\)，\\(\forall x \in (x_0 - \delta, x_0) \cup (x_0, x_0 + \delta)\\)，\\(\|f(x) - A\| < \frac{1}{\sqrt{n}}\\)，则 \\(\lim\limits_{x \to x_0} f(x) = A\\).  
+1. 若 \\(\forall n \in \mathbb{N}^+\\)，\\(\exists \delta > 0\\)，\\(\forall x \in (x_0 - \delta, x_0) \cup (x_0, x_0 + \delta)\\)，\\(\|f(x) - A\| < \dfrac{1}{\sqrt{n}}\\)，则 \\(\lim\limits_{x \to x_0} f(x) = A\\).  
 2. 任意数列必有收敛子列.  
 3. 若 \\(f(x)\\) 在 \\((a, b]\\) 上一致连续，则 \\(\lim\limits_{x \to a^+} f(x)\\) 存在.  
 4. 设 \\(D(x)\\) 为 Dirichlet 函数，则存在函数 \\(F(x)\\)，使得 \\(F'(x) = D(x)\\).  
 
-**第2题[20分]** 计算下列极限或导数（每题5分）  
-1. 求 \\(\lim\limits_{n \to \infty} \left( 1 + \frac{1}{2n+1} \right)^n\\).  
-2. 求 \\(\lim\limits_{x \to 0} \frac{(1+x)^{\frac{1}{3}}-1}{\ln(1+x)}\\).  
-3. 求 \\(\lim\limits_{x \to 0} \left( \frac{1}{\sin^2 x} - \frac{1}{x^2} \right)\\).  
+**第2题[20分]** 计算下列极限或导数
+1. 求 \\(\lim\limits_{n \to \infty} \left( 1 + \dfrac{1}{2n+1} \right)^n\\).  
+2. 求 \\(\lim\limits_{x \to 0} \dfrac{(1+x)^{\frac{1}{3}}-1}{\ln(1+x)}\\).  
+3. 求 \\(\lim\limits_{x \to 0} \left( \dfrac{1}{\sin^2 x} - \dfrac{1}{x^2} \right)\\).  
 4. 计算 \\(f'(x)\\)，其中 \\(\displaystyle f(x) = \begin{cases} x^2 \cos \frac{1}{x} & x \neq 0 \\\ 0 & x = 0 \end{cases}\\).  
 
-**第3题[6分]**  
-证明： \\(\tan x + \sin x > 2x\\)， \\(\forall x \in (0, \dfrac{\pi}{2})\\).  
+**第3题[6分]**  证明： \\(\tan x + \sin x > 2x\\)， \\(\forall x \in (0, \dfrac{\pi}{2})\\).  
 
-**第4题[8分]**  
-研究 \\(\displaystyle f(x) = \frac{(\ln x)^2}{x}\\) 有哪些极值？若是最值也请指出.  
+**第4题[8分]**  研究 \\(\displaystyle f(x) = \frac{(\ln x)^2}{x}\\) 有哪些极值？若是最值也请指出.  
 
-**第5题[8分]**  
-设 \\(\displaystyle a_n = \sin 1 + \frac{\sin 2}{2^2} + \cdots + \frac{\sin n}{n^2}\\)，证明： \\(\\{a_n\\}\\) 收敛.  
+**第5题[8分]**  设 \\(\displaystyle a_n = \sin 1 + \frac{\sin 2}{2^2} + \cdots + \frac{\sin n}{n^2}\\)，证明： \\(\\{a_n\\}\\) 收敛.  
 
-**第6题[8分]**  
-设 \\(f\\) 是在开区间 \\(I\\) 上的凸函数， \\(g\\) 是在开区间 \\(J\\) 上的严格单增凸函数， \\(f(I) \subset J\\)，若 \\(g \circ f\\) 在 \\(I\\) 上存在最大值，证明： \\(f\\) 是常值函数.  
-**第7题[8分]**  
-设 \\(f(x)\\) 在 \\([a, b]\\) 上一阶连续可导，在 \\((a, b)\\) 上二阶可导且存在一个极值点，证明：存在 \\(\xi \in (a, b)\\)，使得 \\(\displaystyle \|f(b) - f(a)\| \leq \frac{(b-a)^2}{2} \|f''(\xi)\|\\).  
+**第6题[8分]**  设 \\(f\\) 是在开区间 \\(I\\) 上的凸函数， \\(g\\) 是在开区间 \\(J\\) 上的严格单增凸函数， \\(f(I) \subset J\\)，若 \\(g \circ f\\) 在 \\(I\\) 上存在最大值，证明： \\(f\\) 是常值函数.  
+**第7题[8分]**  设 \\(f(x)\\) 在 \\([a, b]\\) 上一阶连续可导，在 \\((a, b)\\) 上二阶可导且存在一个极值点，证明：存在 \\(\xi \in (a, b)\\)，使得 \\(\displaystyle \|f(b) - f(a)\| \leq \frac{(b-a)^2}{2} \|f''(\xi)\|\\).  
 
-**第8题[8分]**  
-设 \\(f(x)\\) 是定义在 \\((-\infty, +\infty)\\) 上的连续函数，且 \\(\displaystyle \lim\limits_{x \to \infty} f(x) = A\\)，证明： \\(f(x)\\) 必在 \\((-\infty, +\infty)\\) 上存在最值.  
+**第8题[8分]**  设 \\(f(x)\\) 是定义在 \\((-\infty, +\infty)\\) 上的连续函数，且 \\(\displaystyle \lim\limits_{x \to \infty} f(x) = A\\)，证明： \\(f(x)\\) 必在 \\((-\infty, +\infty)\\) 上存在最值.  
 
-**第9题[8分]**  
-设 \\(f(x)\\) 在 \\([a, b]\\) 上连续，在 \\((a, b)\\) 上可导，且 \\(f(x)\\) 不是线性函数，证明：存在 \\(\xi_1, \xi_2 \in (a, b)\\)，使得 \\(\displaystyle f'(\xi_1) > \frac{f(b)-f(a)}{b-a}\\), \\(\displaystyle f'(\xi_2) < \frac{f(b)-f(a)}{b-a}\\).  
+**第9题[8分]**  设 \\(f(x)\\) 在 \\([a, b]\\) 上连续，在 \\((a, b)\\) 上可导，且 \\(f(x)\\) 不是线性函数，证明：存在 \\(\xi_1, \xi_2 \in (a, b)\\)，使得 \\(\displaystyle f'(\xi_1) > \frac{f(b)-f(a)}{b-a}\\), \\(\displaystyle f'(\xi_2) < \frac{f(b)-f(a)}{b-a}\\).  
 
-**第10题[10分]**  
-用有限覆盖定理证明聚点定理.  
+**第10题[10分]**  用有限覆盖定理证明聚点定理.  
 
 </details>

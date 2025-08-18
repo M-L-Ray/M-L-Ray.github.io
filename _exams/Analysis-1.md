@@ -54,13 +54,13 @@ location: "Shanghai, China"
 4. 设 \\(D(x)\\) 为 Dirichlet 函数，则存在函数 \\(F(x)\\)，使得 \\(F'(x) = D(x)\\).  
 
 **第2题[20分]** 计算下列极限或导数（每题5分）  
-1. 求 \\(\displaystyle \lim\limits_{n \to \infty} \left( 1 + \frac{1}{2n+1} \right)^n\\).  
-2. 求 \\(\displaystyle \lim\limits_{x \to 0} \frac{(1+x)^{\frac{1}{3}}-1}{\ln(1+x)}\\).  
-3. 求 \\(\displaystyle \lim\limits_{x \to 0} \left( \frac{1}{\sin^2 x} - \frac{1}{x^2} \right)\\).  
-4. 计算 \\(f'(x)\\)，其中 \\(\displaystyle f(x) = \begin{cases} x^2 \cos \frac{1}{x} & x \neq 0 \\ 0 & x = 0 \end{cases}\\).  
+1. 求 \\(\lim\limits_{n \to \infty} \left( 1 + \frac{1}{2n+1} \right)^n\\).  
+2. 求 \\(\lim\limits_{x \to 0} \frac{(1+x)^{\frac{1}{3}}-1}{\ln(1+x)}\\).  
+3. 求 \\(\lim\limits_{x \to 0} \left( \frac{1}{\sin^2 x} - \frac{1}{x^2} \right)\\).  
+4. 计算 \\(f'(x)\\)，其中 \\(\displaystyle f(x) = \begin{cases} x^2 \cos \frac{1}{x} & x \neq 0 \\\ 0 & x = 0 \end{cases}\\).  
 
 **第3题[6分]**  
-证明： \\(\tan x + \sin x > 2x\\)， \\(\forall x \in (0, \frac{\pi}{2})\\).  
+证明： \\(\tan x + \sin x > 2x\\)， \\(\forall x \in (0, \dfrac{\pi}{2})\\).  
 
 **第4题[8分]**  
 研究 \\(\displaystyle f(x) = \frac{(\ln x)^2}{x}\\) 有哪些极值？若是最值也请指出.  

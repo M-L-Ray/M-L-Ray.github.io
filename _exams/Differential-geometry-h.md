@@ -32,5 +32,5 @@ location: "Shanghai, China"
 记\\(a_i^\alpha=\frac{\partial u^\alpha}{\partial \tilde{u}^i},\tilde{a}^i_\alpha=\frac{\partial \tilde{u}^i}{\partial u^\alpha},1\le\alpha,i\le 2\\)，设\\[R_{\delta\alpha\beta\gamma}=g_{\delta\xi}\left(\frac{\partial \Gamma_{\alpha\beta}^\xi}{\partial u^{\gamma}}-\frac{\partial \Gamma_{\alpha\gamma}^\xi}{\partial u^{\beta}} 
 +\Gamma_{\alpha\beta}^\eta\Gamma_{\eta\gamma}^\xi-\Gamma_{\alpha\gamma}^\eta\Gamma_{\eta\beta}^{\xi} \right).\\]
 
-**第7题[2分]** 设\\(\gamma\\)为一条空间简单闭曲线（除起点与终点重合外不自交），它的曲率\\(\keppa\\)恒不为零. 在\\(\gamma\\)的每个法平面内做一个半径为\\(C\\)的圆，他的圆心位于\\(\gamma\\)上，当圆心在\\(\gamma\\)上走动一周时，这些圆生成了一个曲面\\(M\\). 我们假设\\(M\\)去掉一个零测集是一个正则曲面. 请计算积分\\[\int_M H^2\ \mathrm{d}\sigma\\]的值并给出这个积分可能到达的正下界（用曲线的曲率和挠率表示）.
+**第7题[2分]** 设\\(\gamma\\)为一条空间简单闭曲线（除起点与终点重合外不自交），它的曲率\\(\kappa\\)恒不为零. 在\\(\gamma\\)的每个法平面内做一个半径为\\(C\\)的圆，他的圆心位于\\(\gamma\\)上，当圆心在\\(\gamma\\)上走动一周时，这些圆生成了一个曲面\\(M\\). 我们假设\\(M\\)去掉一个零测集是一个正则曲面. 请计算积分\\[\int_M H^2\ \mathrm{d}\sigma\\]的值并给出这个积分可能到达的正下界（用曲线的曲率和挠率表示）.
 

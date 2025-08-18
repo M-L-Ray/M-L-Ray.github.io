@@ -36,7 +36,7 @@ location: "Shanghai, China"
 
 </details>
 <details markdown="1">
-  <summary> 2023秋季学期第一次小测</summary>
+  <summary> 2023秋季学期第二次小测</summary>
   
 **第7题[10分]** 证明\\(\lim\limits_{x\to -\infty}f(x)=\infty\\)的充要条件是：对任意单调减且趋于\\(-\infty\\)的数列\\(\\{x_n\\}\\)都有\\(\lim\limits_{n\to \infty}f(x_n)=\infty\\).
 

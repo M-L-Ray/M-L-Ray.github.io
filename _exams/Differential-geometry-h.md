@@ -2,7 +2,7 @@
 title: "微分几何"
 collection: exams
 type: "Undergraduate course"
-permalink: /exams/Differential-geometry
+permalink: /exams/Differential-geometry-h
 venue: "ECNU"
 date: 2023-06-24
 location: "Shanghai, China"

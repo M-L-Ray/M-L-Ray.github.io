@@ -10,7 +10,7 @@ location: "Shanghai, China"
 主讲：苗俊杰副教授，戴浩辉副教授
 
 <details markdown="1">
-  <summary> 2023秋季学期小测一</summary>
+  <summary> 2023秋季学期第一次小测</summary>
   
 **第1题[20分]** 判断下列陈述是否正确，并简述理由（判断2分，理由3分）
 1. 给定数列\\(\\{a_n\\}\\)和实数\\(a\\)，若对任意\\(\varepsilon>0\\)，在\\(U(a,\varepsilon)\\)中总包含\\(\\{a_n\\}\\)中的无穷多项，则数列\\(\\{a_n\\}\\)以\\(a\\)为极限；
@@ -33,5 +33,13 @@ location: "Shanghai, China"
 **第8题[10分]** 设\\(x_1=a>0,x_{n+1}=10\sqrt{x_n},n=1,2,\cdots\\)，求数列\\(\\{x_n\\}\\)的极限.
 
 **第9题[10分]** 叙述数列收敛的柯西准则，并用其证明\\(\\{\sin n\\}\\)不收敛.
+
+</details>
+<details markdown="1">
+  <summary> 2023秋季学期第一次小测</summary>
+  
+**第7题[10分]** 证明\\(\lim\limits_{x\to -\infty}f(x)=\infty\\)的充要条件是：对任意单调减且趋于\\(-\infty\\)的数列\\(\\{x_n\\}\\)都有\\(\lim\limits_{n\to \infty}f(x_n)=\infty\\).
+
+**第8题[10分]** \\(f(x)\\)定义在\\([a,b]\\)上，对每一点\\(x_0\in[a,b]\\)满足：\\(\forall \varepsilon,\ \exists\ \delta>0\\)，当\\(x\in(x_0-\delta,x_0+\delta)\cap[a,b] \\)时\\(f(x)>f(x_0)-\varepsilon\\). 证明：\\(f(x)\\)在\\([a,b]\\)上能取得最小值.
 
 </details>

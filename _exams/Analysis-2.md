@@ -16,7 +16,7 @@ location: "Shanghai, China"
 1. 若非负无穷积分\\(\displaystyle\int_a^{+\infty} f(x)\ \mathrm{d}x\\)收敛且\\(f(x)\\)在\\([a,+\infty)\\)上连续，则\\(\lim\limits_{x\to+\infty}f(x)=0.\\)
 2. 若无穷积分\\(\displaystyle\int_a^{+\infty} f(x)\ \mathrm{d}x\\)绝对收敛，则无穷积分\\(\displaystyle\int_a^{+\infty} f^2(x)\ \mathrm{d}x\\)也收敛.
 3. 若正项级数\\(\sum u_n\\)收敛，则\\(\ \exists\ N,\ n>N\\)时\\(\sqrt[n]{u_n}<q\\)，其中\\(q\in [0,1).\\)
-4. 若对任意\\(p\in\mathbb{N}_+,\forall\varepsilon>0,\ \exists\ N\in\mathbb{N}_+\\)，当\\(n_N\\)时，\\(\|u _{n+1}+u _{n+2}+\cdots +u _{n+p}\|<\varepsilon\\)，则\\(\sum u_n\\)收敛.
+4. 若对任意\\(p\in \mathbb{N}_+,\forall\varepsilon>0,\ exists\ N\in\mathbb{N}_+\\)，当\\(n>N\\)时，\\(\|u _{n+1}+u _{n+2}+\cdots +u _{n+p}\|<\varepsilon\\)，则\\(\sum u_n\\)收敛.
 
 **第2题[20分]** 讨论下列反常积分的敛散性（绝对收敛、条件收敛或发散）
 1. \\(\displaystyle\int_1^{+\infty} e^{-x}\arccos x \ \mathrm{d}x\\);

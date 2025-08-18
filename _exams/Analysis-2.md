@@ -37,7 +37,7 @@ location: "Shanghai, China"
 
 **第6题[10分]** 设正项级数\\(\displaystyle\sum_{n=1}^\infty a_n\\)收敛，余项\\(\displaystyle R_n=\sum_{k=n+1}^\infty a_k\\). 证明\\(\displaystyle\sum_{n=1}^\infty\frac{a_{n+1}}{\sqrt{R_n}}\\)收敛.
 
-**第7题[10分]**证明Bertrand判别法：若正项级数\\(\sum u_n\\)满足
+**第7题[10分]** 证明Bertrand判别法：若正项级数\\(\sum u_n\\)满足
 \\[\lim_{n\to\infty}\ln(n+1)\left[(n+1)\left(1-\frac{u_{n+1}}{u_n}\right)-1\right]=b,\\]
 则当\\(b>1\\)时\\(\sum u_n\\)收敛，当\\(b<1\\)时\\(\sum u_n\\)发散.
 

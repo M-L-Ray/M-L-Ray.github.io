@@ -9,7 +9,8 @@ location: "Shanghai, China"
 ---
 主讲：刘博教授
 
-## 2023春季学期中考试
+<details markdown="1">
+  <summary> 2023春季学期期中考试</summary> 
 
 **第1题[3分]** 请判断如下陈述是否正确，无需写出理由.
 1. 平面与球面的任意开子集之间不存在等距变换.
@@ -34,4 +35,24 @@ location: "Shanghai, China"
 求证：\\(\tilde{R}_{ijkl}=R _{\delta\alpha\beta\gamma}a_i^\delta a_j^\alpha a_k^\beta a_l^\gamma\\).
 
 **第7题[2分]** 设\\(\gamma\\)为一条空间简单闭曲线（除起点与终点重合外不自交），它的曲率\\(\kappa\\)恒不为零. 在\\(\gamma\\)的每个法平面内做一个半径为\\(C\\)的圆，他的圆心位于\\(\gamma\\)上，当圆心在\\(\gamma\\)上走动一周时，这些圆生成了一个曲面\\(M\\). 我们假设\\(M\\)去掉一个零测集是一个正则曲面. 请计算积分\\[\int_M H^2\ \mathrm{d}\sigma\\]的值并给出这个积分可能到达的正下界（用曲线的曲率和挠率表示）.
+</details>
 
+<details markdown="1">
+  <summary> 2024秋季学期期中考试</summary>
+
+**第1题[10分]** 请判断如下陈述是否正确，无需写出理由.
+1. 极小曲面上没有椭圆点.
+2. 存在曲面使得其第一第二基本形式为\\(\mathrm{I}=\mathrm{II}=\mathrm{d}u\mathrm{d}u+\mathrm{d}v\mathrm{d}v\\).
+
+**第2题[20分]** 请直接回答下列问题，无需写出理由.
+1. 请写出相对曲率为非零常数\\(a<0\\)的平面曲线的参数表示.
+2. 如果两个曲面的对应点之间的第一基本形式满足\\(\mathrm{I}_1=\lambda \mathrm{I}_2\\)，其中\\(\lambda>0\\)为正常数. 请问两个曲面的对应点的高斯曲率之间满足什么样的关系？
+
+**第3题[40分]** 对正螺面\\(\mathrm{r}(u,v)=(u\cos v,u\sin v,v)\\)
+请计算其第一第二基本形式、高斯曲率、平均曲率、主曲率与主方向并写出其椭圆点、双曲点、抛物点、脐点、平点与圆点各自组成的集合.
+
+**第4题[20分]** 记\\(\mathrm{I}=g_{ij}\mathrm{d}u^i\mathrm{d}u^j\\)为第一基本形式，矩阵\\((g^{ij})={(g_{ij})}^{-1}\\)且\\(\Gamma_{\alpha\beta}^{\gamma}\\)是Christoffel符号. 请证明\\[\frac{\partial g^{ij}}{\partial u^k}=-g^{j\alpha}\Gamma_{\alpha k}^i-g^{i\alpha}\Gamma_{\alpha k}^j.\\]
+
+**第5题[10分]** 若两条空间曲线之间存在一一对应，且第一条曲线的主法线与另一条曲线的副法线重合，我们称第一条曲线为Mannheim曲线. 请证明如果一条曲线是Mannheim曲线，则存在常数\\(\lambda \in\mathbb{R}\\)，使得对曲线的曲率\\(\kappa\\)与挠率\\(\tau\\)，有\\[\kappa=\lambda(\kappa^2+\tau^2).\\]
+</details>
+</details>

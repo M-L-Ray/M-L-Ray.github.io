@@ -7,7 +7,7 @@ venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
 ---
-主讲：苗俊杰副教授，戴浩辉副教授
+主讲：苗俊杰副教授，戴浩晖副教授
 
 <details markdown="1">
   <summary> 2024春季学期第三次小测</summary>

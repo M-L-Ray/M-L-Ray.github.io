@@ -4,7 +4,7 @@ collection: exams
 type: "Undergraduate course"
 permalink: /exams/analysis-1
 venue: "ECNU"
-date: 2024-01-23
+date: 2025-01-13
 location: "Shanghai, China"
 ---
 主讲：苗俊杰副教授，戴浩辉副教授

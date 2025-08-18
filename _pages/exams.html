@@ -7,6 +7,7 @@ author_profile: true
 此处均为回忆版试卷，仅供交流使用，请勿用于商业用途.
 {% include base_path %}
 
+{% assign sorted_exams = site.exams | sort: 'title' %}
 {% for post in site.exams reversed %}
   {% include archive-single.html %}
 {% endfor %}

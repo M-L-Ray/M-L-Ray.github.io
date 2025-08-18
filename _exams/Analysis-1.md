@@ -45,6 +45,33 @@ location: "Shanghai, China"
 </details>
 
 <details markdown="1">
+  <summary>2024秋季学期第二次小测</summary>
+
+**第1题[30分]** 判断下列陈述是否正确，并简述理由
+1. 设 \\( A \in \mathbb{R} \\), 且 \\( \forall n \in \mathbb{N} \\), 存在 \\( \delta > 0 \\), 当 \\( 0 < \|x - x_0\| < \delta \\) 时成立 \\( \|f(x) - A\| < \frac{1}{n} \\), 则 \\( \lim\limits_{x \to x_0} f(x) = A \\).  
+2. 若 \\( f(x) \\) 在 \\( x_0 \\) 的某空心邻域内有定义且 \\( \lim\limits_{x \to x_0} \|f(x)\| \\) 存在，则 \\( \lim\limits_{x \to x_0} f(x) \\) 也存在.  
+3. 若存在正数 \\( \varepsilon_0 \\) 和两个数列 \\( \\{x_n\\} \\), \\( \\{y_n\\} \\) 满足 \\( x_n \to x_0 \\), \\( y_n \to x_0 \\), 且 \\( \forall n \in \mathbb{N}_ + \\), \\( \|f(x_n) - f(y_n)\| \geq \varepsilon_0 \\), 则 \\( \lim\limits_{x \to x_0} f(x) \\) 不存在.  
+4. 若 \\( f(x) \\) 在点 \\( x_0 \\) 的某空心邻域内单调有界，则 \\( f(x) \\) 在点 \\( x_0 \\) 处的极限存在.  
+5. 设 \\( f(x) \\) 定义在 \\( (1,+\infty) \\) 上，且当 \\( x \to +\infty \\) 时 \\( f(x) \\) 不是无穷大量，则存在数列 \\( \\{x_n\\} \subset (1,+\infty) \\), 使得 \\( x_n \to +\infty \\) 且数列 \\( \\{f(x_n)\\} \\) 有界.  
+
+**第2题[30分]** 计算题 
+1. 求极限 \\( \lim\limits_{x \to +\infty} (\sqrt{x+1} - \sqrt{x}) \cos x \\).  
+2. 求极限 \\( \lim\limits_{x \to 0} \frac{\tan x - \sin 2x}{x^2 \sin 2x} \\).  
+3. 求极限 \\( \lim\limits_{x \to 0} \left( \dfrac{1+2x}{1-x} \right)^{\cot x} \\).  
+4. 求极限 \\( \lim\limits_{x \to +\infty} \left( \dfrac{[x]}{x} + \left[ \dfrac{1}{x} \right] \right) \\), 其中 \\( [ \cdot ] \\) 表示向下取整.  
+5. 求函数 \\( f(x) = \frac{x^3 + 2}{x^2(x-1)} \\) 的渐近线.  
+
+**第3题[10分]** 判断函数 \\( f(x) = \frac{\sin x}{x^2} + \frac{x+2}{(x^2-4)(x+1)} \\) 的间断点，并指明其类型.  
+
+**第4题[10分]** 设函数 \\( f(x) \\) 在 \\( [a,b] \\) 上有定义，\\( \forall x \in (a,b) \\), 且 \\( \forall x,y \in [a,b] \\), \\( x \neq y \\) 时有 \\( \|f(x) - f(y)\| < \|x - y\| \\). 证明：存在唯一的点 \\( \xi \in [a,b] \\), 使得 \\( f(\xi) = \xi \\).  
+
+**第5题[10分]** 设函数 \\( f(x) \\) 定义在 \\( \mathbb{R} \\) 上，且在 \\( x = 0 \\) 处连续. 若存在 \\( a \in (0,1) \\) 满足 \\( \forall x \in \mathbb{R} \\) 有 \\( f(ax) = f(x) \\), 证明：\\( f(x) = f(0) \\), \\( \forall x \in \mathbb{R} \\).  
+
+**第6题[10分]** 设 \\( f(x) \\) 在 \\( U^0(0;1) \\) 上有定义，满足 \\( \lim\limits_{x \to 0} f(x) = 0 \\) 且 \\( f(x) - f\left(\frac{x}{2}\right) = o(x) \\) (\\( x \to 0 \\)). 证明：\\( f(x) = o(x) \\) (\\( x \to 0 \\)).  
+
+</details>
+
+<details markdown="1">
   <summary>2024春季学期期末考试</summary>
 
 **第1题[16分]** 判断下列命题是否正确并给出理由（每题4分）  

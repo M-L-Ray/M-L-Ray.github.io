@@ -72,7 +72,7 @@ location: "Shanghai, China"
 </details>
 
 <details markdown="1">
-  <summary>2024春季学期期末考试</summary>
+  <summary>2024秋季学期期末考试</summary>
 
 **第1题[16分]** 判断下列命题是否正确并给出理由（每题4分）  
 1. 若 \\(\forall n \in \mathbb{N}^+\\)，\\(\exists \delta > 0\\)，\\(\forall x \in (x_0 - \delta, x_0) \cup (x_0, x_0 + \delta)\\)，\\(\|f(x) - A\| < \dfrac{1}{\sqrt{n}}\\)，则 \\(\lim\limits_{x \to x_0} f(x) = A\\).  

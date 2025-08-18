@@ -43,3 +43,43 @@ location: "Shanghai, China"
 **第8题[10分]** \\(f(x)\\)定义在\\([a,b]\\)上，对每一点\\(x_0\in[a,b]\\)满足：\\(\forall \varepsilon,\ \exists\ \delta>0\\)，当\\(x\in(x_0-\delta,x_0+\delta)\cap[a,b] \\)时\\(f(x)>f(x_0)-\varepsilon\\). 证明：\\(f(x)\\)在\\([a,b]\\)上能取得最小值.
 
 </details>
+
+<details markdown="1">
+  <summary>2024春季学期期末考试</summary>
+
+**第1题[16分]** 判断下列命题是否正确并给出理由（每题4分）  
+1. 若 \\(\forall n \in \mathbb{N}^+\\)，\\(\exists \delta > 0\\)，\\(\forall x \in (x_0 - \delta, x_0) \cup (x_0, x_0 + \delta)\\)，\\(\|f(x) - A\| < \frac{1}{\sqrt{n}}\\)，则 \\(\lim\limits_{x \to x_0} f(x) = A\\)。  
+2. 任意数列必有收敛子列。  
+3. 若 \\(f(x)\\) 在 \\((a, b]\\) 上一致连续，则 \\(\lim\limits_{x \to a^+} f(x)\\) 存在。  
+4. 设 \\(D(x)\\) 为 Dirichlet 函数，则存在函数 \\(F(x)\\)，使得 \\(F'(x) = D(x)\\)。  
+
+**第2题[20分]** 计算下列极限或导数（每题5分）  
+1. 求 \\(\displaystyle \lim\limits_{n \to \infty} \left( 1 + \frac{1}{2n+1} \right)^n\\)。  
+2. 求 \\(\displaystyle \lim\limits_{x \to 0} \frac{(1+x)^{\frac{1}{3}}-1}{\ln(1+x)}\\)。  
+3. 求 \\(\displaystyle \lim\limits_{x \to 0} \left( \frac{1}{\sin^2 x} - \frac{1}{x^2} \right)\\)。  
+4. 计算 \\(f'(x)\\)，其中 \\(\displaystyle f(x) = \begin{cases} x^2 \cos \frac{1}{x} & x \neq 0 \\ 0 & x = 0 \end{cases}\\)。  
+
+**第3题[6分]**  
+证明： \\(\tan x + \sin x > 2x\\)， \\(\forall x \in (0, \frac{\pi}{2})\\)。  
+
+**第4题[8分]**  
+研究 \\(\displaystyle f(x) = \frac{(\ln x)^2}{x}\\) 有哪些极值？若是最值也请指出。  
+
+**第5题[8分]**  
+设 \\(\displaystyle a_n = \sin 1 + \frac{\sin 2}{2^2} + \cdots + \frac{\sin n}{n^2}\\)，证明： \\(\\{a_n\\}\\) 收敛。  
+
+**第6题[8分]**  
+设 \\(f\\) 是在开区间 \\(I\\) 上的凸函数， \\(g\\) 是在开区间 \\(J\\) 上的严格单增凸函数， \\(f(I) \subset J\\)，若 \\(g \circ f\\) 在 \\(I\\) 上存在最大值，证明： \\(f\\) 是常值函数。  
+**第7题[8分]**  
+设 \\(f(x)\\) 在 \\([a, b]\\) 上一阶连续可导，在 \\((a, b)\\) 上二阶可导且存在一个极值点，证明：存在 \\(\xi \in (a, b)\\)，使得 \\(\displaystyle \|f(b) - f(a)\| \leq \frac{(b-a)^2}{2} \|f''(\xi)\|\\)。  
+
+**第8题[8分]**  
+设 \\(f(x)\\) 是定义在 \\((-\infty, +\infty)\\) 上的连续函数，且 \\(\displaystyle \lim\limits_{x \to \infty} f(x) = A\\)，证明： \\(f(x)\\) 必在 \\((-\infty, +\infty)\\) 上存在最值。  
+
+**第9题[8分]**  
+设 \\(f(x)\\) 在 \\([a, b]\\) 上连续，在 \\((a, b)\\) 上可导，且 \\(f(x)\\) 不是线性函数，证明：存在 \\(\xi_1, \xi_2 \in (a, b)\\)，使得 \\(\displaystyle f'(\xi_1) > \frac{f(b)-f(a)}{b-a}\\), \\(\displaystyle f'(\xi_2) < \frac{f(b)-f(a)}{b-a}\\)。  
+
+**第10题[10分]**  
+用有限覆盖定理证明聚点定理。  
+
+</details>

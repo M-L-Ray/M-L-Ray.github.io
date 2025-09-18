@@ -46,9 +46,15 @@ location: "Shanghai, China"
 
 **第2题[12分]** 写出极限\\(\lim\limits_{x\to x_0^+}f(x)=A\\)的\\(\varepsilon-\delta\\)定义，并用其证明\\(\lim\limits_{x\to 1^+}\dfrac{x^3+1}{x}=2.\\)
 
-**第3题[12分]** 叙述极限\\(\lim\limits_{x\to x_0^-}f(x)=A\\)的柯西收敛准则并用其证明\\(\lim\limits_{x\to 0^-\cos\frac{1}{x^2}}\\)不存在.
+**第3题[12分]** 叙述极限\\(\lim\limits_{x\to x_0^-}f(x)=A\\)的柯西收敛准则并用其证明\\(\lim\limits_{x\to 0^-}\cos\frac{1}{x^2}\\)不存在.
 
-**第4题[12分]** 设函数\\(\\)
+**第4题[12分]** 设函数\\( f\\)在\\(x_0\\)处连续，证明\\(\forall \alpha>f(x_0),\exists\ \delta>0\\)，当\\(\|x-x_0\|<\delta\\)时，\\(f(x)<a\\).
+
+**第5题[12分]** 给出函数\\(f\\)在区间\\(I\\)上不一致收敛的充要条件，并用其验证\\(y=\sin x^2\\)在\\([0,+\infty)\\)上不一致收敛.
+
+**第6题[12分]** 证明：
+1. \\(\sqrt{x+\sqrt{x+\sqrt{x}}}\sim \sqrt[8]{x},x\to 0,\\)
+2. \\(\sqrt{x+\sqrt{x+\sqrt{x}}}\sim \sqrt{x},x\to +\infty.\\)
   
 **第7题[10分]** 证明\\(\lim\limits_{x\to -\infty}f(x)=\infty\\)的充要条件是：对任意单调减且趋于\\(-\infty\\)的数列\\(\\{x_n\\}\\)都有\\(\lim\limits_{n\to \infty}f(x_n)=\infty\\).
 

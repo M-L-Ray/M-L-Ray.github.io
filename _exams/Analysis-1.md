@@ -38,6 +38,18 @@ location: "Shanghai, China"
 <details markdown="1">
   <summary> 2023秋季学期第二次小测</summary>
   
+**第1题[20分]** 判断下列陈述是否正确，并简述理由（判断2分，理由3分）
+1. 若\\(\lim\limits_{x\to+\infty}f(x)\\)和\\(\lim\limits_{x\to+\infty}f(x)g(x)\\)都存在，则\\(g(x)\\)在\\(+\infty\\)存在极限；
+2. 若函数\\(f\\)、\\(f-g\\)在\\(x_0\\)处都连续，则\\(g\\)在\\(x_0\\)处也连续；
+3. 区间\\((a,b)\\)上的连续函数\\(f(x)\\)在区间\\((a,b)\\)上必定一致连续；
+4. 设\\(f(x),g(x)\\)均为\\(x\to x_0\\)时的无穷小量且\\(f(x)=O(g(x)),x\to x_0\\)，若\\(f(x)\\)不是\\(g(x)\\)的同阶量，那么\\(f(x)\\)必定是\\(g(x)\\)的高阶无穷小量.
+
+**第2题[12分]** 写出极限\\(\lim\limits_{x\to x_0^+}f(x)=A\\)的\\(\varepsilon-\delta\\)定义，并用其证明\\(\lim\limits_{x\to 1^+}\dfrac{x^3+1}{x}=2.\\)
+
+**第3题[12分]** 叙述极限\\(\lim\limits_{x\to x_0^-}f(x)=A\\)的柯西收敛准则并用其证明\\(\lim\limits_{x\to 0^-\cos\frac{1}{x^2}}\\)不存在.
+
+**第4题[12分]** 设函数\\(\\)
+  
 **第7题[10分]** 证明\\(\lim\limits_{x\to -\infty}f(x)=\infty\\)的充要条件是：对任意单调减且趋于\\(-\infty\\)的数列\\(\\{x_n\\}\\)都有\\(\lim\limits_{n\to \infty}f(x_n)=\infty\\).
 
 **第8题[10分]** \\(f(x)\\)定义在\\([a,b]\\)上，对每一点\\(x_0\in[a,b]\\)满足：\\(\forall \varepsilon,\ \exists\ \delta>0\\)，当\\(x\in(x_0-\delta,x_0+\delta)\cap[a,b] \\)时\\(f(x)>f(x_0)-\varepsilon\\). 证明：\\(f(x)\\)在\\([a,b]\\)上能取得最小值.

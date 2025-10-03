@@ -189,7 +189,7 @@ details[open] summary {
 </div>
 
 <details markdown="1">
-  <summary>查看完整试卷内容</summary>
+  <summary>完整试题</summary>
   <div class="exam-content">
     <div class="math-content">
       <p>以下如无特别声明，\(K\)均表数域，\(\mathbb{Q}(\mathbb{R},\mathbb{C})\)表有理数（实数、复数）域，\(f,g\)表\(K[x]\)中的多项式</p>

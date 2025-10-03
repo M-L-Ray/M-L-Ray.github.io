@@ -6,6 +6,7 @@ permalink: /exams/Differential-geometry-h
 venue: "ECNU"
 date: 2023-06-24
 location: "Shanghai, China"
+grade: 3.0
 ---
 主讲：刘博教授
 

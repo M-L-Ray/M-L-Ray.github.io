@@ -1,7 +1,7 @@
 ---
 title: "拓扑学(H)"
 collection: exams
-type: "Undergraduate course"
+type: "专业必修课程"
 permalink: /exams/topologyh
 venue: "ECNU"
 date: 2025-06-25

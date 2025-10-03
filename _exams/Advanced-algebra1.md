@@ -6,6 +6,7 @@ permalink: /exams/Advanced-algebra1
 venue: "ECNU"
 date: 2024-01-24
 location: "Shanghai, China"
+grade:1.0
 ---
 主讲：陆俊教授
 

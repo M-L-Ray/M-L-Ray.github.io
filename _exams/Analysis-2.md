@@ -6,6 +6,7 @@ permalink: /exams/analysis-2
 venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
+grade: 1.5
 ---
 
 **主讲教师：** 苗俊杰副教授，戴浩晖副教授

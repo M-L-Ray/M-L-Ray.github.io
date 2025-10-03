@@ -1,5 +1,5 @@
 ---
-title: "数学分析II - 历年考试资料"
+title: "数学分析II"
 collection: exams
 type: "Undergraduate course"
 permalink: /exams/analysis-2
@@ -8,7 +8,6 @@ date: 2025-06-23
 location: "Shanghai, China"
 ---
 
-## 课程信息
 **主讲教师：** 苗俊杰副教授，戴浩晖副教授
 
 <div class="exam-toc">

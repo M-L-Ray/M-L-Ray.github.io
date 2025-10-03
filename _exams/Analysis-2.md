@@ -276,7 +276,7 @@ details[open] summary {
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 判断题</span>
+        <span>第1题 </span>
         <span class="points">28分</span>
       </div>
       <div class="math-content">
@@ -290,7 +290,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 上下极限计算</span>
+        <span>第2题 </span>
         <span class="points">16分</span>
       </div>
       <div class="math-content">
@@ -304,7 +304,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 不定积分计算</span>
+        <span>第3题 </span>
         <span class="points">32分</span>
       </div>
       <div class="math-content">
@@ -318,7 +318,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 证明题</span>
+        <span>第4题 </span>
         <span class="points">12分</span>
       </div>
       <div class="math-content">
@@ -328,7 +328,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 证明题</span>
+        <span>第5题 </span>
         <span class="points">12分</span>
       </div>
       <div class="math-content">
@@ -348,7 +348,7 @@ details[open] summary {
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 定积分计算</span>
+        <span>第1题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -362,7 +362,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 判断题</span>
+        <span>第2题 </span>
         <span class="points">30分</span>
       </div>
       <div class="math-content">
@@ -378,7 +378,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 几何应用</span>
+        <span>第3题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -389,7 +389,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 积分与极限</span>
+        <span>第4题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -400,7 +400,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 旋转体体积</span>
+        <span>第5题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -410,7 +410,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第6题 - 旋转曲面面积</span>
+        <span>第6题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -420,7 +420,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第7题 - 证明题</span>
+        <span>第7题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -442,7 +442,7 @@ details[open] summary {
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 判断题</span>
+        <span>第1题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -456,7 +456,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 反常积分计算</span>
+        <span>第2题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -468,7 +468,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 数项级数求和</span>
+        <span>第3题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -480,7 +480,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 反常积分敛散性</span>
+        <span>第4题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -492,7 +492,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 数项级数敛散性</span>
+        <span>第5题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -504,7 +504,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第6题 - 证明题</span>
+        <span>第6题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -514,7 +514,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第7题 - 证明题</span>
+        <span>第7题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -524,7 +524,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第8题 - 证明题</span>
+        <span>第8题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -536,7 +536,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第9题 - 证明题</span>
+        <span>第9题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">

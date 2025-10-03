@@ -12,7 +12,7 @@ instructor: 陆俊教授
 ---
 
 <div class="exam-toc">
-  <h2>考试目录</h2>
+  <h2>试卷目录</h2>
   <ul>
     <li><a href="#2023-fall-midterm">2023秋季学期期中考试</a></li>
   </ul>
@@ -197,7 +197,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 置换计算</span>
+        <span>第1题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -208,7 +208,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 对称多项式</span>
+        <span>第2题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -219,7 +219,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 多项式运算</span>
+        <span>第3题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -231,7 +231,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 同余方程组</span>
+        <span>第4题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -242,7 +242,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 多项式分析</span>
+        <span>第5题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -254,7 +254,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第6题 - 不可约多项式</span>
+        <span>第6题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -264,7 +264,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第7题 - 重因式理论</span>
+        <span>第7题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">

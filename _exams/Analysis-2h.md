@@ -7,6 +7,7 @@ venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
 grade: 1.5
+a: 大一下
 instructor: 某教授
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "数值分析"
 collection: exams
-type: "Undergraduate course"
+type: "专业限制性选修"
 permalink: /exams/numerical-analysis
 venue: "ECNU"
 date: 2025-06-25

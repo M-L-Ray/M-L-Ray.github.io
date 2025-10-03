@@ -7,9 +7,8 @@ venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
 grade: 1.5
+instructor: 苗俊杰副教授，戴浩晖副教授
 ---
-
-**主讲教师：** 苗俊杰副教授，戴浩晖副教授
 
 <div class="exam-toc">
   <h2>考试目录</h2>

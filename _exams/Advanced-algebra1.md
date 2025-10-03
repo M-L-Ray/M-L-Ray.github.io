@@ -1,313 +1,293 @@
 ---
-title: "高等代数I"
-collection: exams
-type: "专业必修课程"
-permalink: /exams/Advanced-algebra1
-venue: "ECNU"
-date: 2024-01-24
-location: "Shanghai, China"
-grade: 1.0
-a: 大一上
-instructor: 陆俊教授
+layout: archive
+title: "Exams"
+permalink: /exams/
+author_profile: true
 ---
 
-<div class="exam-toc">
-  <h2>试卷目录</h2>
-  <ul>
-    <li><a href="#2023-fall-midterm">2023秋季学期期中考试</a></li>
-  </ul>
+此处均为回忆版试卷，仅供交流使用，请勿用于商业用途。
+
+<!-- 搜索框 -->
+<div class="exams-search">
+  <input type="text" id="courseSearch" placeholder="搜索课程名称..." class="search-input">
+  <button id="clearSearch" style="display:none; margin-left: 10px; padding: 0.5rem 1rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer;">清除</button>
+  <div id="searchResults" class="search-results"></div>
+</div>
+
+{% include base_path %}
+
+<div class="exams-list" id="examsList">
+  {% assign sorted_exams = site.exams | sort: "grade" %}
+  {% for post in sorted_exams %}
+    {% include archive-single.html %}
+  {% endfor %}
 </div>
 
 <style>
-.exam-toc {
-  background: transparent;
-  padding: 1.5rem;
+/* 保持之前的样式不变 */
+.exam-course-item {
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
-  margin: 2rem 0;
-  border-left: 4px solid #4285f4;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: transparent;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
-.exam-toc h2 {
-  margin-top: 0;
+.exam-course-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.exam-course-header {
+  margin-bottom: 1rem;
+}
+
+.archive__item-title {
+  margin-bottom: 0.5rem;
+}
+
+.archive__item-title a {
   color: inherit;
-}
-
-.exam-toc ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.exam-toc li {
-  margin: 0.8rem 0;
-  padding: 0.5rem;
-  border-radius: 4px;
-  transition: background 0.3s;
-}
-
-.exam-toc li:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.exam-toc a {
   text-decoration: none;
-  color: #4285f4;
-  font-weight: 500;
-  display: block;
-}
-
-.exam-header {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
-  color: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin: 1.5rem 0;
-}
-
-.exam-header h3 {
-  margin: 0;
   font-size: 1.4rem;
-}
-
-.exam-meta {
-  opacity: 0.9;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
-
-details {
-  background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  margin: 1.5rem 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  transition: box-shadow 0.3s;
-}
-
-details:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-summary {
-  background: transparent;
-  padding: 1.2rem 1.5rem;
-  cursor: pointer;
   font-weight: 600;
-  color: inherit;
-  border-radius: 8px 8px 0 0;
-  font-size: 1.1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-details[open] summary {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.archive__item-title a:hover {
+  color: #3498db;
 }
 
-.exam-content {
-  padding: 1.5rem;
-}
-
-.question {
-  margin: 1.5rem 0;
-  padding: 1rem;
-  background: transparent;
-  border-radius: 6px;
-  border-left: 3px solid #4285f4;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.question-title {
-  font-weight: 600;
-  color: inherit;
-  margin-bottom: 0.8rem;
+.course-meta {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #666;
 }
 
-.points {
-  background: #4285f4;
-  color: white;
-  padding: 0.2rem 0.6rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 500;
+.course-meta span {
+  background: #f8f9fa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  border: 1px solid #e9ecef;
 }
 
-.math-content {
-  line-height: 1.6;
+.course-type {
+  background: #e3f2fd !important;
+  border-color: #bbdefb !important;
+  color: #1976d2;
+}
+
+.course-venue {
+  background: #e8f5e8 !important;
+  border-color: #c8e6c9 !important;
+  color: #388e3c;
+}
+
+.course-date {
+  background: #fff3e0 !important;
+  border-color: #ffe0b2 !important;
+  color: #f57c00;
+}
+
+.course-grade {
+  background: #fce4ec !important;
+  border-color: #f8bbd9 !important;
+  color: #c2185b;
+}
+
+.course-instructor {
+  background: #f3e5f5 !important;
+  border-color: #e1bee7 !important;
+  color: #7b1fa2;
+}
+
+.course-notice {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+  color: #6c757d;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* 搜索相关样式 */
+.exams-search {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
   font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background: transparent;
+  color: inherit;
 }
 
-.math-content p {
-  margin: 0.8rem 0;
+.search-input:focus {
+  border-color: #3498db;
 }
 
-.proof {
-  background: rgba(255, 243, 224, 0.5);
-  border: 1px solid rgba(255, 183, 77, 0.5);
-  border-radius: 6px;
-  padding: 1rem;
-  margin: 1rem 0;
+.search-input::placeholder {
+  color: inherit;
+  opacity: 0.6;
 }
 
-.proof-title {
-  font-weight: 600;
-  color: #e65100;
-  margin-bottom: 0.5rem;
+.exams-list {
+  margin-top: 2rem;
 }
 
-.optional {
-  background: rgba(232, 245, 232, 0.5);
-  border: 1px solid rgba(76, 175, 80, 0.5);
-  border-radius: 6px;
-  padding: 1rem;
-  margin: 1rem 0;
+.no-results {
+  text-align: center;
+  padding: 2rem;
+  color: inherit;
+  font-style: italic;
+  opacity: 0.7;
 }
 
-.optional-title {
-  font-weight: 600;
-  color: #2e7d32;
-  margin-bottom: 0.5rem;
+/* 高亮匹配的文本 */
+.highlight {
+  background-color: yellow;
+  color: black;
+  padding: 0.1em 0.2em;
+  border-radius: 0.2em;
 }
 
+/* 响应式设计 */
 @media (max-width: 768px) {
-  .exam-content {
+  .exam-course-item {
     padding: 1rem;
   }
   
-  summary {
-    padding: 1rem;
+  .archive__item-title a {
+    font-size: 1.2rem;
   }
   
-  .question {
-    padding: 0.8rem;
+  .course-meta {
+    gap: 0.5rem;
   }
+  
+  .course-meta span {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+/* 搜索结果样式 */
+.search-results {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.hidden {
+  display: none !important;
 }
 </style>
 
-<div id="2023-fall-midterm" class="exam-header">
-  <h3>2023秋季学期期中考试</h3>
-  <div class="exam-meta">总分：100分</div>
-</div>
-
-<details markdown="1">
-  <summary>完整试题</summary>
-  <div class="exam-content">
-    <div class="math-content">
-      <p>以下如无特别声明，\(K\)均表数域，\(\mathbb{Q}(\mathbb{R},\mathbb{C})\)表有理数（实数、复数）域，\(f,g\)表\(K[x]\)中的多项式</p>
-    </div>
-    <div class="question">
-      <div class="question-title">
-        <span>第1题 </span>
-        <span class="points">10分</span>
-      </div>
-      <div class="math-content">
-        <p>考虑置换\[\sigma=\left (\begin{matrix}1&2&3&4&5&6&7&8\\4&8&3&1&6&8&5&2\end{matrix}\right ),\quad \tau=\left(\begin{matrix}1&2&3&4&5&6&7&8\\3&7&1&8&6&4&2&5\end{matrix}\right).\]</p>
-        <p>求乘积\(\tau^{-1}\sigma^{-1}\tau\sigma\).</p>
-      </div>
-    </div>
-    <div class="question">
-      <div class="question-title">
-        <span>第2题 </span>
-        <span class="points">10分</span>
-      </div>
-      <div class="math-content">
-        <p>考虑\(n\)元对称多项式\[f(x_1,x_2,\cdots,x_n)=\sum_{1\le i<j\le n}(x_i+x_j)^3.\]</p>
-        <p>将\(f\)写为初等对称多项式\(\mathrm{e}_1,\mathrm{e}_2,\cdots,\mathrm{e}_n\)的表达式.</p>
-      </div>
-    </div>
-    <div class="question">
-      <div class="question-title">
-        <span>第3题 </span>
-        <span class="points">20分</span>
-      </div>
-      <div class="math-content">
-        <p>设\[\begin{align}f(x)=&x^5+x^4+2x^3-x^2-x-2,\\g(x)=&x^4+x^2-x-1\end{align}\]</p>
-        <p>1. 利用辗转相除法求\(f(x),g(x)\)的最大公因式\((f,g)\)（需写出辗转相除法过程）；</p>
-        <p>2. 求次数最小的\(u,v\in \mathbb{Q}[x]\)，满足\(uf+vg=(f,g)\).</p>
-      </div>
-    </div>
-    <div class="question">
-      <div class="question-title">
-        <span>第4题 </span>
-        <span class="points">20分</span>
-      </div>
-      <div class="math-content">
-        <p>求次数最小的多项式\(f(x)\in K[x]\)，满足如下方程组</p>
-        <p>\[\begin{cases} f(x)\equiv 2x+4&\pmod{x+1},\\f(x)\equiv 2x^2+2x&\pmod{x^2+1},\\f(x)\equiv 3x^2+1&\pmod{x^3}.\end{cases}\]</p>
-      </div>
-    </div>
-    <div class="question">
-      <div class="question-title">
-        <span>第5题 </span>
-        <span class="points">20分</span>
-      </div>
-      <div class="math-content">
-        <p>设\[f(x)=8x^6+4x^5-14x^4-9x^3+5x^2+5x+1.\]</p>
-        <p>1. 求\(f(x)\)的所有有理根，并指出它们的重数；</p>
-        <p>2. 求\(f(x)\)在\(x=1\)处的Taylor展开式.</p>
-      </div>
-    </div>
-    <div class="question">
-      <div class="question-title">
-        <span>第6题 </span>
-        <span class="points">10分</span>
-      </div>
-      <div class="math-content">
-        <p>证明：\(f(x)=x^{n-1}+x^{n-2}+\cdots+x+1\)是\(\mathbb{Q}[x]\)中的不可约多项式当且仅当\(n\)是素数.</p>
-      </div>
-    </div>
-    <div class="question">
-      <div class="question-title">
-        <span>第7题 </span>
-        <span class="points">10分</span>
-      </div>
-      <div class="math-content">
-        <p>设\(f(x)\in K[x]\)无重因式，\(n\ge 2\)是给定正整数，证明：\(f(x^n)\)有重因式当且仅当\(x=0\)是\(f(x)\)的单根.</p>
-      </div>
-    </div>
-    <div class="optional">
-      <div class="optional-title">
-        <span>可选附加题 - Mason定理</span>
-        <span class="points">10分</span>
-      </div>
-      <div class="math-content">
-        <p>设\(f(x)\in\mathbb{C}[x]\)，用\(n_0(f)\)表示多项式\(f(x)\)的不同根的个数.</p>
-        <p>假设\(g,h\in \mathbb{C}[x]\)满足\(f+g+h=0\)以及\((g,h)=1\)，证明\[\max\{\deg f,\deg g,\deg h\}\le n_0(fgh)-1.\]</p>
-      </div>
-    </div>
-  </div>
-</details>
-
 <script>
-// 添加一些交互功能
 document.addEventListener('DOMContentLoaded', function() {
-  // 为所有details元素添加切换动画
-  const detailsElements = document.querySelectorAll('details');
+  const searchInput = document.getElementById('courseSearch');
+  const clearButton = document.getElementById('clearSearch');
+  const searchResults = document.getElementById('searchResults');
+  const examsList = document.getElementById('examsList');
+  const examItems = examsList.querySelectorAll('.exam-course-item');
   
-  detailsElements.forEach(details => {
-    details.addEventListener('toggle', function() {
-      if (this.open) {
-        this.style.transition = 'all 0.3s ease';
-      }
-    });
+  // 存储所有课程的原始数据
+  const originalExamItems = Array.from(examItems).map(item => {
+    const titleElement = item.querySelector('.archive__item-title');
+    return {
+      element: item,
+      title: titleElement ? titleElement.textContent.trim() : '',
+      originalHTML: item.innerHTML
+    };
   });
   
-  // 平滑滚动到锚点
-  const links = document.querySelectorAll('a[href^="#"]');
-  links.forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const targetId = this.getAttribute('href');
-      const targetElement = document.querySelector(targetId);
-      if (targetElement) {
-        targetElement.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
+  // 搜索功能
+  function performSearch(searchTerm) {
+    const normalizedSearchTerm = searchTerm.toLowerCase().trim();
+    let matchCount = 0;
+    
+    originalExamItems.forEach(exam => {
+      const normalizedTitle = exam.title.toLowerCase();
+      
+      if (normalizedTitle.includes(normalizedSearchTerm)) {
+        exam.element.classList.remove('hidden');
+        
+        // 高亮匹配的文本
+        if (normalizedSearchTerm && exam.title) {
+          const regex = new RegExp(`(${normalizedSearchTerm})`, 'gi');
+          const highlightedTitle = exam.title.replace(regex, '<span class="highlight">$1</span>');
+          
+          const titleElement = exam.element.querySelector('.archive__item-title');
+          if (titleElement) {
+            // 保持链接结构
+            const link = titleElement.querySelector('a');
+            if (link) {
+              link.innerHTML = link.innerHTML.replace(regex, '<span class="highlight">$1</span>');
+            } else {
+              titleElement.innerHTML = highlightedTitle;
+            }
+          }
+        }
+        
+        matchCount++;
+      } else {
+        exam.element.classList.add('hidden');
+        // 恢复原始HTML以移除高亮
+        exam.element.innerHTML = exam.originalHTML;
       }
     });
+    
+    // 更新搜索结果信息
+    if (normalizedSearchTerm) {
+      searchResults.textContent = `找到 ${matchCount} 个匹配的课程`;
+      clearButton.style.display = 'inline-block';
+    } else {
+      searchResults.textContent = '';
+      clearButton.style.display = 'none';
+      
+      // 恢复所有项目的原始HTML
+      originalExamItems.forEach(exam => {
+        exam.element.innerHTML = exam.originalHTML;
+      });
+    }
+    
+    // 如果没有匹配结果，显示提示信息
+    if (normalizedSearchTerm && matchCount === 0) {
+      searchResults.textContent = `没有找到包含"${searchTerm}"的课程`;
+    }
+  }
+  
+  // 输入事件监听
+  searchInput.addEventListener('input', function() {
+    performSearch(this.value);
   });
+  
+  // 清除按钮事件
+  clearButton.addEventListener('click', function() {
+    searchInput.value = '';
+    performSearch('');
+    searchInput.focus();
+  });
+  
+  // 键盘事件
+  searchInput.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      searchInput.value = '';
+      performSearch('');
+    }
+  });
+  
+  // 初始化placeholder文本
+  searchInput.placeholder = "搜索课程名称...";
 });
 </script>

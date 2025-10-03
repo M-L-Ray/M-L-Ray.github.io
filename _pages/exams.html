@@ -9,7 +9,7 @@ author_profile: true
 
 <!-- 搜索框 -->
 <div class="exams-search">
-  <input type="text" id="courseSearch" placeholder="搜索课程名称..." class="search-input">
+  <input type="text" id="courseSearch" placeholder="这是个装饰搜索框..." class="search-input">
   <button id="clearSearch" style="display:none; margin-left: 10px; padding: 0.5rem 1rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer;">清除</button>
   <div id="searchResults" class="search-results"></div>
 </div>
@@ -180,114 +180,4 @@ author_profile: true
     padding: 0.2rem 0.5rem;
   }
 }
-
-/* 搜索结果样式 */
-.search-results {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: #666;
-}
-
-.hidden {
-  display: none !important;
-}
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('courseSearch');
-  const clearButton = document.getElementById('clearSearch');
-  const searchResults = document.getElementById('searchResults');
-  const examsList = document.getElementById('examsList');
-  const examItems = examsList.querySelectorAll('.exam-course-item');
-  
-  // 存储所有课程的原始数据
-  const originalExamItems = Array.from(examItems).map(item => {
-    const titleElement = item.querySelector('.archive__item-title');
-    return {
-      element: item,
-      title: titleElement ? titleElement.textContent.trim() : '',
-      originalHTML: item.innerHTML
-    };
-  });
-  
-  // 搜索功能
-  function performSearch(searchTerm) {
-    const normalizedSearchTerm = searchTerm.toLowerCase().trim();
-    let matchCount = 0;
-    
-    originalExamItems.forEach(exam => {
-      const normalizedTitle = exam.title.toLowerCase();
-      
-      if (normalizedTitle.includes(normalizedSearchTerm)) {
-        exam.element.classList.remove('hidden');
-        
-        // 高亮匹配的文本
-        if (normalizedSearchTerm && exam.title) {
-          const regex = new RegExp(`(${normalizedSearchTerm})`, 'gi');
-          const highlightedTitle = exam.title.replace(regex, '<span class="highlight">$1</span>');
-          
-          const titleElement = exam.element.querySelector('.archive__item-title');
-          if (titleElement) {
-            // 保持链接结构
-            const link = titleElement.querySelector('a');
-            if (link) {
-              link.innerHTML = link.innerHTML.replace(regex, '<span class="highlight">$1</span>');
-            } else {
-              titleElement.innerHTML = highlightedTitle;
-            }
-          }
-        }
-        
-        matchCount++;
-      } else {
-        exam.element.classList.add('hidden');
-        // 恢复原始HTML以移除高亮
-        exam.element.innerHTML = exam.originalHTML;
-      }
-    });
-    
-    // 更新搜索结果信息
-    if (normalizedSearchTerm) {
-      searchResults.textContent = `找到 ${matchCount} 个匹配的课程`;
-      clearButton.style.display = 'inline-block';
-    } else {
-      searchResults.textContent = '';
-      clearButton.style.display = 'none';
-      
-      // 恢复所有项目的原始HTML
-      originalExamItems.forEach(exam => {
-        exam.element.innerHTML = exam.originalHTML;
-      });
-    }
-    
-    // 如果没有匹配结果，显示提示信息
-    if (normalizedSearchTerm && matchCount === 0) {
-      searchResults.textContent = `没有找到包含"${searchTerm}"的课程`;
-    }
-  }
-  
-  // 输入事件监听
-  searchInput.addEventListener('input', function() {
-    performSearch(this.value);
-  });
-  
-  // 清除按钮事件
-  clearButton.addEventListener('click', function() {
-    searchInput.value = '';
-    performSearch('');
-    searchInput.focus();
-  });
-  
-  // 键盘事件
-  searchInput.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      searchInput.value = '';
-      performSearch('');
-    }
-  });
-  
-  // 初始化placeholder文本
-  searchInput.placeholder = "搜索课程名称...";
-});
-</script>

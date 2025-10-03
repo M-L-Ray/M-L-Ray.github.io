@@ -6,6 +6,7 @@ permalink: /exams/Advanced-algebra2h
 venue: "ECNU"
 date: 2024-06-24
 location: "Shanghai, China"
+grade: 1.5
 ---
 主讲：罗栗教授
 

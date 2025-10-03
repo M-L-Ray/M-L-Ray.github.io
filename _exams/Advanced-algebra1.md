@@ -1,7 +1,7 @@
 ---
 title: "高等代数I"
 collection: exams
-type: "Undergraduate course"
+type: "专业必修课程"
 permalink: /exams/Advanced-algebra1
 venue: "ECNU"
 date: 2024-01-24

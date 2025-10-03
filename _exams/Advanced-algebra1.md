@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2024-01-24
 location: "Shanghai, China"
 grade: 1.0
+instructor: 陆俊教授
 ---
-主讲：陆俊教授
 
 <details markdown="1">
   <summary>2023秋季学期期中考试</summary>

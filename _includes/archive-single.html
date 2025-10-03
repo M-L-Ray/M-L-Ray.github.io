@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item exam-course-item" data-course-title="{{ title | downcase }}">
+<div class="{{ include.type | default: "list" }}__item exam-course-item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -27,7 +27,7 @@
     {% endif %}
 
     <div class="exam-course-header">
-      <h2 class="archive__item-title" itemprop="headline">
+      <h2 class="archive__item-title course-title" itemprop="headline">
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
@@ -45,6 +45,17 @@
           <span class="course-venue">{{ post.venue }}</span>
         {% endif %}
         
+        {% if post.date %}
+          <span class="course-date">{{ post.date | date: "%Y年" }}</span>
+        {% endif %}
+        
+        {% if post.grade %}
+          <span class="course-grade">成绩: {{ post.grade }}</span>
+        {% endif %}
+        
+        {% if post.instructor %}
+          <span class="course-instructor">{{ post.instructor }}</span>
+        {% endif %}
       </div>
     </div>
 
@@ -61,13 +72,12 @@
 
   </article>
 </div>
-
 <style>
 .exam-course-item {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
   background: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -79,11 +89,11 @@
 }
 
 .exam-course-header {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .archive__item-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .archive__item-title a {

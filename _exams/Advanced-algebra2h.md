@@ -7,6 +7,7 @@ venue: "ECNU"
 date: 2024-06-24
 location: "Shanghai, China"
 grade: 1.5
+a: 大一下
 instructor: 罗栗教授
 ---
 

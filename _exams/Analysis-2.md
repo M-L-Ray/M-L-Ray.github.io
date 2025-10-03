@@ -1,5 +1,5 @@
 ---
-title: "数学分析II - 历年考试资料"
+title: "数学分析II"
 collection: exams
 type: "Undergraduate course"
 permalink: /exams/analysis-2
@@ -297,12 +297,6 @@ details[open] summary {
 </details>
 
 <!-- 继续添加2025春季学期第二次和第三次小测 -->
-
-<div class="download-section">
-  <h2>📥 资源下载</h2>
-  <p>如需下载完整试卷集合，请联系课程助教或访问课程网站。</p>
-</div>
-
 <script>
 // 添加一些交互功能
 document.addEventListener('DOMContentLoaded', function() {

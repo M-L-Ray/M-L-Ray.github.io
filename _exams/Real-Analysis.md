@@ -1,7 +1,7 @@
 ---
 title: "实分析"
 collection: exams
-type: "Undergraduate course"
+type: "专业必修课程"
 permalink: /exams/real_analysis
 venue: "ECNU"
 date: 2025-06-23

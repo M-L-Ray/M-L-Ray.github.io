@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Exams"
+title: "考试试卷"
 permalink: /exams/
 author_profile: true
 ---
@@ -10,85 +10,67 @@ author_profile: true
 <!-- 搜索框 -->
 <div class="exams-search">
   <input type="text" id="courseSearch" placeholder="搜索课程名称..." class="search-input">
-  <div id="searchResults" class="search-results"></div>
 </div>
 
 {% include base_path %}
 
-<div class="exams-list" id="examsList">
-  <!-- 先按 grade 排序，再按 title 排序 -->
-  {% assign sorted_exams = site.exams | sort: "grade" %}
-  {% for post in sorted_exams %}
+<!-- 先按 grade 排序，再按 title 排序 -->
+{% assign sorted_exams = site.exams | sort: "grade" %}
+
+<div class="exams-list">
+{% for post in sorted_exams %}
+  <div class="exam-course-item" data-title="{{ post.title | downcase }}">
     {% include archive-single.html %}
-  {% endfor %}
+  </div>
+{% endfor %}
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('courseSearch');
-  const examsList = document.getElementById('examsList');
-  let courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
-  
-  // 存储所有课程的原始HTML和排序数据
-  const originalItems = courseItems.map(item => ({
-    html: item.outerHTML,
-    title: item.querySelector('.course-title').textContent.toLowerCase(),
-    grade: parseFloat(item.querySelector('.course-grade').textContent) || 0
-  }));
-  
-  // 初始排序函数
-  function sortItems(items, byGrade = true, byTitle = true) {
-    return items.sort((a, b) => {
-      if (byGrade && a.grade !== b.grade) {
-        return a.grade - b.grade;
-      }
-      if (byTitle) {
-        return a.title.localeCompare(b.title);
-      }
-      return 0;
-    });
-  }
-  
-  // 初始排序
-  const sortedItems = sortItems([...originalItems]);
-  renderItems(sortedItems);
+  const courseItems = document.querySelectorAll('.exam-course-item');
   
   searchInput.addEventListener('input', function() {
-    const searchTerm = this.value.trim().toLowerCase();
+    const searchTerm = this.value.toLowerCase().trim();
     
-    if (searchTerm === '') {
-      // 如果搜索词为空，恢复排序后的所有项目
-      renderItems(sortedItems);
-      return;
-    }
-    
-    // 过滤匹配的课程
-    const matchedItems = originalItems.filter(item => 
-      item.title.includes(searchTerm)
-    );
-    
-    // 对匹配结果进行排序
-    const sortedMatchedItems = sortItems(matchedItems);
-    
-    // 渲染匹配的项目
-    renderItems(sortedMatchedItems);
-    
-    // 如果没有匹配项，显示提示
-    if (matchedItems.length === 0) {
-      examsList.innerHTML = '<div class="no-results">没有找到匹配的课程</div>';
-    }
+    courseItems.forEach(item => {
+      const title = item.getAttribute('data-title');
+      
+      if (searchTerm === '' || title.includes(searchTerm)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
   });
-  
-  function renderItems(items) {
-    examsList.innerHTML = items.map(item => item.html).join('');
-    // 更新courseItems引用
-    courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
-  }
 });
 </script>
 
 <style>
-/* 保持之前的样式不变 */
+.exams-search {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #3498db;
+}
+
+.exams-list {
+  margin-top: 2rem;
+}
+
 .exam-course-item {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
@@ -104,8 +86,8 @@ document.addEventListener('DOMContentLoaded', function() {
   transform: translateY(-2px);
 }
 
-.exam-course-header {
-  margin-bottom: 1rem;
+.archive__item {
+  margin-bottom: 0;
 }
 
 .archive__item-title {
@@ -175,38 +157,6 @@ document.addEventListener('DOMContentLoaded', function() {
   color: #6c757d;
   font-size: 0.9rem;
   text-align: center;
-}
-
-/* 搜索相关样式 */
-.exams-search {
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.search-input {
-  width: 100%;
-  max-width: 400px;
-  padding: 0.75rem 1rem;
-  border: 2px solid #e0e0e0;
-  border-radius: 25px;
-  font-size: 1rem;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.search-input:focus {
-  border-color: #3498db;
-}
-
-.exams-list {
-  margin-top: 2rem;
-}
-
-.no-results {
-  text-align: center;
-  padding: 2rem;
-  color: #6c757d;
-  font-style: italic;
 }
 
 /* 响应式设计 */

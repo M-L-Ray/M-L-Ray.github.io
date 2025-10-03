@@ -1,7 +1,7 @@
 ---
 title: "高等代数II(H)"
 collection: exams
-type: "Undergraduate course"
+type: "专业必修课程"
 permalink: /exams/Advanced-algebra2h
 venue: "ECNU"
 date: 2024-06-24

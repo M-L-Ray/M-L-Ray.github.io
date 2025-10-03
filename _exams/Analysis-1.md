@@ -1,7 +1,7 @@
 ---
 title: "数学分析I"
 collection: exams
-type: "Undergraduate course"
+type: "专业必修课程"
 permalink: /exams/analysis-1
 venue: "ECNU"
 date: 2025-01-13

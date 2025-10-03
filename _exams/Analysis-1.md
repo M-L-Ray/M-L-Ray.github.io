@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2025-01-13
 location: "Shanghai, China"
 grade: 1.0
+instructor: 苗俊杰副教授，戴浩晖副教授，王丽萍教授，赵纯奕教授
 ---
-主讲：苗俊杰副教授，戴浩晖副教授，王丽萍教授，赵纯奕教授
 
 <details markdown="1">
   <summary> 2023秋季学期第一次小测</summary>

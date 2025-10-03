@@ -6,6 +6,7 @@ permalink: /exams/numerical-analysis
 venue: "ECNU"
 date: 2025-06-25
 location: "Shanghai, China"
+grade: 2.5
 ---
 主讲：王元明教授
 

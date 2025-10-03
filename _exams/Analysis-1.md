@@ -182,7 +182,7 @@ details[open] summary {
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 判断题</span>
+        <span>第1题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -196,7 +196,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 定义与证明</span>
+        <span>第2题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -206,7 +206,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 证明题</span>
+        <span>第3题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -216,7 +216,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 定义与证明</span>
+        <span>第4题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -226,7 +226,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 证明题</span>
+        <span>第5题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -236,7 +236,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第6题 - 定义与证明</span>
+        <span>第6题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -246,7 +246,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第7题 - 证明题</span>
+        <span>第7题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -256,7 +256,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第8题 - 计算题</span>
+        <span>第8题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -266,7 +266,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第9题 - 定义与证明</span>
+        <span>第9题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -286,7 +286,7 @@ details[open] summary {
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 判断题</span>
+        <span>第1题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -300,7 +300,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 定义与证明</span>
+        <span>第2题  </span>
         <span class="points">12分</span>
       </div>
       <div class="math-content">
@@ -310,7 +310,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 定义与证明</span>
+        <span>第3题  </span>
         <span class="points">12分</span>
       </div>
       <div class="math-content">
@@ -320,7 +320,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 证明题</span>
+        <span>第4题 </span>
         <span class="points">12分</span>
       </div>
       <div class="math-content">
@@ -330,7 +330,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 定义与证明</span>
+        <span>第5题  </span>
         <span class="points">12分</span>
       </div>
       <div class="math-content">
@@ -340,7 +340,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第6题 - 证明题</span>
+        <span>第6题 </span>
         <span class="points">12分</span>
       </div>
       <div class="math-content">
@@ -352,7 +352,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第7题 - 证明题</span>
+        <span>第7题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -362,7 +362,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第8题 - 证明题</span>
+        <span>第8题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -382,7 +382,7 @@ details[open] summary {
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 判断题</span>
+        <span>第1题 </span>
         <span class="points">30分</span>
       </div>
       <div class="math-content">
@@ -397,7 +397,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 计算题</span>
+        <span>第2题 </span>
         <span class="points">30分</span>
       </div>
       <div class="math-content">
@@ -412,7 +412,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 分析题</span>
+        <span>第3题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -422,7 +422,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 证明题</span>
+        <span>第4题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -432,7 +432,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 证明题</span>
+        <span>第5题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -442,7 +442,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第6题 - 证明题</span>
+        <span>第6题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">
@@ -462,7 +462,7 @@ details[open] summary {
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
-        <span>第1题 - 判断题</span>
+        <span>第1题 </span>
         <span class="points">16分</span>
       </div>
       <div class="math-content">
@@ -476,7 +476,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第2题 - 计算题</span>
+        <span>第2题 </span>
         <span class="points">20分</span>
       </div>
       <div class="math-content">
@@ -490,7 +490,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第3题 - 证明题</span>
+        <span>第3题 </span>
         <span class="points">6分</span>
       </div>
       <div class="math-content">
@@ -500,7 +500,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第4题 - 分析题</span>
+        <span>第4题 </span>
         <span class="points">8分</span>
       </div>
       <div class="math-content">
@@ -510,7 +510,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第5题 - 证明题</span>
+        <span>第5题 </span>
         <span class="points">8分</span>
       </div>
       <div class="math-content">
@@ -520,7 +520,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第6题 - 证明题</span>
+        <span>第6题 </span>
         <span class="points">8分</span>
       </div>
       <div class="math-content">
@@ -530,7 +530,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第7题 - 证明题</span>
+        <span>第7题 </span>
         <span class="points">8分</span>
       </div>
       <div class="math-content">
@@ -540,7 +540,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第8题 - 证明题</span>
+        <span>第8题 </span>
         <span class="points">8分</span>
       </div>
       <div class="math-content">
@@ -550,7 +550,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第9题 - 证明题</span>
+        <span>第9题 </span>
         <span class="points">8分</span>
       </div>
       <div class="math-content">
@@ -560,7 +560,7 @@ details[open] summary {
 
     <div class="question">
       <div class="question-title">
-        <span>第10题 - 证明题</span>
+        <span>第10题 </span>
         <span class="points">10分</span>
       </div>
       <div class="math-content">

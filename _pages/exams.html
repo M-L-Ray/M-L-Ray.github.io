@@ -9,8 +9,7 @@ author_profile: true
 
 <!-- 搜索框 -->
 <div class="exams-search">
-  <input type="text" id="courseSearch" placeholder="搜索课程名称..." class="search-input">
-  <button id="clearSearch" style="display:none; margin-left: 10px; padding: 0.5rem 1rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer;">清除</button>
+  <input type="text" id="courseSearch" placeholder="搜索课程名称..." class="search-input" autocomplete="off">
   <div id="searchResults" class="search-results"></div>
 </div>
 
@@ -27,143 +26,163 @@ author_profile: true
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('courseSearch');
+  const searchResults = document.getElementById('searchResults');
   const examsList = document.getElementById('examsList');
-  let courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
   
-  // 存储所有课程的原始HTML和标题数据
-  const originalItems = courseItems.map(item => ({
-    html: item.outerHTML,
-    title: item.querySelector('.archive__item-title').textContent.toLowerCase().trim()
+  // 获取所有课程数据
+  const courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
+  const courseData = courseItems.map(item => ({
+    element: item,
+    title: item.querySelector('.archive__item-title').textContent.trim(),
+    url: item.querySelector('.archive__item-title a').href,
+    type: item.querySelector('.course-type')?.textContent || '',
+    venue: item.querySelector('.course-venue')?.textContent || '',
+    a: item.querySelector('.course-a')?.textContent || ''
   }));
-  
-  // 初始渲染所有项目
-  renderItems(originalItems);
-  
-  searchInput.addEventListener('input', function() {
-    const searchTerm = this.value.trim().toLowerCase();
-    
+
+  // 存储原始列表状态
+  const originalDisplayState = courseItems.map(item => ({
+    element: item,
+    display: 'block'
+  }));
+
+  // 搜索函数
+  function performSearch(searchTerm) {
     if (searchTerm === '') {
-      // 如果搜索词为空，恢复所有项目
-      renderItems(originalItems);
+      // 清空搜索时恢复所有项目
+      courseItems.forEach(item => {
+        item.style.display = 'block';
+      });
+      searchResults.style.display = 'none';
       return;
     }
-    
-    // 过滤匹配的课程
-    const matchedItems = originalItems.filter(item => 
-      item.title.includes(searchTerm)
+
+    const matchedCourses = courseData.filter(course => 
+      course.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      course.type.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      course.venue.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      course.a.toLowerCase().includes(searchTerm.toLowerCase())
     );
+
+    // 更新下拉建议
+    updateSearchSuggestions(matchedCourses, searchTerm);
     
-    // 渲染匹配的项目
-    renderItems(matchedItems);
+    // 过滤列表显示
+    courseItems.forEach(item => {
+      const title = item.querySelector('.archive__item-title').textContent.trim();
+      const isVisible = matchedCourses.some(course => course.title === title);
+      item.style.display = isVisible ? 'block' : 'none';
+    });
+  }
+
+  // 更新搜索建议
+  function updateSearchSuggestions(courses, searchTerm) {
+    if (courses.length === 0) {
+      searchResults.style.display = 'none';
+      return;
+    }
+
+    // 只显示前5个建议
+    const suggestions = courses.slice(0, 5);
     
-    // 如果没有匹配项，显示提示
-    if (matchedItems.length === 0) {
-      examsList.innerHTML = '<div class="no-results">没有找到匹配的课程</div>';
+    searchResults.innerHTML = suggestions.map(course => `
+      <div class="suggestion-item" data-url="${course.url}">
+        <div class="suggestion-title">
+          ${highlightText(course.title, searchTerm)}
+        </div>
+        <div class="suggestion-meta">
+          ${course.type ? `<span class="suggestion-tag">${course.type}</span>` : ''}
+          ${course.venue ? `<span class="suggestion-tag">${course.venue}</span>` : ''}
+          ${course.a ? `<span class="suggestion-tag">${course.a}</span>` : ''}
+        </div>
+      </div>
+    `).join('');
+
+    searchResults.style.display = 'block';
+
+    // 添加点击事件
+    const suggestionItems = searchResults.querySelectorAll('.suggestion-item');
+    suggestionItems.forEach(item => {
+      item.addEventListener('click', function() {
+        window.location.href = this.getAttribute('data-url');
+      });
+    });
+  }
+
+  // 高亮匹配文本
+  function highlightText(text, searchTerm) {
+    if (!searchTerm) return text;
+    
+    const regex = new RegExp(`(${escapeRegExp(searchTerm)})`, 'gi');
+    return text.replace(regex, '<mark>$1</mark>');
+  }
+
+  // 转义正则表达式特殊字符
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  // 事件监听
+  searchInput.addEventListener('input', function() {
+    performSearch(this.value.trim());
+  });
+
+  searchInput.addEventListener('focus', function() {
+    if (this.value.trim() !== '' && searchResults.children.length > 0) {
+      searchResults.style.display = 'block';
     }
   });
-  
-  function renderItems(items) {
-    examsList.innerHTML = items.map(item => item.html).join('');
-    // 更新courseItems引用
-    courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
-  }
+
+  // 点击页面其他区域关闭下拉框
+  document.addEventListener('click', function(e) {
+    if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+      searchResults.style.display = 'none';
+    }
+  });
+
+  // 键盘导航
+  searchInput.addEventListener('keydown', function(e) {
+    const suggestions = searchResults.querySelectorAll('.suggestion-item');
+    const activeSuggestion = searchResults.querySelector('.suggestion-item.active');
+    
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (!activeSuggestion) {
+        suggestions[0]?.classList.add('active');
+      } else {
+        const next = activeSuggestion.nextElementSibling;
+        if (next) {
+          activeSuggestion.classList.remove('active');
+          next.classList.add('active');
+        }
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (activeSuggestion) {
+        const prev = activeSuggestion.previousElementSibling;
+        if (prev) {
+          activeSuggestion.classList.remove('active');
+          prev.classList.add('active');
+        } else {
+          activeSuggestion.classList.remove('active');
+        }
+      }
+    } else if (e.key === 'Enter') {
+      if (activeSuggestion) {
+        e.preventDefault();
+        window.location.href = activeSuggestion.getAttribute('data-url');
+      }
+    }
+  });
 });
 </script>
 
 <style>
-/* 保持之前的样式不变 */
-.exam-course-item {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  background: transparent;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
-}
-
-.exam-course-item:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transform: translateY(-2px);
-}
-
-.exam-course-header {
-  margin-bottom: 1rem;
-}
-
-.archive__item-title {
-  margin-bottom: 0.5rem;
-}
-
-.archive__item-title a {
-  color: inherit;
-  text-decoration: none;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-.archive__item-title a:hover {
-  color: #3498db;
-}
-
-.course-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  font-size: 0.9rem;
-  color: #666;
-}
-
-.course-meta span {
-  background: #f8f9fa;
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  border: 1px solid #e9ecef;
-}
-
-.course-type {
-  background: #e3f2fd !important;
-  border-color: #bbdefb !important;
-  color: #1976d2;
-}
-
-.course-venue {
-  background: #e8f5e8 !important;
-  border-color: #c8e6c9 !important;
-  color: #388e3c;
-}
-
-.course-date {
-  background: #fff3e0 !important;
-  border-color: #ffe0b2 !important;
-  color: #f57c00;
-}
-
-.course-grade {
-  background: #fce4ec !important;
-  border-color: #f8bbd9 !important;
-  color: #c2185b;
-}
-
-.course-instructor {
-  background: #f3e5f5 !important;
-  border-color: #e1bee7 !important;
-  color: #7b1fa2;
-}
-
-.course-notice {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #f0f0f0;
-  color: #6c757d;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
 /* 搜索相关样式 */
 .exams-search {
   margin: 2rem 0;
   text-align: center;
+  position: relative;
 }
 
 .search-input {
@@ -188,6 +207,94 @@ document.addEventListener('DOMContentLoaded', function() {
   opacity: 0.6;
 }
 
+/* 搜索结果下拉框样式 */
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+  margin-top: 5px;
+}
+
+/* 暗色模式支持 */
+@media (prefers-color-scheme: dark) {
+  .search-results {
+    background: #2d3748;
+    border-color: #4a5568;
+    color: white;
+  }
+}
+
+.suggestion-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover,
+.suggestion-item.active {
+  background-color: #f8f9fa;
+}
+
+/* 暗色模式悬停状态 */
+@media (prefers-color-scheme: dark) {
+  .suggestion-item:hover,
+  .suggestion-item.active {
+    background-color: #4a5568;
+  }
+}
+
+.suggestion-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+.suggestion-title mark {
+  background-color: #ffeb3b;
+  color: #000;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+
+.suggestion-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.suggestion-tag {
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  background: #f1f3f4;
+  border-radius: 12px;
+  color: #5f6368;
+}
+
+/* 暗色模式标签 */
+@media (prefers-color-scheme: dark) {
+  .suggestion-tag {
+    background: #4a5568;
+    color: #cbd5e0;
+  }
+}
+
 .exams-list {
   margin-top: 2rem;
 }
@@ -200,16 +307,30 @@ document.addEventListener('DOMContentLoaded', function() {
   opacity: 0.7;
 }
 
-/* 高亮匹配的文本 */
-.highlight {
-  background-color: yellow;
-  color: black;
-  padding: 0.1em 0.2em;
-  border-radius: 0.2em;
+/* 保持您原有的课程项样式不变 */
+.exam-course-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: transparent;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.exam-course-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
 }
 
 /* 响应式设计 */
 @media (max-width: 768px) {
+  .search-results {
+    max-width: 90%;
+    left: 5%;
+    transform: none;
+  }
+  
   .exam-course-item {
     padding: 1rem;
   }

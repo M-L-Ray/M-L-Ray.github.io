@@ -9,7 +9,7 @@ author_profile: true
 
 <!-- 搜索框 -->
 <div class="exams-search">
-  <input type="text" id="courseSearch" placeholder="这是个装饰搜索框..." class="search-input">
+  <input type="text" id="courseSearch" placeholder="搜索课程名称..." class="search-input">
   <button id="clearSearch" style="display:none; margin-left: 10px; padding: 0.5rem 1rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer;">清除</button>
   <div id="searchResults" class="search-results"></div>
 </div>
@@ -19,12 +19,29 @@ author_profile: true
 <div class="exams-list" id="examsList">
   {% assign sorted_exams = site.exams | sort: "grade" %}
   {% for post in sorted_exams %}
-    {% include archive-single.html %}
+    <div class="exam-course-item" data-title="{{ post.title | downcase }}">
+      <div class="exam-course-header">
+        <h3 class="archive__item-title">
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+        </h3>
+        <div class="course-meta">
+          <span class="course-type">{{ post.type }}</span>
+          <span class="course-venue">{{ post.venue }}</span>
+          <span class="course-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <span class="course-grade">成绩: {{ post.grade }}</span>
+          <span class="course-instructor">教师: {{ post.instructor }}</span>
+          <span class="course-semester">{{ post.a }}</span>
+        </div>
+      </div>
+      <div class="course-notice">
+        此处均为回忆版试卷，仅供交流使用，请勿用于商业用途。
+      </div>
+    </div>
   {% endfor %}
 </div>
 
 <style>
-/* 保持之前的样式不变 */
+/* 你的CSS样式保持不变 */
 .exam-course-item {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
@@ -38,10 +55,6 @@ author_profile: true
 .exam-course-item:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   transform: translateY(-2px);
-}
-
-.exam-course-header {
-  margin-bottom: 1rem;
 }
 
 .archive__item-title {
@@ -74,35 +87,11 @@ author_profile: true
   border: 1px solid #e9ecef;
 }
 
-.course-type {
-  background: #e3f2fd !important;
-  border-color: #bbdefb !important;
-  color: #1976d2;
-}
-
-.course-venue {
-  background: #e8f5e8 !important;
-  border-color: #c8e6c9 !important;
-  color: #388e3c;
-}
-
-.course-date {
-  background: #fff3e0 !important;
-  border-color: #ffe0b2 !important;
-  color: #f57c00;
-}
-
-.course-grade {
-  background: #fce4ec !important;
-  border-color: #f8bbd9 !important;
-  color: #c2185b;
-}
-
-.course-instructor {
-  background: #f3e5f5 !important;
-  border-color: #e1bee7 !important;
-  color: #7b1fa2;
-}
+.course-type { background: #e3f2fd !important; border-color: #bbdefb !important; color: #1976d2; }
+.course-venue { background: #e8f5e8 !important; border-color: #c8e6c9 !important; color: #388e3c; }
+.course-date { background: #fff3e0 !important; border-color: #ffe0b2 !important; color: #f57c00; }
+.course-grade { background: #fce4ec !important; border-color: #f8bbd9 !important; color: #c2185b; }
+.course-instructor { background: #f3e5f5 !important; border-color: #e1bee7 !important; color: #7b1fa2; }
 
 .course-notice {
   margin-top: 1rem;
@@ -113,7 +102,6 @@ author_profile: true
   text-align: center;
 }
 
-/* 搜索相关样式 */
 .exams-search {
   margin: 2rem 0;
   text-align: center;
@@ -128,56 +116,98 @@ author_profile: true
   font-size: 1rem;
   outline: none;
   transition: border-color 0.3s ease;
-  background: transparent;
-  color: inherit;
 }
 
 .search-input:focus {
   border-color: #3498db;
 }
 
-.search-input::placeholder {
-  color: inherit;
-  opacity: 0.6;
+.hidden {
+  display: none !important;
 }
 
-.exams-list {
-  margin-top: 2rem;
-}
-
-.no-results {
-  text-align: center;
-  padding: 2rem;
-  color: inherit;
-  font-style: italic;
-  opacity: 0.7;
-}
-
-/* 高亮匹配的文本 */
-.highlight {
-  background-color: yellow;
-  color: black;
-  padding: 0.1em 0.2em;
-  border-radius: 0.2em;
-}
-
-/* 响应式设计 */
-@media (max-width: 768px) {
-  .exam-course-item {
-    padding: 1rem;
-  }
-  
-  .archive__item-title a {
-    font-size: 1.2rem;
-  }
-  
-  .course-meta {
-    gap: 0.5rem;
-  }
-  
-  .course-meta span {
-    font-size: 0.8rem;
-    padding: 0.2rem 0.5rem;
-  }
+.search-results {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('脚本开始执行'); // 调试信息
+  
+  const searchInput = document.getElementById('courseSearch');
+  const clearButton = document.getElementById('clearSearch');
+  const searchResults = document.getElementById('searchResults');
+  const examItems = document.querySelectorAll('.exam-course-item');
+  
+  console.log('找到的课程项数量:', examItems.length); // 调试信息
+  
+  if (!searchInput) {
+    console.error('未找到搜索输入框');
+    return;
+  }
+  
+  // 搜索功能
+  function performSearch(searchTerm) {
+    console.log('搜索关键词:', searchTerm); // 调试信息
+    
+    const normalizedSearchTerm = searchTerm.toLowerCase().trim();
+    let matchCount = 0;
+    
+    examItems.forEach(item => {
+      const title = item.getAttribute('data-title') || 
+                   item.querySelector('.archive__item-title')?.textContent.toLowerCase() || '';
+      
+      console.log('检查课程:', title); // 调试信息
+      
+      if (title.includes(normalizedSearchTerm)) {
+        item.classList.remove('hidden');
+        matchCount++;
+        console.log('匹配:', title); // 调试信息
+      } else {
+        item.classList.add('hidden');
+      }
+    });
+    
+    // 更新搜索结果信息
+    if (normalizedSearchTerm) {
+      searchResults.textContent = `找到 ${matchCount} 个匹配的课程`;
+      clearButton.style.display = 'inline-block';
+    } else {
+      searchResults.textContent = '';
+      clearButton.style.display = 'none';
+    }
+    
+    // 如果没有匹配结果
+    if (normalizedSearchTerm && matchCount === 0) {
+      searchResults.textContent = `没有找到包含"${searchTerm}"的课程`;
+    }
+    
+    console.log('匹配数量:', matchCount); // 调试信息
+  }
+  
+  // 输入事件监听
+  searchInput.addEventListener('input', function() {
+    performSearch(this.value);
+  });
+  
+  // 清除按钮事件
+  clearButton.addEventListener('click', function() {
+    searchInput.value = '';
+    performSearch('');
+    searchInput.focus();
+  });
+  
+  // 键盘事件
+  searchInput.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      searchInput.value = '';
+      performSearch('');
+    }
+  });
+  
+  console.log('搜索功能初始化完成'); // 调试信息
+});
+</script>

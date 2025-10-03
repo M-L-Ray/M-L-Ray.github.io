@@ -6,6 +6,7 @@ permalink: /exams/topologyh
 venue: "ECNU"
 date: 2025-06-25
 location: "Shanghai, China"
+grade: 2.5
 ---
 主讲：邱瑞峰教授
 

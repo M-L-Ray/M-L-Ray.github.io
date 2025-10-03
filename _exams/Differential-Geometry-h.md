@@ -7,6 +7,7 @@ venue: "ECNU"
 date: 2023-06-24
 location: "Shanghai, China"
 grade: 3.0
+a: 大三上
 instructor: 刘博教授
 ---
 

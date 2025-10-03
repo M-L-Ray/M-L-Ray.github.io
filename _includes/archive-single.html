@@ -44,27 +44,8 @@
         {% if post.venue %}
           <span class="course-venue">{{ post.venue }}</span>
         {% endif %}
-        
-        {% if post.date %}
-          <span class="course-date">{{ post.date | date: "%Y年" }}</span>
-        {% endif %}
-        
-        {% if post.grade %}
-          <span class="course-grade">成绩: {{ post.grade }}</span>
-        {% endif %}
-        
-        {% if post.instructor %}
-          <span class="course-instructor">{{ post.instructor }}</span>
-        {% endif %}
       </div>
     </div>
-
-    {% if post.excerpt and site.read_more != 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> 查看课程试卷</a></strong></p></p>
-    {% endif %}
-
     <!-- 简化的提示信息 -->
     <div class="course-notice">
       <small>点击课程名称进入详情页</small>

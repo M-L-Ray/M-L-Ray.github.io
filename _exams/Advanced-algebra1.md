@@ -7,6 +7,7 @@ venue: "ECNU"
 date: 2024-01-24
 location: "Shanghai, China"
 grade: 1.0
+a: 大一上
 instructor: 陆俊教授
 ---
 

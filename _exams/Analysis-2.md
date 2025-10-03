@@ -1,5 +1,5 @@
 ---
-title: "数学分析II"
+title: "数学分析II - 历年考试资料"
 collection: exams
 type: "Undergraduate course"
 permalink: /exams/analysis-2
@@ -9,11 +9,10 @@ location: "Shanghai, China"
 ---
 
 ## 课程信息
-**主讲教师：** 苗俊杰副教授，戴浩晖副教授  
-**开课时间：** 春季学期 
+**主讲教师：** 苗俊杰副教授，戴浩晖副教授
 
 <div class="exam-toc">
-  <h2> 目录</h2>
+  <h2>考试目录</h2>
   <ul>
     <li><a href="#2024-spring-test3">2024春季学期第三次小测</a></li>
     <li><a href="#2025-spring-test1">2025春季学期第一次小测</a></li>
@@ -175,11 +174,11 @@ details[open] summary {
 
 <div id="2024-spring-test3" class="exam-header">
   <h3>2024春季学期第三次小测</h3>
-  <div class="exam-meta">总分：100分 | 考试时间：未指定</div>
+  <div class="exam-meta">总分：100分</div>
 </div>
 
 <details markdown="1">
-  <summary>📝 查看完整试卷内容</summary>
+  <summary>查看完整试卷内容</summary>
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
@@ -209,7 +208,6 @@ details[open] summary {
       </div>
     </div>
 
-    <!-- 继续添加其他题目，结构相同 -->
     <div class="question">
       <div class="question-title">
         <span>第3题 - 数项级数敛散性</span>
@@ -268,17 +266,14 @@ details[open] summary {
   </div>
 </details>
 
-<!-- 其他考试按照相同结构继续添加 -->
-
 <div id="2025-spring-test1" class="exam-header">
   <h3>2025春季学期第一次小测</h3>
-  <div class="exam-meta">总分：100分 | 考试时间：未指定</div>
+  <div class="exam-meta">总分：100分</div>
 </div>
 
 <details markdown="1">
-  <summary>📝 查看完整试卷内容</summary>
+  <summary>查看完整试卷内容</summary>
   <div class="exam-content">
-    <!-- 2025第一次小测内容 -->
     <div class="question">
       <div class="question-title">
         <span>第1题 - 判断题</span>
@@ -292,11 +287,267 @@ details[open] summary {
         <p>4. 若定义在\(\mathbb{R}\)上的连续函数\(f(x)\)是偶函数，则\(f(x)\)的原函数\(F(x)\)一定是奇函数.</p>
       </div>
     </div>
-    <!-- 继续添加其他题目 -->
+
+    <div class="question">
+      <div class="question-title">
+        <span>第2题 - 上下极限计算</span>
+        <span class="points">16分</span>
+      </div>
+      <div class="math-content">
+        <p>求以下数列的上下极限：</p>
+        <p>1. \(\left\{\dfrac{n}{n+1}2^{(-1)^n}\right\}\);</p>
+        <p>2. \(\left\{\sin\dfrac{n\pi}{3}\right\}\);</p>
+        <p>3. \(\left\{\sqrt[n]{n}\ln\dfrac{n+1}{n}\right\}\);</p>
+        <p>4. \(\{\sin n\}\).</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第3题 - 不定积分计算</span>
+        <span class="points">32分</span>
+      </div>
+      <div class="math-content">
+        <p>计算以下不定积分</p>
+        <p>1. \(\displaystyle \int (x+1)e^{x^2+2x+1}\ \mathrm{d}x\)；</p>
+        <p>2. \(\displaystyle \int \frac{\mathrm{d}x}{\sqrt{x}+\sqrt[3]{x}}\)；</p>
+        <p>3. \(\displaystyle \int \frac{ \mathrm{d}x}{2+\sin x}\)；</p>
+        <p>4. \(\displaystyle \int \frac{\mathrm{d}x}{x(x+1)(x^2+2x+2)}\).</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第4题 - 证明题</span>
+        <span class="points">12分</span>
+      </div>
+      <div class="math-content">
+        <p>证明，若数列\(\{ a_n\}\)有界，\(\varliminf\limits_{n\to\infty} a_n>0\)，则\(\exists~N\)，当\(n>N\)时，\(a_n>0.\)</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第5题 - 证明题</span>
+        <span class="points">12分</span>
+      </div>
+      <div class="math-content">
+        <p>证明，若数列\(\{ a_n\}\)有界，则\(A=\varlimsup\limits_{n\to\infty}a_n\)的充要条件是\(A=\inf\limits_{n}\sup\limits_{k\ge n}\{a_k\}\).</p>
+      </div>
+    </div>
   </div>
 </details>
 
-<!-- 继续添加2025春季学期第二次和第三次小测 -->
+<div id="2025-spring-test2" class="exam-header">
+  <h3>2025春季学期第二次小测</h3>
+  <div class="exam-meta">总分：100分</div>
+</div>
+
+<details markdown="1">
+  <summary>查看完整试卷内容</summary>
+  <div class="exam-content">
+    <div class="question">
+      <div class="question-title">
+        <span>第1题 - 定积分计算</span>
+        <span class="points">20分</span>
+      </div>
+      <div class="math-content">
+        <p>计算下列定积分</p>
+        <p>1. \(\displaystyle \int_{-1}^4 \cos x e^{\sin x}\ \mathrm{d}x\);</p>
+        <p>2. \(\displaystyle \int_{-2}^2 x\cos^4x\ \mathrm{d}x\);</p>
+        <p>3. \(\displaystyle \int_0^1 \frac{\mathrm{d}x}{(1+x^2)^2}\);</p>
+        <p>4. \(\displaystyle \int_2^3  x\ln x\ \mathrm{d}x\).</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第2题 - 判断题</span>
+        <span class="points">30分</span>
+      </div>
+      <div class="math-content">
+        <p>判断下列陈述是否正确，并简述理由（判断3分，理由2分）</p>
+        <p>1. 若函数\(f(x)\)在\([a,b]\)上可积，则存在\(\xi\in[a,b]\)，使得\(\displaystyle\int_{a}^bf(x)\ \mathrm{d}x=f(\xi)(b-a).\)</p>
+        <p>2. 若\(\displaystyle\int_{a}^bf(x)\ \mathrm{d}x\ge 0\)，则\(f(x)\ge 0,\forall x\in[a,b].\)</p>
+        <p>3. 若函数\(f(x)\)在\([a,b]\)上可积，则\(F(x)=\displaystyle\int_a^x f(t)\ \mathrm{d}t\)可导.</p>
+        <p>4. 若函数\(\|f(x)\|\)在\([a,b]\)可积，则\(f(x)\)在\([a,b]\)上可积.</p>
+        <p>5. 定积分\(\displaystyle\int_{a}^bf(x)\ \mathrm{d}x\)的几何意义是由直线\(x=a,x=b,x\)轴以及曲线\(y=f(x),x\in[a,b]\)所围成的平面图形的面积.</p>
+        <p>6. 若\(f(x)\)在\([a,b]\)上可积且\(f(x)\neq 0,\forall x\in[a,b]\)，则\(\dfrac{1}{f(x)}\)在\([a,b]\)上也可积.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第3题 - 几何应用</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>1. 求第一象限中由极坐标曲线\(r=\sqrt{3}\sin \theta,r=\cos\theta\)所围成的平面图形的面积.</p>
+        <p>2. 求曲线\(C:\begin{cases}x(t)=t-t^2\\y(t)=1+\dfrac{4\sqrt{2}}{3}t^{\frac{3}{2}}\end{cases},t\in[0,1]\)的弧长.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第4题 - 积分与极限</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>1. \(\displaystyle f(x)=\int_{\arcsin x}^{\ln(x+1)}e^{-t^2}\ \mathrm{d}t,x\in\left[\frac{1}{2},1\right]\)，求\(f'(x)\);</p>
+        <p>2. 求极限\(\lim\limits_{x\to 0}\dfrac{\int_{2x}^{x^2}tf(t)\ \mathrm{d}t}{x^2}\)，其中\(f\)为\(\mathbb{R}\)上的连续函数.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第5题 - 旋转体体积</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>计算由直线\(x=4,x\)轴以及曲线段\(y=\sqrt{x},x\in[0,4]\)所围平面图形绕\(y\)轴旋转一周所得旋转体的体积.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第6题 - 旋转曲面面积</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>计算由曲线段\(y=\sqrt{x},x\in[0,4]\)绕\(x\)轴旋转一周所得的旋转曲面的面积.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第7题 - 证明题</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>设\(f\)在\([0,1]\)上连续可微，\(0\le f'(x)\le 1,\ \forall x\in[0,1],\ f(0)=0.\)，证明</p>
+        <p>\[\left(\int_0^1 f(x)\ \mathrm{d}x\right)^2\ge\int_0^1[f(x)]^3\ \mathrm{d}x,\]</p>
+        <p>且等号仅在\(f(x)=x\)或\(f(x)\equiv 0\)时成立.</p>
+      </div>
+    </div>
+  </div>
+</details>
+
+<div id="2025-spring-test3" class="exam-header">
+  <h3>2025春季学期第三次小测</h3>
+  <div class="exam-meta">总分：100分</div>
+</div>
+
+<details markdown="1">
+  <summary>查看完整试卷内容</summary>
+  <div class="exam-content">
+    <div class="question">
+      <div class="question-title">
+        <span>第1题 - 判断题</span>
+        <span class="points">20分</span>
+      </div>
+      <div class="math-content">
+        <p>判断下列陈述是否正确，并简述理由（判断3分，理由2分）</p>
+        <p>1. 若\(f(x)\le g(x),\forall x\in[a,+\infty)\)，无穷积分\(\displaystyle\int_a^{+\infty}g(x)\ \mathrm{d}x\)收敛，则无穷积分\(\displaystyle\int_a^{+\infty}f(x)\ \mathrm{d}x\)收敛.</p>
+        <p>2. 若非负无穷积分\(\displaystyle\int_a^{+\infty}f(x)\ \mathrm{d}x\)收敛，则\(\ \exists\ p>1\)，使得极限\(\lim\limits_{x\to+\infty}x^p f(x)\)存在.</p>
+        <p>3. 若\(u_n>0,\forall n\)，数项级数\(\sum u_n\)收敛，则\(\ \exists\ N,\ n>N\)时\(\dfrac{u_{n+1}}{u_n}\le q\)，其中\(q\in [0,1)\).</p>
+        <p>4. 若\(u_n\ge 0,\forall n\)，且\(\ \exists\ N\in\mathbb{N}_+\)，当\(n>N\)时，\(\sqrt[n]{u_n}<1\)，则\(\sum u_n\)收敛.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第2题 - 反常积分计算</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>计算下列反常积分的值：</p>
+        <p>1. \(\displaystyle \int_1^{+\infty}e^{-x}\cos x\ \mathrm{d}x\);</p>
+        <p>2. \(\displaystyle\int_0^2\frac{1}{x^{\frac{2}{3}}}\ \mathrm{d}x\).</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第3题 - 数项级数求和</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>计算下列数项级数的和：</p>
+        <p>1. \(\displaystyle\sum_{n=1}^\infty\frac{2+(-1)^n}{4^n}\);</p>
+        <p>2. \(\displaystyle\sum_{n=1}^\infty\frac{n}{(n+1)(n+2)(n+3)}\).</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第4题 - 反常积分敛散性</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>讨论下列反常积分的敛散性：</p>
+        <p>1. \(\displaystyle\int_1^{+\infty}\frac{x^2}{2^x}\ \mathrm{d}x\);</p>
+        <p>2. \(\displaystyle\int_0^1\frac{\arctan x}{\sqrt{x}\ln(1+x)}\ \mathrm{d}x\).</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第5题 - 数项级数敛散性</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>讨论下列数项级数的敛散性：</p>
+        <p>1. \(\displaystyle\sum_{n=1}^\infty\frac{1}{2^{\ln n}}\);</p>
+        <p>2. \(\displaystyle\sum_{n=2}^\infty\frac{1}{\sqrt{n}+(-1)^n}\).</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第6题 - 证明题</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>证明瑕积分\(\displaystyle\int_0^1\frac{\ln x}{x^p}\ \mathrm{d}x\)当\(0<p<1\)时收敛.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第7题 - 证明题</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>证明数项级数\(\displaystyle\frac{(-1)^n\sin n}{n}\)条件收敛.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第8题 - 证明题</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>证明反常积分</p>
+        <p>\[\int_0^{+\infty}\frac{\sin x}{(x-\ln x)^p}\ \mathrm{d}x\]</p>
+        <p>当\(p>1\)时绝对收敛，当\(0<p\le 1\)时条件收敛.</p>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-title">
+        <span>第9题 - 证明题</span>
+        <span class="points">10分</span>
+      </div>
+      <div class="math-content">
+        <p>设\(\{a_n\}\)为单调递增无界的数列，且\(a_1>0\)，令</p>
+        <p>\[u_n=\frac{a_{n+1}-a_n}{a_n^pa_{n+1}}.\]</p>
+        <p>证明：当\(p>0\)时，级数\(\sum u_n\)收敛.</p>
+      </div>
+    </div>
+  </div>
+</details>
+
 <script>
 // 添加一些交互功能
 document.addEventListener('DOMContentLoaded', function() {

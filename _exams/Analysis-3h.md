@@ -6,6 +6,7 @@ permalink: /exams/analysis-3h
 venue: "ECNU"
 date: 2025-01-23
 location: "Shanghai, China"
+grade: 2.0
 ---
 主讲：叶东教授
 

@@ -6,6 +6,7 @@ permalink: /exams/analysis-2h
 venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
+grade: 1.5
 ---
 主讲：某教授
 

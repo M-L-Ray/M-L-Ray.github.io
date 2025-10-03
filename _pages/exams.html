@@ -14,33 +14,54 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- 先按 grade 排序，再按 title 排序 -->
-{% assign sorted_exams = site.exams | sort: "title" | sort: "grade" %}
-
 <div class="exams-list">
-{% for post in sorted_exams %}
-  {% include archive-single.html type="grid" %}
+{% for post in site.exams reversed %}
+  {% include archive-single.html %}
 {% endfor %}
 </div>
 
 <script>
+// 课程搜索功能
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('courseSearch');
-  const courseItems = document.querySelectorAll('.list__item');
+  const courseItems = document.querySelectorAll('.exam-course-item');
+  
+  // 移除之前的高亮
+  function removeHighlights() {
+    const highlights = document.querySelectorAll('.search-highlight');
+    highlights.forEach(highlight => {
+      const parent = highlight.parentNode;
+      parent.replaceChild(document.createTextNode(highlight.textContent), highlight);
+      parent.normalize();
+    });
+  }
+  
+  // 添加搜索高亮
+  function addHighlight(element, searchTerm) {
+    const text = element.textContent;
+    const regex = new RegExp(`(${searchTerm})`, 'gi');
+    const newText = text.replace(regex, '<span class="search-highlight">$1</span>');
+    element.innerHTML = newText;
+  }
   
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase().trim();
     
+    // 移除之前的高亮
+    removeHighlights();
+    
     courseItems.forEach(item => {
+      const courseTitle = item.getAttribute('data-course-title');
       const titleElement = item.querySelector('.archive__item-title');
-      if (titleElement) {
-        const title = titleElement.textContent.toLowerCase();
-        
-        if (searchTerm === '' || title.includes(searchTerm)) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
+      
+      if (searchTerm === '' || courseTitle.includes(searchTerm)) {
+        item.style.display = 'block';
+        // 添加高亮
+        if (searchTerm !== '') {
+          addHighlight(titleElement, searchTerm);
         }
+      } else {
+        item.style.display = 'none';
       }
     });
   });

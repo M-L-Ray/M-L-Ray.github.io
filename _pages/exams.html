@@ -17,7 +17,7 @@ author_profile: true
 
 <div class="exams-list" id="examsList">
   <!-- 先按 grade 排序，再按 title 排序 -->
-  {% assign sorted_exams = site.exams | sort: "grade" | sort: "title" %}
+  {% assign sorted_exams = site.exams | sort: "grade" %}
   {% for post in sorted_exams %}
     {% include archive-single.html %}
   {% endfor %}

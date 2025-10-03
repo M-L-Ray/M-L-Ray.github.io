@@ -7,6 +7,7 @@ venue: "ECNU"
 date: 2025-06-25
 location: "Shanghai, China"
 grade: 2.5
+a: 大二下
 instructor: 邱瑞锋教授
 ---
 

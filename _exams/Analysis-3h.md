@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2025-01-23
 location: "Shanghai, China"
 grade: 2.0
+instructor: 叶东教授
 ---
-主讲：叶东教授
 
 <details markdown="1">
   <summary>2020秋季学期期末考试</summary>

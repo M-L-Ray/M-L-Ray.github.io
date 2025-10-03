@@ -1,7 +1,7 @@
 ---
 title: "微分几何(H)"
 collection: exams
-type: "Undergraduate course"
+type: "专业必修课程"
 permalink: /exams/Differential-geometry-h
 venue: "ECNU"
 date: 2023-06-24

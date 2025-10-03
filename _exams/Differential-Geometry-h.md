@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2023-06-24
 location: "Shanghai, China"
 grade: 3.0
+instructor: 刘博教授
 ---
-主讲：刘博教授
 
 <details markdown="1">
   <summary> 2023春季学期期中考试</summary> 

@@ -6,6 +6,7 @@ permalink: /exams/real_analysis
 venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
+grade:2.5
 ---
 主讲：袁海荣教授
 

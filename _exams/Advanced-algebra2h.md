@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2024-06-24
 location: "Shanghai, China"
 grade: 1.5
+instructor: 罗栗教授
 ---
-主讲：罗栗教授
 
 <details markdown="1">
   <summary>2024春季学期期末考试</summary>

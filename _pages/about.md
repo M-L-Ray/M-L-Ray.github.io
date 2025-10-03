@@ -36,7 +36,6 @@ redirect_from:
 
 可以来玩钢琴
 ------
-<div id="currentNote" class="current-note">点击琴键或按键盘演奏</div>
 <div class="piano-container">
     <div class="piano" id="piano">
         <!-- 琴键将通过JavaScript动态生成 -->

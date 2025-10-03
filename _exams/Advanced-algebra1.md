@@ -129,7 +129,7 @@ details[open] summary {
   background: #4285f4;
   color: white;
   padding: 0.2rem 0.6rem;
-  border-radius: 12px;
+  border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 500;
 }
@@ -197,7 +197,6 @@ details[open] summary {
     <div class="math-content">
       <p>以下如无特别声明，\(K\)均表数域，\(\mathbb{Q}(\mathbb{R},\mathbb{C})\)表有理数（实数、复数）域，\(f,g\)表\(K[x]\)中的多项式</p>
     </div>
-
     <div class="question">
       <div class="question-title">
         <span>第1题 </span>
@@ -208,7 +207,6 @@ details[open] summary {
         <p>求乘积\(\tau^{-1}\sigma^{-1}\tau\sigma\).</p>
       </div>
     </div>
-
     <div class="question">
       <div class="question-title">
         <span>第2题 </span>
@@ -219,7 +217,6 @@ details[open] summary {
         <p>将\(f\)写为初等对称多项式\(\mathrm{e}_1,\mathrm{e}_2,\cdots,\mathrm{e}_n\)的表达式.</p>
       </div>
     </div>
-
     <div class="question">
       <div class="question-title">
         <span>第3题 </span>
@@ -231,7 +228,6 @@ details[open] summary {
         <p>2. 求次数最小的\(u,v\in \mathbb{Q}[x]\)，满足\(uf+vg=(f,g)\).</p>
       </div>
     </div>
-
     <div class="question">
       <div class="question-title">
         <span>第4题 </span>
@@ -242,7 +238,6 @@ details[open] summary {
         <p>\[\begin{cases} f(x)\equiv 2x+4&\pmod{x+1},\\f(x)\equiv 2x^2+2x&\pmod{x^2+1},\\f(x)\equiv 3x^2+1&\pmod{x^3}.\end{cases}\]</p>
       </div>
     </div>
-
     <div class="question">
       <div class="question-title">
         <span>第5题 </span>
@@ -254,7 +249,6 @@ details[open] summary {
         <p>2. 求\(f(x)\)在\(x=1\)处的Taylor展开式.</p>
       </div>
     </div>
-
     <div class="question">
       <div class="question-title">
         <span>第6题 </span>
@@ -264,7 +258,6 @@ details[open] summary {
         <p>证明：\(f(x)=x^{n-1}+x^{n-2}+\cdots+x+1\)是\(\mathbb{Q}[x]\)中的不可约多项式当且仅当\(n\)是素数.</p>
       </div>
     </div>
-
     <div class="question">
       <div class="question-title">
         <span>第7题 </span>
@@ -274,7 +267,6 @@ details[open] summary {
         <p>设\(f(x)\in K[x]\)无重因式，\(n\ge 2\)是给定正整数，证明：\(f(x^n)\)有重因式当且仅当\(x=0\)是\(f(x)\)的单根.</p>
       </div>
     </div>
-
     <div class="optional">
       <div class="optional-title">
         <span>可选附加题 - Mason定理</span>

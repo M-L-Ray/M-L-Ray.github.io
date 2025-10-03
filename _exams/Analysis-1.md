@@ -178,7 +178,7 @@ details[open] summary {
 </div>
 
 <details markdown="1">
-  <summary>查看完整试卷内容</summary>
+  <summary>完整试题</summary>
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
@@ -282,7 +282,7 @@ details[open] summary {
 </div>
 
 <details markdown="1">
-  <summary>查看完整试卷内容</summary>
+  <summary>完整试题</summary>
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
@@ -378,7 +378,7 @@ details[open] summary {
 </div>
 
 <details markdown="1">
-  <summary>查看完整试卷内容</summary>
+  <summary>完整试题</summary>
   <div class="exam-content">
     <div class="question">
       <div class="question-title">
@@ -458,7 +458,7 @@ details[open] summary {
 </div>
 
 <details markdown="1">
-  <summary>查看完整试卷内容</summary>
+  <summary>完整试题</summary>
   <div class="exam-content">
     <div class="question">
       <div class="question-title">

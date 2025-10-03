@@ -10,6 +10,7 @@ author_profile: true
 <!-- 搜索框 -->
 <div class="exams-search">
   <input type="text" id="courseSearch" placeholder="搜索课程名称..." class="search-input">
+  <button id="clearSearch" style="display:none; margin-left: 10px; padding: 0.5rem 1rem; border: 1px solid #ccc; border-radius: 4px; background: #f5f5f5; cursor: pointer;">清除</button>
   <div id="searchResults" class="search-results"></div>
 </div>
 
@@ -27,63 +28,108 @@ author_profile: true
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('courseSearch');
   const examsList = document.getElementById('examsList');
-  let courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
+  const clearSearch = document.getElementById('clearSearch');
   
-  // 存储所有课程的原始HTML和排序数据
-  const originalItems = courseItems.map(item => ({
-    html: item.outerHTML,
-    title: item.querySelector('.course-title').textContent.toLowerCase(),
-    grade: parseFloat(item.querySelector('.course-grade').textContent) || 0
-  }));
+  // 获取所有考试项目的原始HTML
+  const originalHTML = examsList.innerHTML;
   
-  // 初始排序函数
-  function sortItems(items, byGrade = true, byTitle = true) {
-    return items.sort((a, b) => {
-      if (byGrade && a.grade !== b.grade) {
-        return a.grade - b.grade;
+  // 收集所有考试项目的数据
+  function collectExamData() {
+    const items = examsList.querySelectorAll('.archive__item');
+    const examData = [];
+    
+    items.forEach(item => {
+      // 尝试不同的选择器来获取标题
+      const titleElement = item.querySelector('.archive__item-title') || 
+                          item.querySelector('h2') || 
+                          item.querySelector('h3') ||
+                          item.querySelector('a');
+      
+      const title = titleElement ? titleElement.textContent.trim().toLowerCase() : '';
+      const gradeElement = item.querySelector('.course-grade') || 
+                          item.querySelector('[class*="grade"]') ||
+                          item.querySelector('.text-muted');
+      
+      let grade = 0;
+      if (gradeElement) {
+        const gradeText = gradeElement.textContent;
+        const gradeMatch = gradeText.match(/(\d+(\.\d+)?)/);
+        grade = gradeMatch ? parseFloat(gradeMatch[1]) : 0;
       }
-      if (byTitle) {
-        return a.title.localeCompare(b.title);
-      }
-      return 0;
+      
+      examData.push({
+        element: item,
+        title: title,
+        grade: grade,
+        html: item.outerHTML
+      });
     });
+    
+    return examData;
   }
   
-  // 初始排序
-  const sortedItems = sortItems([...originalItems]);
-  renderItems(sortedItems);
+  const examData = collectExamData();
   
+  // 显示清除按钮
   searchInput.addEventListener('input', function() {
-    const searchTerm = this.value.trim().toLowerCase();
+    clearSearch.style.display = this.value.trim() ? 'inline-block' : 'none';
+    performSearch();
+  });
+  
+  // 清除搜索
+  clearSearch.addEventListener('click', function() {
+    searchInput.value = '';
+    clearSearch.style.display = 'none';
+    restoreOriginalList();
+  });
+  
+  function performSearch() {
+    const searchTerm = searchInput.value.trim().toLowerCase();
     
     if (searchTerm === '') {
-      // 如果搜索词为空，恢复排序后的所有项目
-      renderItems(sortedItems);
+      restoreOriginalList();
       return;
     }
     
     // 过滤匹配的课程
-    const matchedItems = originalItems.filter(item => 
+    const matchedItems = examData.filter(item => 
       item.title.includes(searchTerm)
     );
     
-    // 对匹配结果进行排序
-    const sortedMatchedItems = sortItems(matchedItems);
+    // 对匹配结果进行排序（先按成绩，再按标题）
+    const sortedMatchedItems = matchedItems.sort((a, b) => {
+      if (a.grade !== b.grade) {
+        return a.grade - b.grade;
+      }
+      return a.title.localeCompare(b.title);
+    });
     
-    // 渲染匹配的项目
-    renderItems(sortedMatchedItems);
-    
-    // 如果没有匹配项，显示提示
-    if (matchedItems.length === 0) {
+    // 显示匹配的项目
+    if (matchedItems.length > 0) {
+      examsList.innerHTML = sortedMatchedItems.map(item => item.html).join('');
+    } else {
       examsList.innerHTML = '<div class="no-results">没有找到匹配的课程</div>';
     }
-  });
-  
-  function renderItems(items) {
-    examsList.innerHTML = items.map(item => item.html).join('');
-    // 更新courseItems引用
-    courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
   }
+  
+  function restoreOriginalList() {
+    examsList.innerHTML = originalHTML;
+  }
+  
+  // 初始排序（如果有需要的话）
+  function initialSort() {
+    const sortedItems = examData.sort((a, b) => {
+      if (a.grade !== b.grade) {
+        return a.grade - b.grade;
+      }
+      return a.title.localeCompare(b.title);
+    });
+    
+    examsList.innerHTML = sortedItems.map(item => item.html).join('');
+  }
+  
+  // 如果需要初始排序，取消注释下面这行
+  // initialSort();
 });
 </script>
 
@@ -215,6 +261,14 @@ document.addEventListener('DOMContentLoaded', function() {
   color: inherit;
   font-style: italic;
   opacity: 0.7;
+}
+
+/* 高亮匹配的文本 */
+.highlight {
+  background-color: yellow;
+  color: black;
+  padding: 0.1em 0.2em;
+  border-radius: 0.2em;
 }
 
 /* 响应式设计 */

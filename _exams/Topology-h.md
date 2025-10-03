@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2025-06-25
 location: "Shanghai, China"
 grade: 2.5
+instructor: 邱瑞锋教授
 ---
-主讲：邱瑞峰教授
 
 ## 2025春季学期期末考试
 

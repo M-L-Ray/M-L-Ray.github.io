@@ -16,7 +16,7 @@ author_profile: true
 {% include base_path %}
 
 <div class="exams-list" id="examsList">
-  {% assign sorted_exams = site.exams | sort: "grade" %}
+  {% assign sorted_exams = site.notes | sort: "grade" %}
   {% for post in sorted_exams %}
     {% include archive-single.html %}
   {% endfor %}

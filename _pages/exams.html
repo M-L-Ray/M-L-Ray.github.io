@@ -17,58 +17,11 @@ author_profile: true
 {% include base_path %}
 
 <div class="exams-list" id="examsList">
-  <!-- 先按 grade 排序，再按 title 排序 -->
   {% assign sorted_exams = site.exams | sort: "grade" %}
   {% for post in sorted_exams %}
     {% include archive-single.html %}
   {% endfor %}
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('courseSearch');
-  const examsList = document.getElementById('examsList');
-  let courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
-  
-  // 存储所有课程的原始HTML和标题数据
-  const originalItems = courseItems.map(item => ({
-    html: item.outerHTML,
-    title: item.querySelector('.archive__item-title').textContent.toLowerCase().trim()
-  }));
-  
-  // 初始渲染所有项目
-  renderItems(originalItems);
-  
-  searchInput.addEventListener('input', function() {
-    const searchTerm = this.value.trim().toLowerCase();
-    
-    if (searchTerm === '') {
-      // 如果搜索词为空，恢复所有项目
-      renderItems(originalItems);
-      return;
-    }
-    
-    // 过滤匹配的课程
-    const matchedItems = originalItems.filter(item => 
-      item.title.includes(searchTerm)
-    );
-    
-    // 渲染匹配的项目
-    renderItems(matchedItems);
-    
-    // 如果没有匹配项，显示提示
-    if (matchedItems.length === 0) {
-      examsList.innerHTML = '<div class="no-results">没有找到匹配的课程</div>';
-    }
-  });
-  
-  function renderItems(items) {
-    examsList.innerHTML = items.map(item => item.html).join('');
-    // 更新courseItems引用
-    courseItems = Array.from(examsList.querySelectorAll('.exam-course-item'));
-  }
-});
-</script>
 
 <style>
 /* 保持之前的样式不变 */

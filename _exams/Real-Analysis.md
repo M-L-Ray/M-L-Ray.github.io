@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2025-06-23
 location: "Shanghai, China"
 grade: 2.5
+instructor: 袁海荣教授
 ---
-主讲：袁海荣教授
 
 <details markdown="1">
   <summary> 2024春季学期第一次小测</summary>

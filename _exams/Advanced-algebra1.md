@@ -20,16 +20,17 @@ instructor: 陆俊教授
 
 <style>
 .exam-toc {
-  background: #f8f9fa;
+  background: transparent;
   padding: 1.5rem;
   border-radius: 8px;
   margin: 2rem 0;
   border-left: 4px solid #4285f4;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .exam-toc h2 {
   margin-top: 0;
-  color: #2c3e50;
+  color: inherit;
 }
 
 .exam-toc ul {
@@ -45,7 +46,7 @@ instructor: 陆俊教授
 }
 
 .exam-toc li:hover {
-  background: #e3f2fd;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .exam-toc a {
@@ -56,7 +57,7 @@ instructor: 陆俊教授
 }
 
 .exam-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
   color: white;
   padding: 1.5rem;
   border-radius: 8px;
@@ -75,30 +76,31 @@ instructor: 陆俊教授
 }
 
 details {
-  background: white;
-  border: 1px solid #e1e4e8;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin: 1.5rem 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   transition: box-shadow 0.3s;
 }
 
 details:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 summary {
-  background: #f6f8fa;
+  background: transparent;
   padding: 1.2rem 1.5rem;
   cursor: pointer;
   font-weight: 600;
-  color: #2c3e50;
+  color: inherit;
   border-radius: 8px 8px 0 0;
   font-size: 1.1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 details[open] summary {
-  border-bottom: 1px solid #e1e4e8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .exam-content {
@@ -108,14 +110,15 @@ details[open] summary {
 .question {
   margin: 1.5rem 0;
   padding: 1rem;
-  background: #fafbfc;
+  background: transparent;
   border-radius: 6px;
   border-left: 3px solid #4285f4;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .question-title {
   font-weight: 600;
-  color: #2c3e50;
+  color: inherit;
   margin-bottom: 0.8rem;
   display: flex;
   justify-content: space-between;
@@ -141,8 +144,8 @@ details[open] summary {
 }
 
 .proof {
-  background: #fff3e0;
-  border: 1px solid #ffb74d;
+  background: rgba(255, 243, 224, 0.5);
+  border: 1px solid rgba(255, 183, 77, 0.5);
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem 0;
@@ -155,8 +158,8 @@ details[open] summary {
 }
 
 .optional {
-  background: #e8f5e8;
-  border: 1px solid #4caf50;
+  background: rgba(232, 245, 232, 0.5);
+  border: 1px solid rgba(76, 175, 80, 0.5);
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem 0;

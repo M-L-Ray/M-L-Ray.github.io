@@ -7,8 +7,8 @@ venue: "ECNU"
 date: 2025-06-25
 location: "Shanghai, China"
 grade: 2.5
+instructor: 王元明教授
 ---
-主讲：王元明教授
 
 <details markdown="1">
   <summary> 2025春季学期第一次小测</summary>

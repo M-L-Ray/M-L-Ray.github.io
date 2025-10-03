@@ -1,7 +1,7 @@
 ---
 title: "数学分析III(H)"
 collection: exams
-type: "Undergraduate course"
+type: "专业必修课程"
 permalink: /exams/analysis-3h
 venue: "ECNU"
 date: 2025-01-23

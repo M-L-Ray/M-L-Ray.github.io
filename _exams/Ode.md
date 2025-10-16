@@ -313,7 +313,7 @@ details[open] summary {
         <summary>参考解答</summary>
         <div class="solution-content">
           <div class="math-content">
-            <p>\(\displaystyle f(x)=\frac{C+\int_{-\infty}^x g(t)\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\)，有界（考虑\(x\to-\infty\)）\(\Rightarrow C=0\)，从而\[|f(x)|=\frac{|\int_{-\infty}^xg(t)\mathrm{e}^t\mathrm{d} t|}{\mathrm{e}^x}\le\frac{\int_{-\infty}^x|g(t)|\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\le M.\]</p>
+            <p>\(\displaystyle f(x)=\frac{C+\int_{-\infty}^x g(t)\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\)，有界（考虑\(x\to-\infty\)）\(\Rightarrow C=0\)，从而\(\displaystyle|f(x)|=\frac{|\int_{-\infty}^xg(t)\mathrm{e}^t\mathrm{d} t|}{\mathrm{e}^x}\le\)\(\displaystyle\frac{\int_{-\infty}^x|g(t)|\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\le M.\)</p>
           </div>
         </div>
       </details>

@@ -213,7 +213,7 @@ details[open] summary {
 </style>
 
 <div id="2025-fall-test1" class="exam-header">
-  <h3>ODE第一次小测（非师范班）</h3>
+  <h3>2025秋季学期第一次小测 </h3>
   <div class="exam-meta">考试时间：2025.10.16 8:00-8:50 | 总分：100分</div>
 </div>
 

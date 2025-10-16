@@ -77,7 +77,7 @@ instructor: 张静副教授
 
 details {
   background: transparent;
-  border: none; /* 去掉边框 */
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin: 1.5rem 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -94,13 +94,13 @@ summary {
   cursor: pointer;
   font-weight: 600;
   color: inherit;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
   font-size: 1.1rem;
-  border: none; /* 去掉边框 */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 details[open] summary {
-  border-bottom: none; /* 去掉打开时的底部边框 */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .exam-content {
@@ -112,8 +112,8 @@ details[open] summary {
   padding: 1rem;
   background: transparent;
   border-radius: 6px;
-  border: none; /* 去掉边框 */
-  box-shadow: none; /* 去掉阴影 */
+  border-left: 3px solid #4285f4;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .question-title {
@@ -155,7 +155,7 @@ details[open] summary {
   color: inherit;
   border-radius: 4px;
   font-size: 1rem;
-  border: none; /* 去掉边框 */
+  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 0;
 }
 
@@ -165,13 +165,13 @@ details[open] summary {
 
 .solution-content {
   padding: 1rem;
-  border-left: none; /* 去掉左侧边框 */
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
   margin-top: 0.5rem;
 }
 
 .proof {
-  background: transparent; /* 改为透明背景 */
-  border: none; /* 去掉边框 */
+  background: rgba(255, 243, 224, 0.5);
+  border: 1px solid rgba(255, 183, 77, 0.5);
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem 0;
@@ -184,8 +184,8 @@ details[open] summary {
 }
 
 .optional {
-  background: transparent; /* 改为透明背景 */
-  border: none; /* 去掉边框 */
+  background: rgba(232, 245, 232, 0.5);
+  border: 1px solid rgba(76, 175, 80, 0.5);
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem 0;
@@ -213,7 +213,7 @@ details[open] summary {
 </style>
 
 <div id="2025-fall-test1" class="exam-header">
-  <h3>2025秋季学期第一次小测 </h3>
+  <h3>2025秋季学期第一次小测</h3>
   <div class="exam-meta">考试时间：2025.10.16 8:00-8:50 | 总分：100分</div>
 </div>
 
@@ -313,7 +313,7 @@ details[open] summary {
         <summary>参考解答</summary>
         <div class="solution-content">
           <div class="math-content">
-            <p>\(\displaystyle f(x)=\frac{C+\int_{-\infty}^x g(t)\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\)，有界（考虑\(x\to-\infty\)）\(\Rightarrow C=0\)，从而\(\displaystyle|f(x)|=\frac{|\int_{-\infty}^xg(t)\mathrm{e}^t\mathrm{d} t|}{\mathrm{e}^x}\le\)\(\displaystyle\frac{\int_{-\infty}^x|g(t)|\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\le M.\)</p>
+            <p>\(\displaystyle f(x)=\frac{C+\int_{-\infty}^x g(t)\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\)，有界（考虑\(x\to-\infty\)）\(\Rightarrow C=0\)，从而\[|f(x)|=\frac{|\int_{-\infty}^xg(t)\mathrm{e}^t\mathrm{d} t|}{\mathrm{e}^x}\le\frac{\int_{-\infty}^x|g(t)|\mathrm{e}^t\mathrm{d} t}{\mathrm{e}^x}\le M.\]</p>
           </div>
         </div>
       </details>

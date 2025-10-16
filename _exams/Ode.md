@@ -77,7 +77,7 @@ instructor: 张静副教授
 
 details {
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none; /* 去掉边框 */
   border-radius: 8px;
   margin: 1.5rem 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -94,13 +94,13 @@ summary {
   cursor: pointer;
   font-weight: 600;
   color: inherit;
-  border-radius: 8px 8px 0 0;
+  border-radius: 8px;
   font-size: 1.1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border: none; /* 去掉边框 */
 }
 
 details[open] summary {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none; /* 去掉打开时的底部边框 */
 }
 
 .exam-content {
@@ -112,8 +112,8 @@ details[open] summary {
   padding: 1rem;
   background: transparent;
   border-radius: 6px;
-  border-left: 3px solid #4285f4;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border: none; /* 去掉边框 */
+  box-shadow: none; /* 去掉阴影 */
 }
 
 .question-title {
@@ -155,7 +155,7 @@ details[open] summary {
   color: inherit;
   border-radius: 4px;
   font-size: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none; /* 去掉边框 */
   margin-bottom: 0;
 }
 
@@ -165,13 +165,13 @@ details[open] summary {
 
 .solution-content {
   padding: 1rem;
-  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  border-left: none; /* 去掉左侧边框 */
   margin-top: 0.5rem;
 }
 
 .proof {
-  background: rgba(255, 243, 224, 0.5);
-  border: 1px solid rgba(255, 183, 77, 0.5);
+  background: transparent; /* 改为透明背景 */
+  border: none; /* 去掉边框 */
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem 0;
@@ -184,8 +184,8 @@ details[open] summary {
 }
 
 .optional {
-  background: rgba(232, 245, 232, 0.5);
-  border: 1px solid rgba(76, 175, 80, 0.5);
+  background: transparent; /* 改为透明背景 */
+  border: none; /* 去掉边框 */
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem 0;

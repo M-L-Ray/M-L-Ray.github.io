@@ -2,7 +2,7 @@
 title: "泛函分析"
 collection: exams
 type: "专业限制性选修"
-permalink: /exams/functional_analysis
+permalink: /exams/functional-analysis
 venue: "ECNU"
 date: 2024-11-05
 location: "Shanghai, China"

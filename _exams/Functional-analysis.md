@@ -15,6 +15,7 @@ instructor: 何小清教授
   <h2>试卷目录</h2>
   <ul>
     <li><a href="#2024-fall-test1">2024秋季学期第一次小测</a></li>
+    <li><a href="#2024-fall-test2">2024秋季学期第二次小测</a></li>
   </ul>
 </div>
 
@@ -266,6 +267,59 @@ details[open] summary {
         <p>(2) 设 \((X, d)\) 是度量空间，\(A \subset X\)，\(A\) 是 \(X\) 的有界闭集，则 \(A\) 为紧集. </p>
         <p>(3) 赋范线性空间 \(E\) 中绝对收敛级数必收敛. </p>
         <p>(4) 任意 Banach 空间 \(E\) 到自身的线性映射都是连续的. </p>
+      </div>
+    </div>
+  </div>
+</details>
+
+<div id="2024-fall-test2" class="exam-header">
+  <h3>泛函分析第二次小测验</h3>
+  <div class="exam-meta">考试时间：2024年11月27日下午1:00-2:00 | 总分：100分</div>
+</div>
+
+<details markdown="1">
+  <summary>完整试题</summary>
+  <div class="exam-content">
+    <div class="question">
+      <div class="question-title">
+        <span>第1题</span>
+        <span class="points">30分</span>
+      </div>
+      <div class="math-content">
+        <p>设 \(\mathcal{X}\) 是一个内积空间. </p>
+        <p>(1) 证明任给 \(x, y \in \mathcal{X}\), 成立 \(\|x + y\|^2 = \|x\|^2 + \|y\|^2 + 2\operatorname{Re}\langle x, y\rangle\). </p>
+        <p>(2) 由此推出平行四边形等式：\(\|x + y\|^2 + \|x - y\|^2 = 2(\|x\|^2 + \|y\|^2)\), 对任意的 \(x, y \in \mathcal{X}\). </p>
+        <p>(3) 考虑 \(\mathcal{Y} = C([0, 2], \mathbb{R})\) 并赋予范数 \(\|f\| = \max_{t \in [0, 2]} |f(t)|\). 利用 \(f(t) = t\) 和 \(g(t) = 3\), 证明 \(\mathcal{Y}\) 不是内积空间. </p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="question-title">
+        <span>第2题</span>
+        <span class="points">40分</span>
+      </div>
+      <div class="math-content">
+        <p>记 \(\mathcal{X} = \mathbb{R}_1[x]\), 即 \(\mathbb{R}\) 上次数小于等于1的多项式空间. 对任意 \(P, Q \in \mathcal{X}\), 令
+          \[\langle P, Q \rangle = P(0)Q(0) + 4P(1)Q(1). \]
+        </p>
+        <p>(1) 证明 \(\langle , \rangle\) 在 \(\mathcal{X}\) 上定义了一个内积. </p>
+        <p>(2) 证明 \(\mathcal{X}\) 是一个 Hilbert 空间. </p>
+        <p>(3) 记 \(\mathcal{M} = \operatorname{span}\{x\}\). 计算 \(\mathcal{M}^\perp\). </p>
+        <p>(4) 给出 \(\mathcal{X}\) 的一个规范正交基. </p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="question-title">
+        <span>第3题</span>
+        <span class="points">30分</span>
+      </div>
+      <div class="math-content">
+        <p>设 \(H\) 是数域 \(\mathbb{K}\) 上的一个 Hilbert 空间，并设 \(T \in B(H)\) 且 \(\|T\| \leq 1\). </p>
+        <p>(1) 证明：\(T(x) = x\) 当且仅当 \(T^*(x) = x, x \in H\). </p>
+        <p class="hint">提示：考虑 \(\|T^*(x) - x\|^2\)，并利用条件 \(\|T\| \leq 1\). </p>
+        <p>(2) 证明：\(\ker(I - T) = \ker(I - T^*)\). </p>
+        <p>(3) 叙述 Hilbert 空间 \(H\) 上的正交分解定理. </p>
+        <p>(4) 证明：\(H = \ker(I - T) \oplus \operatorname{range}(I - T)\). </p>
+        <p class="hint">提示：利用 (2) 和 (3) 的结论. </p>
       </div>
     </div>
   </div>

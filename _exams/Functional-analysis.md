@@ -301,7 +301,7 @@ details[open] summary {
         <p>记 \(\mathcal{X} = \mathbb{R}_1[x]\), 即 \(\mathbb{R}\) 上次数小于等于1的多项式空间. 对任意 \(P, Q \in \mathcal{X}\), 令
           \[\langle P, Q \rangle = P(0)Q(0) + 4P(1)Q(1). \]
         </p>
-        <p>(1) 证明 \(\langle , \rangle\) 在 \(\mathcal{X}\) 上定义了一个内积. </p>
+        <p>(1) 证明 \(\langle \cdot,\cdot \rangle\) 在 \(\mathcal{X}\) 上定义了一个内积. </p>
         <p>(2) 证明 \(\mathcal{X}\) 是一个 Hilbert 空间. </p>
         <p>(3) 记 \(\mathcal{M} = \operatorname{span}\{x\}\). 计算 \(\mathcal{M}^\perp\). </p>
         <p>(4) 给出 \(\mathcal{X}\) 的一个规范正交基. </p>

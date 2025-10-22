@@ -215,7 +215,7 @@ details[open] summary {
 
 <div id="2024-fall-test1" class="exam-header">
   <h3>2024秋季学期第一次小测</h3>
-  <div class="exam-meta">考试时间：2024.11.5 8:00-8:45 | 总分：100分</div>
+  <div class="exam-meta">考试时间：2024年11月5日 上午8:00-8:45 | 总分：100分</div>
 </div>
 
 <details markdown="1">
@@ -274,7 +274,7 @@ details[open] summary {
 
 <div id="2024-fall-test2" class="exam-header">
   <h3>泛函分析第二次小测验</h3>
-  <div class="exam-meta">考试时间：2024年11月27日下午1:00-2:00 | 总分：100分</div>
+  <div class="exam-meta">考试时间：2024年11月27日 下午1:00-2:00 | 总分：100分</div>
 </div>
 
 <details markdown="1">

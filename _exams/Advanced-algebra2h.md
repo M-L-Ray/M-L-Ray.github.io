@@ -322,7 +322,7 @@ details[open] summary {
   <summary>完整试题</summary>
   <div class="exam-content">
     <div class="math-content">
-      <p><strong>本次考试的数学目标是给出代数基本定理的一种证明. （Harm Derksen,2023）</strong></p>
+      <p><strong>本次考试的数学目标是给出代数基本定理的一种证明. （Harm Derksen,2003）</strong></p>
       
       <div class="proof">
         <div class="proof-title">定理1</div>

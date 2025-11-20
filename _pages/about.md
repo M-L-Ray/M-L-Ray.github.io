@@ -24,7 +24,7 @@ redirect_from:
 ---
 我的部分[课程笔记](https://m-l-ray.github.io//notes/)
 
-我收集的部分[试卷](https://m-l-ray.github.io//exams/)
+我收集的部分[试卷](https://m-l-ray.github.io//exams/) **请勿大范围传播**
 
 以及[Latex模板](https://github.com/M-L-Ray/template/tree/main)
 

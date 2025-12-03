@@ -14,7 +14,7 @@ redirect_from:
 
 如何联系我？
 ---
-**Wechat: sftdvf_nztfmg**
+**Wechat: rszx_zkhud**
 
 **知乎/小红书：鱼栋一**
 

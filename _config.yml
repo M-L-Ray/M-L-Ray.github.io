@@ -13,7 +13,7 @@ title                    : "Lerui Ma"
 title_separator          : "-"
 name                     : &name "Lerui Ma"
 description              : &description "无聊的主页罢了"
-url                      : https://m-l-ray.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://Y-D-1.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -45,7 +45,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "M-L-Ray"
+  github           : "Y-D-1"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

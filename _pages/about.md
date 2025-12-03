@@ -16,17 +16,15 @@ redirect_from:
 ---
 **Wechat: sftdvf_nztfmg**
 
-**QQ: 1346484237**
+**知乎/小红书：鱼栋一**
 
-**知乎/小红书/微信公众号：鱼栋一/小马同学不在**
+**微信公众号：小马同学不在**
 
 这里有什么？
 ---
 我的部分[课程笔记](https://Y-D-1.github.io//notes/)
 
 我收集的部分[试卷](https://Y-D-1.github.io//exams/) **请勿大范围传播**
-
-以及[Latex模板](https://Y-D-1.com/M-L-Ray/template/tree/main)
 
 （施工中，不定时更新）
 

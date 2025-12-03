@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Lerui Ma"
+title                    : "鱼栋一"
 title_separator          : "-"
-name                     : &name "Lerui Ma"
+name                     : &name "鱼栋一"
 description              : &description "无聊的主页罢了"
 url                      : https://Y-D-1.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "image.jpg"
-  name             : "Lerui Ma"
+  name             : "鱼栋一"
   pronouns         : # example: "she/her"  
   bio              : "无聊的主页罢了"
   location         : "Shanghai, China"
